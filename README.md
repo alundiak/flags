@@ -2,26 +2,33 @@
 
 A place where I can simply COPY flag emoji.
 
-I frequently use emojis of flags for visual representation, and frequently I need bigger size to see better, and also code is sometimes useful.
-Before now I used MacOS note, where I put most frequently used flags emojis from iOS keyboard, and increased by size those which most used.
-Having this small ap, I can always have a handy way to copy emoji and paste elsewhere.
+Using Desktop browsers on MacOS I frequently use emojis of flags for visual representation (in Excel files, in Google Maps, in images while editing, in blog posts, etc.), and frequently I an actual emoji of country flags. NOT always keyboard is available like on iOS. Plus I sometimes need a bigger size of flag emoji to see it better.
+
+I used to use MacOS note, where I put most frequently used flags emojis from iOS keyboard, and increased by size those which most used. Instant sync between devices is great.
+
+But now, having this small app/page, I can always have a handy way on my Desktop to copy emoji and paste elsewhere.
 
 
-## TODO
+![img](./eu.svg)
 
+
+## TODO (for sure)
 - Introduce regions.
-- Search by code, eg. `en`, `ua` or by full name of country.
+- Fixup Mobile view, although not really needed.
+
+
+
+## TODO (maybe)
 - Maybe something else, like map so that easier to locate visually.
-- Maybe Small COuntries dedicated section/region.
+- Maybe search by code, eg. `en`, `ua` or by full name of country. Sometimes country code is sometimes useful to search by.
+- Maybe Small Countries dedicated section/region.
 - Maybe some sections of flags those which "misleading", eg. Poland and Monaco vs. Indonesia, Singapore and Poland, etc.
   - Maybe section of flags of different cities, like Polish Katowice flag is very similar to flag of Ukraine.
 - Maybe dedicated section for flags of countries which are NOT yet officially accepted by all other countries. Like flag of Crimea...
 - Maybe section for flags of republics, like in russia. FamilyTreeDNA does it somehow, so I could :)
 
 
-##
-
-Locally run
+## Local run
 
 ```sh
 http-server .
