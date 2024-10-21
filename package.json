@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "My Flags",
   "main": "index.js",
-  "homepage": "https://alundiak.github.io/flags/",
   "scripts": {
     "test1": "node f1.js",
     "test2": "node f2.js"
