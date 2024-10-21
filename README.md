@@ -12,8 +12,21 @@ But now, having this small app/page, I can always have a handy way on my Desktop
 ![img](./eu.svg)
 
 
+## Data
+
+As of Oct-2024 The [UN](https://en.wikipedia.org/wiki/United_Nations) recognizes `195` countries (`193` member states and `2` observer states).
+
+Public API https://restcountries.com/v3.1/all returns `250` records:
+- with different groups: Sovereign countries, Dependencies and Territories, Disputed or partially recognized region, Autonomous regions, Smaller entities.
+- designated by 5 regions.
+- with field are `unMember`: true/false.
+- there are also `independent`: true/false.
+
+
+
 ## TODO (for sure)
 - Introduce regions.
+- Use `unMember`
 - Fixup Mobile view, although not really needed.
 - Cleanup/Refactor code.
 
@@ -54,7 +67,7 @@ http-server .
 ## Credits
 
 Inspired by:
-- flags themselves :)
+- flags themselves :) since childhood.
 - https://en.wikipedia.org/wiki/Flags_of_Europe
 - https://en.wikipedia.org/wiki/Flags_of_Asia
 - https://emojipedia.org/flags#grid

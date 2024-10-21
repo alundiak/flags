@@ -1,31 +1,25 @@
 body {
-  display: flex;
+  /* display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
   height: 100vh;
   margin: 10px;
 }
 
-/* button {
-  width: 40px;
-  height: 40px;
-  font-size: 30px;
+#flags-container {
+  span {
+    font-size: 50px;
 
-  &:hover {
-    cursor: pointer;
-  }
-} */
+    &:hover {
+      cursor: pointer;
+    }
 
-
-span {
-  /* width: 40px;
-  height: 40px; */
-  font-size: 50px;
-
-  &:hover {
-    cursor: pointer;
+    &.notUnMember {
+      border: 1px dashed red;
+    }
   }
 }
+
 
 .toast {
   position: fixed;
