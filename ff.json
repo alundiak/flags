@@ -1,0 +1,3715 @@
+{
+  "pageProps": {
+    "dehydratedState": {
+      "mutations": [],
+      "queries": [
+        {
+          "state": {
+            "data": [
+              {
+                "category": "VENDOR",
+                "items": [
+                  {
+                    "slug": "apple",
+                    "title": "Apple",
+                    "emoji": {
+                      "code": "🍏"
+                    }
+                  },
+                  {
+                    "slug": "au-kddi",
+                    "title": "au by KDDI",
+                    "emoji": {
+                      "code": "🖱️"
+                    }
+                  },
+                  {
+                    "slug": "clubhouse",
+                    "title": "Clubhouse",
+                    "emoji": {
+                      "code": "🎙️"
+                    }
+                  },
+                  {
+                    "slug": "discord",
+                    "title": "Discord",
+                    "emoji": {
+                      "code": "👾"
+                    }
+                  },
+                  {
+                    "slug": "docomo",
+                    "title": "Docomo",
+                    "emoji": {
+                      "code": "🔴"
+                    }
+                  },
+                  {
+                    "slug": "dropbox",
+                    "title": "Dropbox",
+                    "emoji": {
+                      "code": "📦"
+                    }
+                  },
+                  {
+                    "slug": "emojidex",
+                    "title": "emojidex",
+                    "emoji": {
+                      "code": "😜"
+                    }
+                  },
+                  {
+                    "slug": "emojipedia",
+                    "title": "Emojipedia Sample Images",
+                    "emoji": {
+                      "code": "📙"
+                    }
+                  },
+                  {
+                    "slug": "facebook",
+                    "title": "Facebook",
+                    "emoji": {
+                      "code": "📘"
+                    }
+                  },
+                  {
+                    "slug": "github",
+                    "title": "GitHub",
+                    "emoji": {
+                      "code": "😺"
+                    }
+                  },
+                  {
+                    "slug": "google",
+                    "title": "Google Noto Color Emoji",
+                    "emoji": {
+                      "code": "🤖"
+                    }
+                  },
+                  {
+                    "slug": "htc",
+                    "title": "HTC",
+                    "emoji": {
+                      "code": "📳"
+                    }
+                  },
+                  {
+                    "slug": "huawei",
+                    "title": "Huawei",
+                    "emoji": {
+                      "code": "🪷"
+                    }
+                  },
+                  {
+                    "slug": "icons8",
+                    "title": "Icons8",
+                    "emoji": {
+                      "code": "🟩"
+                    }
+                  },
+                  {
+                    "slug": "instagram",
+                    "title": "Instagram",
+                    "emoji": {
+                      "code": "📸"
+                    }
+                  },
+                  {
+                    "slug": "joypixels",
+                    "title": "JoyPixels",
+                    "emoji": {
+                      "code": "🦄"
+                    }
+                  },
+                  {
+                    "slug": "joypixels-animations",
+                    "title": "JoyPixels Animations",
+                    "emoji": {
+                      "code": "🦄"
+                    }
+                  },
+                  {
+                    "slug": "lg",
+                    "title": "LG",
+                    "emoji": {
+                      "code": "😉"
+                    }
+                  },
+                  {
+                    "slug": "linkedin",
+                    "title": "LinkedIn",
+                    "emoji": {
+                      "code": "🧑‍💼"
+                    }
+                  },
+                  {
+                    "slug": "mastodon",
+                    "title": "Mastodon",
+                    "emoji": {
+                      "code": "🦣"
+                    }
+                  },
+                  {
+                    "slug": "messenger",
+                    "title": "Messenger",
+                    "emoji": {
+                      "code": "🔵"
+                    }
+                  },
+                  {
+                    "slug": "microsoft",
+                    "title": "Microsoft",
+                    "emoji": {
+                      "code": "🪟"
+                    }
+                  },
+                  {
+                    "slug": "microsoft-3D-fluent",
+                    "title": "Microsoft 3D Fluent",
+                    "emoji": {
+                      "code": "🎨"
+                    }
+                  },
+                  {
+                    "slug": "microsoft-teams",
+                    "title": "Microsoft Teams (3D Animated)",
+                    "emoji": {
+                      "code": "👥"
+                    }
+                  },
+                  {
+                    "slug": "mozilla",
+                    "title": "Mozilla",
+                    "emoji": {
+                      "code": "🦊"
+                    }
+                  },
+                  {
+                    "slug": "msn-messenger",
+                    "title": "MSN Messenger",
+                    "emoji": {
+                      "code": "🦋"
+                    }
+                  },
+                  {
+                    "slug": "nec",
+                    "title": "NEC",
+                    "emoji": {
+                      "code": "🔵"
+                    }
+                  },
+                  {
+                    "slug": "nintendo",
+                    "title": "Nintendo",
+                    "emoji": {
+                      "code": "🎴"
+                    }
+                  },
+                  {
+                    "slug": "animated-noto-color-emoji",
+                    "title": "Noto Color Emoji, Animated",
+                    "emoji": {
+                      "code": "🤣"
+                    }
+                  },
+                  {
+                    "slug": "noto-emoji",
+                    "title": "Noto Emoji Font",
+                    "emoji": {
+                      "code": "🔲"
+                    }
+                  },
+                  {
+                    "slug": "openmoji",
+                    "title": "OpenMoji",
+                    "emoji": {
+                      "code": "🙋"
+                    }
+                  },
+                  {
+                    "slug": "panasonic",
+                    "title": "Panasonic",
+                    "emoji": {
+                      "code": "🅿️"
+                    }
+                  },
+                  {
+                    "slug": "roblox",
+                    "title": "Roblox",
+                    "emoji": {
+                      "code": "🟥"
+                    }
+                  },
+                  {
+                    "slug": "samsung",
+                    "title": "Samsung",
+                    "emoji": {
+                      "code": "⚫"
+                    }
+                  },
+                  {
+                    "slug": "serenityos",
+                    "title": "SerenityOS",
+                    "emoji": {
+                      "code": "🐞"
+                    }
+                  },
+                  {
+                    "slug": "sharp",
+                    "title": "Sharp",
+                    "emoji": {
+                      "code": "🔴"
+                    }
+                  },
+                  {
+                    "slug": "signal",
+                    "title": "Signal",
+                    "emoji": {
+                      "code": "💬"
+                    }
+                  },
+                  {
+                    "slug": "sina-weibo",
+                    "title": "Sina Weibo",
+                    "emoji": {
+                      "code": "👁️"
+                    }
+                  },
+                  {
+                    "slug": "skype",
+                    "title": "Skype",
+                    "emoji": {
+                      "code": "📞"
+                    }
+                  },
+                  {
+                    "slug": "slack",
+                    "title": "Slack",
+                    "emoji": {
+                      "code": "#️⃣"
+                    }
+                  },
+                  {
+                    "slug": "snapchat",
+                    "title": "Snapchat",
+                    "emoji": {
+                      "code": "👻"
+                    }
+                  },
+                  {
+                    "slug": "softbank",
+                    "title": "SoftBank",
+                    "emoji": {
+                      "code": "📲"
+                    }
+                  },
+                  {
+                    "slug": "sony",
+                    "title": "Sony Playstation",
+                    "emoji": {
+                      "code": "🎮"
+                    }
+                  },
+                  {
+                    "slug": "telegram",
+                    "title": "Telegram",
+                    "emoji": {
+                      "code": "📨"
+                    }
+                  },
+                  {
+                    "slug": "tiktok",
+                    "title": "TikTok",
+                    "emoji": {
+                      "code": "🎵"
+                    }
+                  },
+                  {
+                    "slug": "tinder",
+                    "title": "Tinder",
+                    "emoji": {
+                      "code": "🔥"
+                    }
+                  },
+                  {
+                    "slug": "toss-face",
+                    "title": "Toss Face (토스페이스)",
+                    "emoji": {
+                      "code": "💳"
+                    }
+                  },
+                  {
+                    "slug": "twitch",
+                    "title": "Twitch",
+                    "emoji": {
+                      "code": "🟣"
+                    }
+                  },
+                  {
+                    "slug": "twitter-emoji-stickers",
+                    "title": "Twitter Emoji Stickers",
+                    "emoji": {
+                      "code": "🐓"
+                    }
+                  },
+                  {
+                    "slug": "twitter",
+                    "title": "Twitter / X",
+                    "emoji": {
+                      "code": "🐦"
+                    }
+                  },
+                  {
+                    "slug": "viber",
+                    "title": "Viber",
+                    "emoji": {
+                      "code": "🟪"
+                    }
+                  },
+                  {
+                    "slug": "vinsmart",
+                    "title": "VinSmart",
+                    "emoji": {
+                      "code": "♨️"
+                    }
+                  },
+                  {
+                    "slug": "vk",
+                    "title": "VK",
+                    "emoji": {
+                      "code": "🟦"
+                    }
+                  },
+                  {
+                    "slug": "wechat",
+                    "title": "WeChat",
+                    "emoji": {
+                      "code": "✳️"
+                    }
+                  },
+                  {
+                    "slug": "whatsapp",
+                    "title": "WhatsApp",
+                    "emoji": {
+                      "code": "🟢"
+                    }
+                  },
+                  {
+                    "slug": "whatsapp-animated",
+                    "title": "WhatsApp (Animated)",
+                    "emoji": {
+                      "code": "🫨"
+                    }
+                  },
+                  {
+                    "slug": "yahoo",
+                    "title": "Yahoo! Messenger",
+                    "emoji": {
+                      "code": "😀"
+                    }
+                  },
+                  {
+                    "slug": "yo-status",
+                    "title": "Yo Status",
+                    "emoji": {
+                      "code": "🗨️"
+                    }
+                  },
+                  {
+                    "slug": "youtube",
+                    "title": "YouTube",
+                    "emoji": {
+                      "code": "▶️"
+                    }
+                  },
+                  {
+                    "slug": "zoom",
+                    "title": "Zoom",
+                    "emoji": {
+                      "code": "🎦"
+                    }
+                  }
+                ]
+              },
+              {
+                "category": "EVENT",
+                "items": [
+                  {
+                    "slug": "australia-day",
+                    "title": "Australia Day",
+                    "emoji": {
+                      "code": "🇦🇺"
+                    }
+                  },
+                  {
+                    "slug": "bastille-day",
+                    "title": "Bastille Day",
+                    "emoji": {
+                      "code": "🇫🇷"
+                    }
+                  },
+                  {
+                    "slug": "birthday",
+                    "title": "Birthday",
+                    "emoji": {
+                      "code": "🎂"
+                    }
+                  },
+                  {
+                    "slug": "black-friday",
+                    "title": "Black Friday",
+                    "emoji": {
+                      "code": "🛍️"
+                    }
+                  },
+                  {
+                    "slug": "black-lives-matter",
+                    "title": "Black Lives Matter",
+                    "emoji": {
+                      "code": "✊🏿"
+                    }
+                  },
+                  {
+                    "slug": "canada-day",
+                    "title": "Canada Day",
+                    "emoji": {
+                      "code": "🇨🇦"
+                    }
+                  },
+                  {
+                    "slug": "carnaval",
+                    "title": "Carnaval",
+                    "emoji": {
+                      "code": "🇧🇷"
+                    }
+                  },
+                  {
+                    "slug": "chinese-new-year",
+                    "title": "Chinese New Year",
+                    "emoji": {
+                      "code": "🐲"
+                    }
+                  },
+                  {
+                    "slug": "christmas",
+                    "title": "Christmas",
+                    "emoji": {
+                      "code": "🎅"
+                    }
+                  },
+                  {
+                    "slug": "cinco-de-mayo",
+                    "title": "Cinco de Mayo",
+                    "emoji": {
+                      "code": "🇲🇽"
+                    }
+                  },
+                  {
+                    "slug": "coronavirus",
+                    "title": "Coronavirus",
+                    "emoji": {
+                      "code": "🦠"
+                    }
+                  },
+                  {
+                    "slug": "couples-with-hearts",
+                    "title": "Couples With Hearts",
+                    "emoji": {
+                      "code": "💑"
+                    }
+                  },
+                  {
+                    "slug": "diwali",
+                    "title": "Diwali",
+                    "emoji": {
+                      "code": "🪔"
+                    }
+                  },
+                  {
+                    "slug": "dragon-boat-festival",
+                    "title": "Dragon Boat Festival",
+                    "emoji": {
+                      "code": "🇨🇳"
+                    }
+                  },
+                  {
+                    "slug": "earth-day",
+                    "title": "Earth Day",
+                    "emoji": {
+                      "code": "🌱"
+                    }
+                  },
+                  {
+                    "slug": "easter",
+                    "title": "Easter",
+                    "emoji": {
+                      "code": "🐰"
+                    }
+                  },
+                  {
+                    "slug": "emoji-movie",
+                    "title": "Emoji Movie",
+                    "emoji": {
+                      "code": "🎥"
+                    }
+                  },
+                  {
+                    "slug": "fall-autumn",
+                    "title": "Fall / Autumn",
+                    "emoji": {
+                      "code": "🍂"
+                    }
+                  },
+                  {
+                    "slug": "families",
+                    "title": "Families",
+                    "emoji": {
+                      "code": "👪"
+                    }
+                  },
+                  {
+                    "slug": "fantasy-magic",
+                    "title": "Fantasy & Magic",
+                    "emoji": {
+                      "code": "🧙"
+                    }
+                  },
+                  {
+                    "slug": "fathers-day",
+                    "title": "Father’s Day",
+                    "emoji": {
+                      "code": "👨‍🍼"
+                    }
+                  },
+                  {
+                    "slug": "festivus",
+                    "title": "Festivus",
+                    "emoji": {
+                      "code": "💪"
+                    }
+                  },
+                  {
+                    "slug": "420",
+                    "title": "Four Twenty / 420",
+                    "emoji": {
+                      "code": "🌿"
+                    }
+                  },
+                  {
+                    "slug": "gestures",
+                    "title": "Gestures",
+                    "emoji": {
+                      "code": "👋"
+                    }
+                  },
+                  {
+                    "slug": "graduation",
+                    "title": "Graduation",
+                    "emoji": {
+                      "code": "🎓"
+                    }
+                  },
+                  {
+                    "slug": "guy-fawkes",
+                    "title": "Guy Fawkes",
+                    "emoji": {
+                      "code": "🔥"
+                    }
+                  },
+                  {
+                    "slug": "halloween",
+                    "title": "Halloween",
+                    "emoji": {
+                      "code": "🎃"
+                    }
+                  },
+                  {
+                    "slug": "handshakes",
+                    "title": "Handshakes",
+                    "emoji": {
+                      "code": "🤝"
+                    }
+                  },
+                  {
+                    "slug": "hanukkah",
+                    "title": "Hanukkah",
+                    "emoji": {
+                      "code": "🕎"
+                    }
+                  },
+                  {
+                    "slug": "happy",
+                    "title": "Happy",
+                    "emoji": {
+                      "code": "😄"
+                    }
+                  },
+                  {
+                    "slug": "hearts",
+                    "title": "Hearts",
+                    "emoji": {
+                      "code": "💕"
+                    }
+                  },
+                  {
+                    "slug": "holi",
+                    "title": "Holi",
+                    "emoji": {
+                      "code": "🕉️"
+                    }
+                  },
+                  {
+                    "slug": "independence-day",
+                    "title": "Independence Day",
+                    "emoji": {
+                      "code": "🇺🇸"
+                    }
+                  },
+                  {
+                    "slug": "international-womens-day",
+                    "title": "International Women's Day",
+                    "emoji": {
+                      "code": "♀️"
+                    }
+                  },
+                  {
+                    "slug": "japanese-culture",
+                    "title": "Japanese Culture",
+                    "emoji": {
+                      "code": "🗾"
+                    }
+                  },
+                  {
+                    "slug": "jobs-roles",
+                    "title": "Jobs & Roles",
+                    "emoji": {
+                      "code": "🧑‍💼"
+                    }
+                  },
+                  {
+                    "slug": "juneteenth",
+                    "title": "Juneteenth",
+                    "emoji": {
+                      "code": "🖤"
+                    }
+                  },
+                  {
+                    "slug": "kisses",
+                    "title": "Kisses",
+                    "emoji": {
+                      "code": "💏"
+                    }
+                  },
+                  {
+                    "slug": "laughter",
+                    "title": "Laughing",
+                    "emoji": {
+                      "code": "😂"
+                    }
+                  },
+                  {
+                    "slug": "pride",
+                    "title": "LGBT Pride",
+                    "emoji": {
+                      "code": "🏳️‍🌈"
+                    }
+                  },
+                  {
+                    "slug": "love",
+                    "title": "Love",
+                    "emoji": {
+                      "code": "💑"
+                    }
+                  },
+                  {
+                    "slug": "mardi-gras",
+                    "title": "Mardi Gras",
+                    "emoji": {
+                      "code": "🎭"
+                    }
+                  },
+                  {
+                    "slug": "mlb-world-series",
+                    "title": "MLB World Series",
+                    "emoji": {
+                      "code": "⚾"
+                    }
+                  },
+                  {
+                    "slug": "mothers-day",
+                    "title": "Mother’s Day",
+                    "emoji": {
+                      "code": "🤱"
+                    }
+                  },
+                  {
+                    "slug": "music",
+                    "title": "Music",
+                    "emoji": {
+                      "code": "🎸"
+                    }
+                  },
+                  {
+                    "slug": "new-years-eve",
+                    "title": "New Year’s Eve",
+                    "emoji": {
+                      "code": "🎊"
+                    }
+                  },
+                  {
+                    "slug": "nsfw",
+                    "title": "NSFW",
+                    "emoji": {
+                      "code": "🔞"
+                    }
+                  },
+                  {
+                    "slug": "olympics",
+                    "title": "Olympics",
+                    "emoji": {
+                      "code": "🏊"
+                    }
+                  },
+                  {
+                    "slug": "people-holding-hands",
+                    "title": "People Holding Hands",
+                    "emoji": {
+                      "code": "👫"
+                    }
+                  },
+                  {
+                    "slug": "pets",
+                    "title": "Pets",
+                    "emoji": {
+                      "code": "🐶"
+                    }
+                  },
+                  {
+                    "slug": "purim",
+                    "title": "Purim",
+                    "emoji": {
+                      "code": "🎭"
+                    }
+                  },
+                  {
+                    "slug": "queens-birthday",
+                    "title": "Queen’s Birthday",
+                    "emoji": {
+                      "code": "👑"
+                    }
+                  },
+                  {
+                    "slug": "ramadan",
+                    "title": "Ramadan",
+                    "emoji": {
+                      "code": "☪️"
+                    }
+                  },
+                  {
+                    "slug": "sad",
+                    "title": "Sad",
+                    "emoji": {
+                      "code": "😞"
+                    }
+                  },
+                  {
+                    "slug": "spring",
+                    "title": "Spring",
+                    "emoji": {
+                      "code": "🌱"
+                    }
+                  },
+                  {
+                    "slug": "st-patricks-day",
+                    "title": "St Patrick’s Day",
+                    "emoji": {
+                      "code": "☘️"
+                    }
+                  },
+                  {
+                    "slug": "summer",
+                    "title": "Summer",
+                    "emoji": {
+                      "code": "☀️"
+                    }
+                  },
+                  {
+                    "slug": "super-bowl",
+                    "title": "Super Bowl",
+                    "emoji": {
+                      "code": "🏈"
+                    }
+                  },
+                  {
+                    "slug": "thanksgiving",
+                    "title": "Thanksgiving",
+                    "emoji": {
+                      "code": "🦃"
+                    }
+                  },
+                  {
+                    "slug": "valentines-day",
+                    "title": "Valentine’s Day",
+                    "emoji": {
+                      "code": "💘"
+                    }
+                  },
+                  {
+                    "slug": "veterans-day",
+                    "title": "Veterans Day",
+                    "emoji": {
+                      "code": "🎖️"
+                    }
+                  },
+                  {
+                    "slug": "wedding-marriage",
+                    "title": "Wedding / Marriage",
+                    "emoji": {
+                      "code": "👰"
+                    }
+                  },
+                  {
+                    "slug": "winter",
+                    "title": "Winter",
+                    "emoji": {
+                      "code": "⛄"
+                    }
+                  },
+                  {
+                    "slug": "winter-olympics",
+                    "title": "Winter Olympics",
+                    "emoji": {
+                      "code": "🎿"
+                    }
+                  },
+                  {
+                    "slug": "working-from-home",
+                    "title": "Working From Home",
+                    "emoji": {
+                      "code": "🏡"
+                    }
+                  },
+                  {
+                    "slug": "world-book-day",
+                    "title": "World Book Day",
+                    "emoji": {
+                      "code": "📖"
+                    }
+                  },
+                  {
+                    "slug": "world-cup",
+                    "title": "World Cup",
+                    "emoji": {
+                      "code": "⚽"
+                    }
+                  },
+                  {
+                    "slug": "world-emoji-day",
+                    "title": "World Emoji Day",
+                    "emoji": {
+                      "code": "🌎"
+                    }
+                  },
+                  {
+                    "slug": "zodiac",
+                    "title": "Zodiac & Star Signs",
+                    "emoji": {
+                      "code": "🌟"
+                    }
+                  }
+                ]
+              },
+              {
+                "category": "EMOJI_CATEGORY",
+                "items": [
+                  {
+                    "slug": "smileys",
+                    "title": "Smileys",
+                    "emoji": {
+                      "code": "😃"
+                    }
+                  },
+                  {
+                    "slug": "people",
+                    "title": "People",
+                    "emoji": {
+                      "code": "🧑"
+                    }
+                  },
+                  {
+                    "slug": "nature",
+                    "title": "Animals & Nature",
+                    "emoji": {
+                      "code": "🐻"
+                    }
+                  },
+                  {
+                    "slug": "food-drink",
+                    "title": "Food & Drink",
+                    "emoji": {
+                      "code": "🍔"
+                    }
+                  },
+                  {
+                    "slug": "activity",
+                    "title": "Activity",
+                    "emoji": {
+                      "code": "⚽"
+                    }
+                  },
+                  {
+                    "slug": "travel-places",
+                    "title": "Travel & Places",
+                    "emoji": {
+                      "code": "🚀"
+                    }
+                  },
+                  {
+                    "slug": "objects",
+                    "title": "Objects",
+                    "emoji": {
+                      "code": "💡"
+                    }
+                  },
+                  {
+                    "slug": "symbols",
+                    "title": "Symbols",
+                    "emoji": {
+                      "code": "💕"
+                    }
+                  },
+                  {
+                    "slug": "flags",
+                    "title": "Flags",
+                    "emoji": {
+                      "code": "🎌"
+                    }
+                  }
+                ]
+              }
+            ],
+            "dataUpdateCount": 1,
+            "dataUpdatedAt": 1729536944222,
+            "error": null,
+            "errorUpdateCount": 0,
+            "errorUpdatedAt": 0,
+            "fetchFailureCount": 0,
+            "fetchFailureReason": null,
+            "fetchMeta": null,
+            "isInvalidated": false,
+            "status": "success",
+            "fetchStatus": "idle"
+          },
+          "queryKey": [
+            "navigation",
+            "en"
+          ],
+          "queryHash": "[\"navigation\",\"en\"]"
+        },
+        {
+          "state": {
+            "data": {
+              "sections": [
+                {
+                  "category": "EMOJIPEDIA",
+                  "items": [
+                    {
+                      "slug": "about",
+                      "title": "About Emojipedia"
+                    },
+                    {
+                      "slug": "contact",
+                      "title": "Contact"
+                    },
+                    {
+                      "slug": "emoji-wrap",
+                      "title": "Emoji Wrap"
+                    },
+                    {
+                      "slug": "shop",
+                      "title": "Emojipedia Shop"
+                    },
+                    {
+                      "slug": "licensing",
+                      "title": "Licensing"
+                    },
+                    {
+                      "slug": "meanings",
+                      "title": "Meanings"
+                    },
+                    {
+                      "slug": "video-content",
+                      "title": "Video Content"
+                    },
+                    {
+                      "slug": "press",
+                      "title": "Press Information"
+                    },
+                    {
+                      "slug": "privacy-policy",
+                      "title": "Privacy Policy"
+                    },
+                    {
+                      "slug": "tos",
+                      "title": "Terms of Service"
+                    },
+                    {
+                      "slug": "change-language",
+                      "title": "How To Change Language"
+                    },
+                    {
+                      "slug": "ai-art-generator",
+                      "title": "AI Art Master"
+                    }
+                  ]
+                },
+                {
+                  "category": "FACT",
+                  "items": [
+                    {
+                      "slug": "faq",
+                      "title": "FAQ"
+                    },
+                    {
+                      "slug": "stats",
+                      "title": "Emoji Statistics"
+                    },
+                    {
+                      "slug": "emoji-sequence",
+                      "title": "Emoji Sequence"
+                    },
+                    {
+                      "slug": "neutral",
+                      "title": "Gender Neutral Emojis"
+                    },
+                    {
+                      "slug": "glossary",
+                      "title": "Glossary"
+                    },
+                    {
+                      "slug": "tips",
+                      "title": "Tips"
+                    },
+                    {
+                      "slug": "caniemoji",
+                      "title": "Can I Emoji?"
+                    }
+                  ]
+                },
+                {
+                  "category": "UPDATE",
+                  "items": [
+                    {
+                      "slug": "new",
+                      "title": "Latest Approved Emojis"
+                    },
+                    {
+                      "slug": "genmoji",
+                      "title": "Genmoji"
+                    },
+                    {
+                      "slug": "draft-emojis",
+                      "title": "Latest Draft Emojis"
+                    },
+                    {
+                      "slug": "emoji-kitchen",
+                      "title": "Emoji Kitchen"
+                    },
+                    {
+                      "slug": "emoji-versions",
+                      "title": "All Emoji Versions"
+                    },
+                    {
+                      "slug": "unicode-versions",
+                      "title": "All Unicode Versions"
+                    },
+                    {
+                      "slug": "proposals",
+                      "title": "Emoji Proposals"
+                    },
+                    {
+                      "slug": "requests",
+                      "title": "Emoji Requests"
+                    }
+                  ]
+                },
+                {
+                  "category": "VENDOR",
+                  "items": [
+                    {
+                      "slug": "apple",
+                      "title": "Apple"
+                    },
+                    {
+                      "slug": "google",
+                      "title": "Google Noto Color Emoji"
+                    },
+                    {
+                      "slug": "samsung",
+                      "title": "Samsung"
+                    },
+                    {
+                      "slug": "microsoft",
+                      "title": "Microsoft"
+                    },
+                    {
+                      "slug": "facebook",
+                      "title": "Facebook"
+                    },
+                    {
+                      "slug": "twitter",
+                      "title": "Twitter / X"
+                    },
+                    {
+                      "slug": "whatsapp",
+                      "title": "WhatsApp"
+                    },
+                    {
+                      "slug": "joypixels",
+                      "title": "JoyPixels"
+                    },
+                    {
+                      "slug": "snapchat",
+                      "title": "Snapchat"
+                    },
+                    {
+                      "slug": "tiktok",
+                      "title": "TikTok"
+                    },
+                    {
+                      "slug": "vendors",
+                      "title": "All Vendors & Platforms"
+                    }
+                  ]
+                }
+              ],
+              "content": {
+                "zedgeSlogan": "<p>Emojipedia is brought to you by Zedge, the world&#39;s #1 phone personalization app</p>",
+                "trademark": "<p>Emojipedia&reg; is a registered trademark of <a href=\"https://www.zedge.net\">Zedge, Inc</a>;&nbsp;Apple&reg; is a registered trademark of Apple Inc; Microsoft&reg; and Windows&reg; are registered trademarks of Microsoft Corporation; Google&reg; and Android&trade; are registered trademarks or trademarks of Google Inc in the United States and/or other countries.</p>\r\n\r\n<p>Follow Emojipedia on <a href=\"https://twitter.com/emojipedia\" rel=\"me\">X / Twitter</a>, <a href=\"https://www.facebook.com/Emojipedia/\" rel=\"me\">Facebook</a>, <a href=\"https://www.instagram.com/emojipedia/\" rel=\"me\">Instagram</a>, <a href=\"https://mastodon.world/@emojipedia\" rel=\"me\">Mastodon</a>, or&nbsp;<a href=\"https://tiktok.com/@emojipediaofficial\">TikTok</a>. Read our <a href=\"https://help.zedge.net/hc/en-us/articles/360028513632\">Terms of Service here</a>.</p>\r\n\r\n<p>Run a retail store? Check out the NRSPlus.com Point of Sale (POS) system, and low-rate NRSPay.com credit card processing from our partner,&nbsp;<a href=\"https://nrsplus.com/\" target=\"_blank\" title=\"&gt;National Retail Solutions (NRS)\">National Retail Solutions (NRS)</a>.</p>",
+                "copyright": "<p>All emoji names&nbsp;are&nbsp;<a href=\"/faq/\">official Unicode Character Database&nbsp;or CLDR names</a>.&nbsp;<a href=\"/emoji/\" title=\"😃 Every Emoji by Codepoint\">Code points</a>&nbsp;listed are part of the <a href=\"https://en.wikipedia.org/wiki/Unicode_Standard\">Unicode Standard</a>.</p>\r\n\r\n<p>Additional emoji descriptions and definitions are copyright &copy; Emojipedia. Emoji images displayed on Emojipedia&nbsp;are copyright &copy; their respective creators, unless otherwise noted.</p>\r\n\r\n<p>Emojipedia&reg; is a <a href=\"https://home.unicode.org/membership/members/\">member of the Unicode Consortium</a>.</p>"
+              }
+            },
+            "dataUpdateCount": 1,
+            "dataUpdatedAt": 1729536944223,
+            "error": null,
+            "errorUpdateCount": 0,
+            "errorUpdatedAt": 0,
+            "fetchFailureCount": 0,
+            "fetchFailureReason": null,
+            "fetchMeta": null,
+            "isInvalidated": false,
+            "status": "success",
+            "fetchStatus": "idle"
+          },
+          "queryKey": [
+            "footer",
+            "en"
+          ],
+          "queryHash": "[\"footer\",\"en\"]"
+        },
+        {
+          "state": {
+            "data": {
+              "translations": [
+                {
+                  "language": "BN",
+                  "slug": "flags"
+                },
+                {
+                  "language": "DA",
+                  "slug": "flag"
+                },
+                {
+                  "language": "DE",
+                  "slug": "flaggen"
+                },
+                {
+                  "language": "EN",
+                  "slug": "flags"
+                },
+                {
+                  "language": "ES",
+                  "slug": "banderas"
+                },
+                {
+                  "language": "FR",
+                  "slug": "drapeaux"
+                },
+                {
+                  "language": "HI",
+                  "slug": "flags"
+                },
+                {
+                  "language": "IT",
+                  "slug": "bandiere"
+                },
+                {
+                  "language": "JA",
+                  "slug": "フラッグ"
+                },
+                {
+                  "language": "KO",
+                  "slug": "플래그"
+                },
+                {
+                  "language": "MR",
+                  "slug": "flags"
+                },
+                {
+                  "language": "MS",
+                  "slug": "bendera"
+                },
+                {
+                  "language": "NL",
+                  "slug": "vlaggen"
+                },
+                {
+                  "language": "NO",
+                  "slug": "flagg"
+                },
+                {
+                  "language": "PT",
+                  "slug": "bandeiras"
+                },
+                {
+                  "language": "SV",
+                  "slug": "flaggor"
+                },
+                {
+                  "language": "TA",
+                  "slug": "flags"
+                },
+                {
+                  "language": "TE",
+                  "slug": "flags"
+                },
+                {
+                  "language": "ZH",
+                  "slug": "旗帜"
+                }
+              ]
+            },
+            "dataUpdateCount": 1,
+            "dataUpdatedAt": 1729536944223,
+            "error": null,
+            "errorUpdateCount": 0,
+            "errorUpdatedAt": 0,
+            "fetchFailureCount": 0,
+            "fetchFailureReason": null,
+            "fetchMeta": null,
+            "isInvalidated": false,
+            "status": "success",
+            "fetchStatus": "idle"
+          },
+          "queryKey": [
+            "slug-translations",
+            "/flags",
+            "en"
+          ],
+          "queryHash": "[\"slug-translations\",\"/flags\",\"en\"]"
+        },
+        {
+          "state": {
+            "data": {
+              "slug": "flags",
+              "title": "Flags",
+              "description": "<p>List of all the country flag emojis from your emoji keyboard, as well as several non-nation flags. 🇯🇵 🇰🇷 🇩🇪 🇨🇳 🇺🇸 🇫🇷 🇪🇸 🇮🇹 🇷🇺 🇬🇧</p>\r\n\r\n<p>Emoji flags are supported on all major platforms&nbsp;except <a href=\"/microsoft/\">Windows</a>,&nbsp;which&nbsp;displays two-letter country codes instead of emoji flag images. Windows has never supported any national flag emoji design.</p>\r\n\r\n<p>Copy and paste any flag emoji from this list and it will show on all supported platforms. All emojis on this page are <a href=\"/glossary/#rgi\">RGI</a> (Recommended for General Interchange by Unicode) except&nbsp;<a href=\"/flag-for-texas-ustx/\">Flag for Texas</a> which is supported by <a href=\"/whatsapp/\">WhatsApp</a> only.</p>\r\n\r\n<p><em>Emoji country flags are&nbsp;based on <a href=\"https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2\">ISO 3166-1</a>:&nbsp;a list of internationally recognized two-letter country codes. As of 2021&nbsp;<a href=\"/flag-england/\">England</a>, <a href=\"/flag-scotland/\">Scotland</a> and <a href=\"/flag-wales/\">Wales</a>&nbsp;are the only <a href=\"/glossary/#rgi\">RGI</a>&nbsp;<a href=\"/emoji-tag-sequence/\">subdivision flags</a>.</em></p>",
+              "representingEmoji": {
+                "code": "🎌"
+              },
+              "subCategories": [
+                {
+                  "slug": "color-identity",
+                  "title": "Color & Identity",
+                  "representingEmoji": {
+                    "code": "🏴"
+                  },
+                  "emoji": [
+                    {
+                      "id": "892",
+                      "title": "Chequered Flag",
+                      "currentCldrName": "Chequered Flag",
+                      "slug": "chequered-flag",
+                      "description": "<p>A flag with black and white squares shown in a checkerboard pattern.&nbsp;Used to signal the start or end of a motor car race, though most often used to indicate&nbsp;that the first vehicle within a race has crossed the finish line.</p>",
+                      "code": "🏁"
+                    },
+                    {
+                      "id": "895",
+                      "title": "Triangular Flag on Post",
+                      "currentCldrName": "Triangular Flag",
+                      "slug": "triangular-flag",
+                      "description": "<p>A triangular red flag on a post.&nbsp;Most commonly associated with <a href=\"/person-golfing/\" title=\"🏌 Golfer\">golf</a>, as shown&nbsp;in the&nbsp;<a href=\"/flag-in-hole/\" title=\"⛳ Flag In Hole\">flag in hole emoji</a>. Can also be used to represent the term <em>red flag</em>, signaling&nbsp;a problem or issue.</p>",
+                      "code": "🚩"
+                    },
+                    {
+                      "id": "638",
+                      "title": "Crossed Flags",
+                      "currentCldrName": "Crossed Flags",
+                      "slug": "crossed-flags",
+                      "description": "<p>Two <a href=\"/flag-japan/\" title=\"🇯🇵 Flag for Japan\">Japanese Flags</a>, crossed at the base. Except on some older Samsung devices, which have <a href=\"/samsung/touchwiz-6.0/crossed-flags/\">previously displayed</a>&nbsp;two <a href=\"/flag-south-korea/\" title=\"🇰🇷 Flag for South Korea\">South Korean flags</a>, and on recent&nbsp;Huawei devices, where both flags are <a href=\"/white-flag\">plain white</a>.</p>",
+                      "code": "🎌"
+                    },
+                    {
+                      "id": "894",
+                      "title": "Waving Black Flag",
+                      "currentCldrName": "Black Flag",
+                      "slug": "black-flag",
+                      "description": "<p>A black-colored flag, shown waving on a post.</p>",
+                      "code": "🏴"
+                    },
+                    {
+                      "id": "893",
+                      "title": "Waving White Flag",
+                      "currentCldrName": "White Flag",
+                      "slug": "white-flag",
+                      "description": "<p>A white flag, most often shown waving on a post. Traditionally used as a sign of surrender, the meaning of this flag as an emoji is less defined.</p>",
+                      "code": "🏳️"
+                    },
+                    {
+                      "id": "1861",
+                      "title": "Rainbow Flag",
+                      "currentCldrName": "Rainbow Flag",
+                      "slug": "rainbow-flag",
+                      "description": "<p>A flag with six colors of the rainbow, generally including red, orange, yellow, green, blue and purple. Commonly used by the LGBT movement as a <em>gay pride flag</em>, or simply&nbsp;<em>pride flag</em> and seen at <a href=\"/pride/\">Pride events</a>.</p>\r\n\r\n<p>In February 2019 misinformation was spread about a <a href=\"https://www.fastcompany.com/90309797/no-theres-not-a-new-anti-lgbt-emoji\">so-called</a> &quot;anti-lgbt emoji&quot; which can be created using a combining character to show a black and white glyph like&nbsp;🚫 <a href=\"https://twitter.com/Emojipedia/status/1097962057071095809\">on top of the rainbow flag</a>. This is <a href=\"https://blog.emojipedia.org/fun-emoji-hacks/\">possible with any emoji</a> on supported platforms, in the same way keycaps are combining characters.</p>",
+                      "code": "🏳️‍🌈"
+                    },
+                    {
+                      "id": "8142",
+                      "title": "Transgender Flag",
+                      "currentCldrName": "Transgender Flag",
+                      "slug": "transgender-flag",
+                      "description": "<p>A flag with horizontal&nbsp;pale&nbsp;blue and pale&nbsp;pink stripes with a single white stripe in the middle, used as a Transgender or Transgender Pride flag and commonly seen at <a href=\"/pride/\">Pride events</a>.</p>",
+                      "code": "🏳️‍⚧️"
+                    },
+                    {
+                      "id": "1864",
+                      "title": "Pirate Flag",
+                      "currentCldrName": "Pirate Flag",
+                      "slug": "pirate-flag",
+                      "description": "<p>A <a href=\"/skull-and-crossbones/\" title=\"☠ Skull and Crossbones\">skull and crossbones</a>&nbsp;displayed on a black flag, used on pirate ships, also known as a <a href=\"https://en.wikipedia.org/wiki/Jolly_Roger\">Jolly Roger</a>.</p>",
+                      "code": "🏴‍☠️"
+                    },
+                    {
+                      "id": "1863",
+                      "title": "Flag: United Nations",
+                      "currentCldrName": "Flag: United Nations",
+                      "slug": "flag-united-nations",
+                      "description": "<p>The flag for United Nations.&nbsp;May&nbsp;show as the letters <em>UN</em>. This two letter regional indicator pair is an exceptional reservation&nbsp;as part of <a href=\"https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2\">ISO 3166</a>.</p>",
+                      "code": "🇺🇳"
+                    }
+                  ]
+                },
+                {
+                  "slug": "africa",
+                  "title": "Africa",
+                  "representingEmoji": {
+                    "code": "🌍"
+                  },
+                  "emoji": [
+                    {
+                      "id": "902",
+                      "title": "Flag: Angola",
+                      "currentCldrName": "Flag: Angola",
+                      "slug": "flag-angola",
+                      "description": "<p>The flag for&nbsp;Angola, which may show as the letters A and O on some platforms.</p>",
+                      "code": "🇦🇴"
+                    },
+                    {
+                      "id": "932",
+                      "title": "Flag: Burkina Faso",
+                      "currentCldrName": "Flag: Burkina Faso",
+                      "slug": "flag-burkina-faso",
+                      "description": "<p>The flag for Burkina Faso, which may show as the letters&nbsp;<em>BF</em>&nbsp;on some platforms.</p>",
+                      "code": "🇧🇫"
+                    },
+                    {
+                      "id": "933",
+                      "title": "Flag: Burundi",
+                      "currentCldrName": "Flag: Burundi",
+                      "slug": "flag-burundi",
+                      "description": "<p>The flag for Burundi, which may show as the letters&nbsp;<em>BI</em>&nbsp;on some platforms.</p>",
+                      "code": "🇧🇮"
+                    },
+                    {
+                      "id": "920",
+                      "title": "Flag: Benin",
+                      "currentCldrName": "Flag: Benin",
+                      "slug": "flag-benin",
+                      "description": "<p>The flag for Benin, which may show as the letters&nbsp;<em>BJ</em>&nbsp;on some platforms.</p>",
+                      "code": "🇧🇯"
+                    },
+                    {
+                      "id": "925",
+                      "title": "Flag: Botswana",
+                      "currentCldrName": "Flag: Botswana",
+                      "slug": "flag-botswana",
+                      "description": "<p>The flag for Botswana, which may show as the letters&nbsp;<em>BW</em>&nbsp;on some platforms.</p>",
+                      "code": "🇧🇼"
+                    },
+                    {
+                      "id": "952",
+                      "title": "Flag: Congo - Kinshasa",
+                      "currentCldrName": "Flag: Congo - Kinshasa",
+                      "slug": "flag-congo-kinshasa",
+                      "description": "<p>The flag for the Democratic Republic of the Congo (DRC), which may show as the letters C and D on some platforms.</p>",
+                      "code": "🇨🇩"
+                    },
+                    {
+                      "id": "941",
+                      "title": "Flag: Central African Republic",
+                      "currentCldrName": "Flag: Central African Republic",
+                      "slug": "flag-central-african-republic",
+                      "description": "<p>The flag for <a href=\"https://en.wikipedia.org/wiki/Central_African_Republic\">Central African Republic</a>, which may show as the letters&nbsp;<em>CF</em>&nbsp;on some platforms.</p>",
+                      "code": "🇨🇫"
+                    },
+                    {
+                      "id": "951",
+                      "title": "Flag: Congo - Brazzaville",
+                      "currentCldrName": "Flag: Congo - Brazzaville",
+                      "slug": "flag-congo-brazzaville",
+                      "description": "<p>The flag for the Republic of the Congo, which may show as the letters C and G on some platforms.<br />\r\n&nbsp;</p>",
+                      "code": "🇨🇬"
+                    },
+                    {
+                      "id": "955",
+                      "title": "Flag: Côte d’Ivoire",
+                      "currentCldrName": "Flag: Côte d’Ivoire",
+                      "slug": "flag-cote-divoire",
+                      "description": "<p>The flag for C&ocirc;te d&rsquo;Ivoire, which may show as the letters C and I on some platforms.</p>",
+                      "code": "🇨🇮"
+                    },
+                    {
+                      "id": "935",
+                      "title": "Flag: Cameroon",
+                      "currentCldrName": "Flag: Cameroon",
+                      "slug": "flag-cameroon",
+                      "description": "<p>The flag for Cameroon, which may show as the letters&nbsp;<em>CM</em>&nbsp;on some platforms.</p>",
+                      "code": "🇨🇲"
+                    },
+                    {
+                      "id": "938",
+                      "title": "Flag: Cape Verde",
+                      "currentCldrName": "Flag: Cape Verde",
+                      "slug": "flag-cape-verde",
+                      "description": "<p>The flag for Cape Verde, which may show as the letters&nbsp;<em>CV</em>&nbsp;on some platforms.</p>",
+                      "code": "🇨🇻"
+                    },
+                    {
+                      "id": "963",
+                      "title": "Flag: Djibouti",
+                      "currentCldrName": "Flag: Djibouti",
+                      "slug": "flag-djibouti",
+                      "description": "<p>The flag for Djibouti, which may show as the letters&nbsp;<em>DJ</em>&nbsp;on some platforms.</p>",
+                      "code": "🇩🇯"
+                    },
+                    {
+                      "id": "899",
+                      "title": "Flag: Algeria",
+                      "currentCldrName": "Flag: Algeria",
+                      "slug": "flag-algeria",
+                      "description": "<p>The flag for Algeria, which may show as the letters <em>DZ</em> on some platforms.</p>",
+                      "code": "🇩🇿"
+                    },
+                    {
+                      "id": "967",
+                      "title": "Flag: Egypt",
+                      "currentCldrName": "Flag: Egypt",
+                      "slug": "flag-egypt",
+                      "description": "<p>The flag for <a href=\"https://en.wikipedia.org/wiki/Egypt\">Egypt</a>, which may show as the letters&nbsp;<em>EG</em>&nbsp;on some platforms.</p>",
+                      "code": "🇪🇬"
+                    },
+                    {
+                      "id": "1149",
+                      "title": "Flag: Western Sahara",
+                      "currentCldrName": "Flag: Western Sahara",
+                      "slug": "flag-western-sahara",
+                      "description": "<p>The flag for&nbsp;<a href=\"https://en.wikipedia.org/wiki/Western_Sahara\">Western Sahara</a>, which may show as the letters&nbsp;<em>EH</em>&nbsp;on some platforms.</p>",
+                      "code": "🇪🇭"
+                    },
+                    {
+                      "id": "970",
+                      "title": "Flag: Eritrea",
+                      "currentCldrName": "Flag: Eritrea",
+                      "slug": "flag-eritrea",
+                      "description": "<p>The flag for Eritrea, which may show as the letters&nbsp;<em>ER</em>&nbsp;on some platforms.</p>",
+                      "code": "🇪🇷"
+                    },
+                    {
+                      "id": "972",
+                      "title": "Flag: Ethiopia",
+                      "currentCldrName": "Flag: Ethiopia",
+                      "slug": "flag-ethiopia",
+                      "description": "<p>The flag for Ethiopia, which may show as the letters&nbsp;<em>ET</em>&nbsp;on some platforms.</p>",
+                      "code": "🇪🇹"
+                    },
+                    {
+                      "id": "982",
+                      "title": "Flag: Gabon",
+                      "currentCldrName": "Flag: Gabon",
+                      "slug": "flag-gabon",
+                      "description": "<p>The flag for Gabon, which may show as the letters&nbsp;<em>GA</em>&nbsp;on some platforms.</p>",
+                      "code": "🇬🇦"
+                    },
+                    {
+                      "id": "986",
+                      "title": "Flag: Ghana",
+                      "currentCldrName": "Flag: Ghana",
+                      "slug": "flag-ghana",
+                      "description": "<p>The flag for Ghana, which may show as the letters&nbsp;<em>GH</em>&nbsp;on some platforms.</p>",
+                      "code": "🇬🇭"
+                    },
+                    {
+                      "id": "983",
+                      "title": "Flag: Gambia",
+                      "currentCldrName": "Flag: Gambia",
+                      "slug": "flag-gambia",
+                      "description": "<p>The flag for Gambia, which may show as the letters&nbsp;<em>GM</em>&nbsp;on some platforms.</p>",
+                      "code": "🇬🇲"
+                    },
+                    {
+                      "id": "995",
+                      "title": "Flag: Guinea",
+                      "currentCldrName": "Flag: Guinea",
+                      "slug": "flag-guinea",
+                      "description": "<p>The flag for Guinea, which may show as the letters&nbsp;<em>GN</em>&nbsp;on some platforms.</p>",
+                      "code": "🇬🇳"
+                    },
+                    {
+                      "id": "969",
+                      "title": "Flag: Equatorial Guinea",
+                      "currentCldrName": "Flag: Equatorial Guinea",
+                      "slug": "flag-equatorial-guinea",
+                      "description": "<p>The flag for Equatorial Guinea, which may show as the letters&nbsp;<em>GQ</em>&nbsp;on some platforms.</p>",
+                      "code": "🇬🇶"
+                    },
+                    {
+                      "id": "996",
+                      "title": "Flag: Guinea-Bissau",
+                      "currentCldrName": "Flag: Guinea-Bissau",
+                      "slug": "flag-guinea-bissau",
+                      "description": "<p>The flag for Guinea-Bissau, which may show as the letters&nbsp;<em>GW</em>&nbsp;on some platforms.</p>",
+                      "code": "🇬🇼"
+                    },
+                    {
+                      "id": "1017",
+                      "title": "Flag: Kenya",
+                      "currentCldrName": "Flag: Kenya",
+                      "slug": "flag-kenya",
+                      "description": "<p>The flag for&nbsp;<a href=\"https://en.wikipedia.org/wiki/Kenya\">Kenya</a>, which may show as the letters&nbsp;<em>KE</em>&nbsp;on some platforms.</p>",
+                      "code": "🇰🇪"
+                    },
+                    {
+                      "id": "950",
+                      "title": "Flag: Comoros",
+                      "currentCldrName": "Flag: Comoros",
+                      "slug": "flag-comoros",
+                      "description": "<p>The flag for Comoros, which may show as the letters&nbsp;<em>KM</em>&nbsp;on some platforms.</p>\r\n\r\n<ul>\r\n\t<li>🇰🇲 Comoran Flag Emoji</li>\r\n</ul>",
+                      "code": "🇰🇲"
+                    },
+                    {
+                      "id": "1026",
+                      "title": "Flag: Liberia",
+                      "currentCldrName": "Flag: Liberia",
+                      "slug": "flag-liberia",
+                      "description": "<p>The flag for&nbsp;<a href=\"https://en.wikipedia.org/wiki/Liberia\">Liberia</a>, which may show as the letters&nbsp;<em>LR</em>&nbsp;on some platforms.</p>",
+                      "code": "🇱🇷"
+                    },
+                    {
+                      "id": "1025",
+                      "title": "Flag: Lesotho",
+                      "currentCldrName": "Flag: Lesotho",
+                      "slug": "flag-lesotho",
+                      "description": "<p>The flag for&nbsp;<a href=\"https://en.wikipedia.org/wiki/Lesotho\">Lesotho</a>, which may show as the letters&nbsp;<em>LS</em>&nbsp;on some platforms.</p>",
+                      "code": "🇱🇸"
+                    },
+                    {
+                      "id": "1027",
+                      "title": "Flag: Libya",
+                      "currentCldrName": "Flag: Libya",
+                      "slug": "flag-libya",
+                      "description": "<p>The flag for&nbsp;<a href=\"https://en.wikipedia.org/wiki/Libya\">Libya</a>, which may show as the letters&nbsp;<em>LY</em>&nbsp;on some platforms.</p>",
+                      "code": "🇱🇾"
+                    },
+                    {
+                      "id": "1051",
+                      "title": "Flag: Morocco",
+                      "currentCldrName": "Flag: Morocco",
+                      "slug": "flag-morocco",
+                      "description": "<p>The flag for&nbsp;<a href=\"https://en.wikipedia.org/wiki/Morocco\">Morocco</a>, which may show as the letters&nbsp;<em>MA</em>&nbsp;on some platforms.</p>",
+                      "code": "🇲🇦"
+                    },
+                    {
+                      "id": "1033",
+                      "title": "Flag: Madagascar",
+                      "currentCldrName": "Flag: Madagascar",
+                      "slug": "flag-madagascar",
+                      "description": "<p>The flag for&nbsp;<a href=\"https://en.wikipedia.org/wiki/Madagascar\">Madagascar</a>, which may show as the letters&nbsp;<em>MG</em>&nbsp;on some platforms</p>",
+                      "code": "🇲🇬"
+                    },
+                    {
+                      "id": "1037",
+                      "title": "Flag: Mali",
+                      "currentCldrName": "Flag: Mali",
+                      "slug": "flag-mali",
+                      "description": "<p>The flag for&nbsp;<a href=\"https://en.wikipedia.org/wiki/Mali\">Mali</a>, which may show as the letters&nbsp;<em>ML</em>&nbsp;on some platforms.</p>",
+                      "code": "🇲🇱"
+                    },
+                    {
+                      "id": "1041",
+                      "title": "Flag: Mauritania",
+                      "currentCldrName": "Flag: Mauritania",
+                      "slug": "flag-mauritania",
+                      "description": "<p>The flag for <a href=\"https://en.wikipedia.org/wiki/Mauritania\">Mauritania</a>, which may show as the letters&nbsp;<em>MR</em>&nbsp;on some platforms. This design <a href=\"http://www.aljazeera.com/news/2017/08/mauritania-votes-controversial-constitutional-reform-170805081519439.html\">changed</a> in August 2017, adding a red band at the top and bottom.</p>\r\n\r\n<p>Only newer vendor updates display the new flag design.</p>",
+                      "code": "🇲🇷"
+                    },
+                    {
+                      "id": "1042",
+                      "title": "Flag: Mauritius",
+                      "currentCldrName": "Flag: Mauritius",
+                      "slug": "flag-mauritius",
+                      "description": "<p>The flag for&nbsp;<a href=\"https://en.wikipedia.org/wiki/Mauritius\">Mauritius</a>, which may show as the letters&nbsp;<em>MU</em>&nbsp;on some platforms.</p>",
+                      "code": "🇲🇺"
+                    },
+                    {
+                      "id": "1034",
+                      "title": "Flag: Malawi",
+                      "currentCldrName": "Flag: Malawi",
+                      "slug": "flag-malawi",
+                      "description": "<p>The flag for&nbsp;<a href=\"https://en.wikipedia.org/wiki/Malawi\">Malawi</a>, which may show as the letters&nbsp;<em>MW</em>&nbsp;on some platforms.</p>",
+                      "code": "🇲🇼"
+                    },
+                    {
+                      "id": "1052",
+                      "title": "Flag: Mozambique",
+                      "currentCldrName": "Flag: Mozambique",
+                      "slug": "flag-mozambique",
+                      "description": "<p>The flag for&nbsp;<a href=\"https://en.wikipedia.org/wiki/Mozambique\">Mozambique</a>, which may show as the letters&nbsp;<em>MZ</em>&nbsp;on some platforms.</p>",
+                      "code": "🇲🇿"
+                    },
+                    {
+                      "id": "1054",
+                      "title": "Flag: Namibia",
+                      "currentCldrName": "Flag: Namibia",
+                      "slug": "flag-namibia",
+                      "description": "<p>The flag for&nbsp;<a href=\"https://en.wikipedia.org/wiki/Namibia\">Namibia</a>, which may show as the letters&nbsp;<em>NA</em>&nbsp;on some platforms.</p>",
+                      "code": "🇳🇦"
+                    },
+                    {
+                      "id": "1061",
+                      "title": "Flag: Niger",
+                      "currentCldrName": "Flag: Niger",
+                      "slug": "flag-niger",
+                      "description": "<p>The flag for&nbsp;<a href=\"https://en.wikipedia.org/wiki/Niger\">Niger</a>, which may show as the letters&nbsp;<em>NE</em>&nbsp;on some platforms.</p>",
+                      "code": "🇳🇪"
+                    },
+                    {
+                      "id": "1062",
+                      "title": "Flag: Nigeria",
+                      "currentCldrName": "Flag: Nigeria",
+                      "slug": "flag-nigeria",
+                      "description": "<p>The flag for&nbsp;<a href=\"https://en.wikipedia.org/wiki/Nigeria\">Nigeria</a>, which may show as the letters&nbsp;<em>NG</em>&nbsp;on some platforms.</p>",
+                      "code": "🇳🇬"
+                    },
+                    {
+                      "id": "1085",
+                      "title": "Flag: Rwanda",
+                      "currentCldrName": "Flag: Rwanda",
+                      "slug": "flag-rwanda",
+                      "description": "<p>The flag for <a href=\"https://en.wikipedia.org/wiki/Rwanda\">Rwanda</a>, which may show as the letters&nbsp;<em>RW</em>&nbsp;on some platforms.</p>",
+                      "code": "🇷🇼"
+                    },
+                    {
+                      "id": "1092",
+                      "title": "Flag: Seychelles",
+                      "currentCldrName": "Flag: Seychelles",
+                      "slug": "flag-seychelles",
+                      "description": "<p>The flag for <a href=\"https://en.wikipedia.org/wiki/Seychelles\">Seychelles</a>, which may show as the letters&nbsp;<em>SC</em>&nbsp;on some platforms.</p>",
+                      "code": "🇸🇨"
+                    },
+                    {
+                      "id": "1113",
+                      "title": "Flag: Sudan",
+                      "currentCldrName": "Flag: Sudan",
+                      "slug": "flag-sudan",
+                      "description": "<p>The flag for&nbsp;<a href=\"https://en.wikipedia.org/wiki/Sudan\">Sudan</a>, which may show as the letters&nbsp;<em>SD</em>&nbsp;on some platforms.</p>",
+                      "code": "🇸🇩"
+                    },
+                    {
+                      "id": "1093",
+                      "title": "Flag: Sierra Leone",
+                      "currentCldrName": "Flag: Sierra Leone",
+                      "slug": "flag-sierra-leone",
+                      "description": "<p>The flag for <a href=\"https://en.wikipedia.org/wiki/Sierra_Leone\">Sierra Leone</a>, which may show as the letters&nbsp;<em>SL</em>&nbsp;on some platforms.</p>",
+                      "code": "🇸🇱"
+                    },
+                    {
+                      "id": "1090",
+                      "title": "Flag: Senegal",
+                      "currentCldrName": "Flag: Senegal",
+                      "slug": "flag-senegal",
+                      "description": "<p>The flag for <a href=\"https://en.wikipedia.org/wiki/Senegal\">Senegal</a>, which may show as the letters&nbsp;<em>SN</em>&nbsp;on some platforms.</p>",
+                      "code": "🇸🇳"
+                    },
+                    {
+                      "id": "1099",
+                      "title": "Flag: Somalia",
+                      "currentCldrName": "Flag: Somalia",
+                      "slug": "flag-somalia",
+                      "description": "<p>The flag for&nbsp;<a href=\"https://en.wikipedia.org/wiki/Somalia\">Somalia</a>, which may show as the letters&nbsp;<em>SO</em>&nbsp;on some platforms.</p>",
+                      "code": "🇸🇴"
+                    },
+                    {
+                      "id": "1103",
+                      "title": "Flag: South Sudan",
+                      "currentCldrName": "Flag: South Sudan",
+                      "slug": "flag-south-sudan",
+                      "description": "<p>The flag for&nbsp;<a href=\"https://en.wikipedia.org/wiki/South_Sudan\">South Sudan</a>, which may show as the letters&nbsp;<em>SS</em>&nbsp;on some platforms.</p>",
+                      "code": "🇸🇸"
+                    },
+                    {
+                      "id": "1116",
+                      "title": "Flag: Eswatini",
+                      "currentCldrName": "Flag: Eswatini",
+                      "slug": "flag-eswatini",
+                      "description": "<p>The flag for&nbsp;<a href=\"https://en.wikipedia.org/wiki/Swaziland\">Swaziland</a>, which may show as the letters&nbsp;<em>SZ</em>&nbsp;on some platforms.</p>",
+                      "code": "🇸🇿"
+                    },
+                    {
+                      "id": "943",
+                      "title": "Flag: Chad",
+                      "currentCldrName": "Flag: Chad",
+                      "slug": "flag-chad",
+                      "description": "<p>The flag for Chad, which may show as the letters&nbsp;<em>TD</em>&nbsp;on some platforms.</p>",
+                      "code": "🇹🇩"
+                    },
+                    {
+                      "id": "1125",
+                      "title": "Flag: Togo",
+                      "currentCldrName": "Flag: Togo",
+                      "slug": "flag-togo",
+                      "description": "<p>The flag for&nbsp;<a href=\"https://en.wikipedia.org/wiki/Togo\">Togo</a>, which may show as the letters&nbsp;<em>TG</em>&nbsp;on some platforms.</p>",
+                      "code": "🇹🇬"
+                    },
+                    {
+                      "id": "1130",
+                      "title": "Flag: Tunisia",
+                      "currentCldrName": "Flag: Tunisia",
+                      "slug": "flag-tunisia",
+                      "description": "<p>The flag for&nbsp;<a href=\"https://en.wikipedia.org/wiki/Tunisia\">Tunisia</a>, which may show as the letters&nbsp;<em>TN</em>&nbsp;on some platforms.</p>",
+                      "code": "🇹🇳"
+                    },
+                    {
+                      "id": "1122",
+                      "title": "Flag: Tanzania",
+                      "currentCldrName": "Flag: Tanzania",
+                      "slug": "flag-tanzania",
+                      "description": "<p>The flag for&nbsp;<a href=\"https://en.wikipedia.org/wiki/Tanzania\">Tanzania</a>, which may show as the letters&nbsp;<em>TZ</em>&nbsp;on some platforms.</p>",
+                      "code": "🇹🇿"
+                    },
+                    {
+                      "id": "1135",
+                      "title": "Flag: Uganda",
+                      "currentCldrName": "Flag: Uganda",
+                      "slug": "flag-uganda",
+                      "description": "<p>The flag for&nbsp;<a href=\"https://en.wikipedia.org/wiki/Uganda\">Uganda</a>, which may show as the letters&nbsp;<em>UG</em>&nbsp;on some platforms.</p>",
+                      "code": "🇺🇬"
+                    },
+                    {
+                      "id": "1100",
+                      "title": "Flag: South Africa",
+                      "currentCldrName": "Flag: South Africa",
+                      "slug": "flag-south-africa",
+                      "description": "<p>The flag for&nbsp;<a href=\"https://en.wikipedia.org/wiki/South_Africa\">South Africa</a>, which may show as the letters&nbsp;<em>ZA</em>&nbsp;on some platforms.</p>",
+                      "code": "🇿🇦"
+                    },
+                    {
+                      "id": "1151",
+                      "title": "Flag: Zambia",
+                      "currentCldrName": "Flag: Zambia",
+                      "slug": "flag-zambia",
+                      "description": "<p>The flag for&nbsp;<a href=\"https://en.wikipedia.org/wiki/Zambia\">Zambia</a>, which may show as the letters&nbsp;<em>ZM</em>&nbsp;on some platforms.</p>",
+                      "code": "🇿🇲"
+                    },
+                    {
+                      "id": "1152",
+                      "title": "Flag: Zimbabwe",
+                      "currentCldrName": "Flag: Zimbabwe",
+                      "slug": "flag-zimbabwe",
+                      "description": "<p>The flag for&nbsp;<a href=\"https://en.wikipedia.org/wiki/Zimbabwe\">Zimbabwe</a>, which may show as the letters&nbsp;<em>ZW</em>&nbsp;on some platforms.</p>",
+                      "code": "🇿🇼"
+                    }
+                  ]
+                },
+                {
+                  "slug": "americas",
+                  "title": "The Americas",
+                  "representingEmoji": {
+                    "code": "🌎"
+                  },
+                  "emoji": [
+                    {
+                      "id": "905",
+                      "title": "Flag: Antigua & Barbuda",
+                      "currentCldrName": "Flag: Antigua & Barbuda",
+                      "slug": "flag-antigua-barbuda",
+                      "description": "<p>The flag for Antigua &amp; Barbuda, which may show as the letters A and G on some platforms.</p>",
+                      "code": "🇦🇬"
+                    },
+                    {
+                      "id": "903",
+                      "title": "Flag: Anguilla",
+                      "currentCldrName": "Flag: Anguilla",
+                      "slug": "flag-anguilla",
+                      "description": "<p>The flag for Anguilla, which may show as the letters <em>AI</em> on some platforms.</p>",
+                      "code": "🇦🇮"
+                    },
+                    {
+                      "id": "906",
+                      "title": "Flag: Argentina",
+                      "currentCldrName": "Flag: Argentina",
+                      "slug": "flag-argentina",
+                      "description": "<p>The flag for Argentina, which may show as the letters <em>AR</em> on some platforms.</p>",
+                      "code": "🇦🇷"
+                    },
+                    {
+                      "id": "908",
+                      "title": "Flag: Aruba",
+                      "currentCldrName": "Flag: Aruba",
+                      "slug": "flag-aruba",
+                      "description": "<p>The flag for Aruba, which may show as the letters <em>AW</em> on some platforms.</p>",
+                      "code": "🇦🇼"
+                    },
+                    {
+                      "id": "916",
+                      "title": "Flag: Barbados",
+                      "currentCldrName": "Flag: Barbados",
+                      "slug": "flag-barbados",
+                      "description": "<p>The flag for Barbados, which may show as the letters&nbsp;<em>BB</em>&nbsp;on some platforms.</p>",
+                      "code": "🇧🇧"
+                    },
+                    {
+                      "id": "1106",
+                      "title": "Flag: St. Barthélemy",
+                      "currentCldrName": "Flag: St. Barthélemy",
+                      "slug": "flag-st-barthelemy",
+                      "description": "<p>The flag for St. Barth&eacute;lemy, which may show as the letters B and L on some platforms.</p>",
+                      "code": "🇧🇱"
+                    },
+                    {
+                      "id": "921",
+                      "title": "Flag: Bermuda",
+                      "currentCldrName": "Flag: Bermuda",
+                      "slug": "flag-bermuda",
+                      "description": "<p>The flag for Bermuda, which may show as the letters&nbsp;<em>BM</em>&nbsp;on some platforms.</p>",
+                      "code": "🇧🇲"
+                    },
+                    {
+                      "id": "923",
+                      "title": "Flag: Bolivia",
+                      "currentCldrName": "Flag: Bolivia",
+                      "slug": "flag-bolivia",
+                      "description": "<p>The flag for Bolivia, which may show as the letters&nbsp;<em>BO</em>&nbsp;on some platforms.</p>",
+                      "code": "🇧🇴"
+                    },
+                    {
+                      "id": "939",
+                      "title": "Flag: Caribbean Netherlands",
+                      "currentCldrName": "Flag: Caribbean Netherlands",
+                      "slug": "flag-caribbean-netherlands",
+                      "description": "<p>The Caribbean Netherlands, a group of islands in the Caribbean Sea. The design for this emoji is shown as the flag for <a href=\"https://en.wikipedia.org/wiki/Flag_of_Bonaire\">Bonaire</a> on most platforms.</p>",
+                      "code": "🇧🇶"
+                    },
+                    {
+                      "id": "927",
+                      "title": "Flag: Brazil",
+                      "currentCldrName": "Flag: Brazil",
+                      "slug": "flag-brazil",
+                      "description": "<p>The flag for <a href=\"https://en.wikipedia.org/wiki/Brazil\">Brazil</a>, which may show as the letters&nbsp;<em>BR</em>&nbsp;on some platforms.</p>",
+                      "code": "🇧🇷"
+                    },
+                    {
+                      "id": "913",
+                      "title": "Flag: Bahamas",
+                      "currentCldrName": "Flag: Bahamas",
+                      "slug": "flag-bahamas",
+                      "description": "<p>The flag for Bahamas, which may show as the letters&nbsp;<em>BS</em>&nbsp;on some platforms.</p>",
+                      "code": "🇧🇸"
+                    },
+                    {
+                      "id": "919",
+                      "title": "Flag: Belize",
+                      "currentCldrName": "Flag: Belize",
+                      "slug": "flag-belize",
+                      "description": "<p>The flag for Belize, which may show as the letters&nbsp;<em>BZ</em>&nbsp;on some platforms.</p>",
+                      "code": "🇧🇿"
+                    },
+                    {
+                      "id": "936",
+                      "title": "Flag: Canada",
+                      "currentCldrName": "Flag: Canada",
+                      "slug": "flag-canada",
+                      "description": "<p>The flag for <a href=\"https://en.wikipedia.org/wiki/Canada\">Canada</a>, which may show as the letters&nbsp;<em>CA</em>&nbsp;on some platforms.</p>",
+                      "code": "🇨🇦"
+                    },
+                    {
+                      "id": "944",
+                      "title": "Flag: Chile",
+                      "currentCldrName": "Flag: Chile",
+                      "slug": "flag-chile",
+                      "description": "<p>The flag for <a href=\"https://en.wikipedia.org/wiki/Chile\">Chile</a>, which may show as the letters&nbsp;<em>CL</em>&nbsp;on some platforms.</p>\r\n\r\n<p>Can occasionally be confused for a <a href=\"/flag-for-texas-ustx\">Flag for Texas</a> emoji, which does not have broad cross-platform emoji support.</p>",
+                      "code": "🇨🇱"
+                    },
+                    {
+                      "id": "949",
+                      "title": "Flag: Colombia",
+                      "currentCldrName": "Flag: Colombia",
+                      "slug": "flag-colombia",
+                      "description": "<p>The flag for <a href=\"https://en.wikipedia.org/wiki/Colombia\">Colombia</a>, which may show as the letters&nbsp;<em>CO</em>&nbsp;on some platforms.</p>",
+                      "code": "🇨🇴"
+                    },
+                    {
+                      "id": "954",
+                      "title": "Flag: Costa Rica",
+                      "currentCldrName": "Flag: Costa Rica",
+                      "slug": "flag-costa-rica",
+                      "description": "<p>The flag for Costa Rica, which may show as the letters&nbsp;<em>CR</em>&nbsp;on some platforms.</p>",
+                      "code": "🇨🇷"
+                    },
+                    {
+                      "id": "957",
+                      "title": "Flag: Cuba",
+                      "currentCldrName": "Flag: Cuba",
+                      "slug": "flag-cuba",
+                      "description": "<p>The flag for Cuba, which may show as the letters&nbsp;<em>CU</em>&nbsp;on some platforms.</p>",
+                      "code": "🇨🇺"
+                    },
+                    {
+                      "id": "958",
+                      "title": "Flag: Curaçao",
+                      "currentCldrName": "Flag: Curaçao",
+                      "slug": "flag-curacao",
+                      "description": "<p>The flag for <a href=\"https://en.wikipedia.org/wiki/Cura%C3%A7ao\">Cura&ccedil;ao</a>, which may show as the letters&nbsp;<em>CW</em>&nbsp;on some platforms.</p>",
+                      "code": "🇨🇼"
+                    },
+                    {
+                      "id": "964",
+                      "title": "Flag: Dominica",
+                      "currentCldrName": "Flag: Dominica",
+                      "slug": "flag-dominica",
+                      "description": "<p>The flag for Dominica, which may show as the letters&nbsp;<em>DM</em>&nbsp;on some platforms.</p>\r\n\r\n<ul>\r\n\t<li>🇩🇲 Dominican Flag Emoji</li>\r\n</ul>",
+                      "code": "🇩🇲"
+                    },
+                    {
+                      "id": "965",
+                      "title": "Flag: Dominican Republic",
+                      "currentCldrName": "Flag: Dominican Republic",
+                      "slug": "flag-dominican-republic",
+                      "description": "<p>The flag for Dominican Republic, which may show as the letters&nbsp;<em>DO</em>&nbsp;on some platforms.</p>",
+                      "code": "🇩🇴"
+                    },
+                    {
+                      "id": "966",
+                      "title": "Flag: Ecuador",
+                      "currentCldrName": "Flag: Ecuador",
+                      "slug": "flag-ecuador",
+                      "description": "<p>The flag for Ecuador, which may show as the letters&nbsp;<em>EC</em>&nbsp;on some platforms.</p>",
+                      "code": "🇪🇨"
+                    },
+                    {
+                      "id": "974",
+                      "title": "Flag: Falkland Islands",
+                      "currentCldrName": "Flag: Falkland Islands",
+                      "slug": "flag-falkland-islands",
+                      "description": "<p>The flag for&nbsp;<a href=\"https://en.wikipedia.org/?title=Falkland_Islands\">Falkland Islands (Malvinas)</a>,&nbsp;which may show as the letters&nbsp;<em>FK</em>&nbsp;on some platforms.</p>",
+                      "code": "🇫🇰"
+                    },
+                    {
+                      "id": "990",
+                      "title": "Flag: Grenada",
+                      "currentCldrName": "Flag: Grenada",
+                      "slug": "flag-grenada",
+                      "description": "<p>The flag for Grenada, which may show as the letters&nbsp;<em>GD</em>&nbsp;on some platforms.</p>",
+                      "code": "🇬🇩"
+                    },
+                    {
+                      "id": "979",
+                      "title": "Flag: French Guiana",
+                      "currentCldrName": "Flag: French Guiana",
+                      "slug": "flag-french-guiana",
+                      "description": "<p>The flag for French Guiana, which may show as the letters&nbsp;<em>GF</em>&nbsp;on some platforms.</p>",
+                      "code": "🇬🇫"
+                    },
+                    {
+                      "id": "991",
+                      "title": "Flag: Guadeloupe",
+                      "currentCldrName": "Flag: Guadeloupe",
+                      "slug": "flag-guadeloupe",
+                      "description": "<p>The flag for Guadeloupe, which may show as the letters&nbsp;<em>GP</em>&nbsp;on some platforms.</p>\r\n\r\n<p>The latest versions of iOS and OS X use the <a href=\"https://en.wikipedia.org/wiki/Flag_of_Guadeloupe\">local unofficial flag</a>, based&nbsp;on the coat of arms of Guadeloupe&rsquo;s capital&nbsp;Basse-Terre.&nbsp;This is used instead of&nbsp;the&nbsp;<a href=\"/flag-france/\" title=\"🇫🇷 Flag For France\">Flag For France</a>,&nbsp;which is the official flag of Guadeloupe.</p>",
+                      "code": "🇬🇵"
+                    },
+                    {
+                      "id": "993",
+                      "title": "Flag: Guatemala",
+                      "currentCldrName": "Flag: Guatemala",
+                      "slug": "flag-guatemala",
+                      "description": "<p>The flag for Guatemala, which may show as the letters&nbsp;<em>GT</em>&nbsp;on some platforms.</p>",
+                      "code": "🇬🇹"
+                    },
+                    {
+                      "id": "997",
+                      "title": "Flag: Guyana",
+                      "currentCldrName": "Flag: Guyana",
+                      "slug": "flag-guyana",
+                      "description": "<p>The flag for Guyana, which may show as the letters&nbsp;<em>GY</em>&nbsp;on some platforms.</p>",
+                      "code": "🇬🇾"
+                    },
+                    {
+                      "id": "1000",
+                      "title": "Flag: Honduras",
+                      "currentCldrName": "Flag: Honduras",
+                      "slug": "flag-honduras",
+                      "description": "<p>The flag for Honduras, which may show as the letters&nbsp;<em>HN</em>&nbsp;on some platforms.</p>",
+                      "code": "🇭🇳"
+                    },
+                    {
+                      "id": "998",
+                      "title": "Flag: Haiti",
+                      "currentCldrName": "Flag: Haiti",
+                      "slug": "flag-haiti",
+                      "description": "<p>The flag for Haiti, which may show as the letters&nbsp;<em>HT</em>&nbsp;on some platforms.</p>",
+                      "code": "🇭🇹"
+                    },
+                    {
+                      "id": "1012",
+                      "title": "Flag: Jamaica",
+                      "currentCldrName": "Flag: Jamaica",
+                      "slug": "flag-jamaica",
+                      "description": "<p>The flag for&nbsp;<a href=\"https://en.wikipedia.org/wiki/Jamaica\">Jamaica</a>, which may show as the letters&nbsp;<em>JM</em>&nbsp;on some platforms.</p>",
+                      "code": "🇯🇲"
+                    },
+                    {
+                      "id": "1108",
+                      "title": "Flag: St. Kitts & Nevis",
+                      "currentCldrName": "Flag: St. Kitts & Nevis",
+                      "slug": "flag-st-kitts-nevis",
+                      "description": "<p>The flag for St. Kitts &amp; Nevis, which may show as the letters K and N on some platforms.</p>",
+                      "code": "🇰🇳"
+                    },
+                    {
+                      "id": "940",
+                      "title": "Flag: Cayman Islands",
+                      "currentCldrName": "Flag: Cayman Islands",
+                      "slug": "flag-cayman-islands",
+                      "description": "<p>The flag for Cayman Islands, which may show as the letters&nbsp;<em>KY</em>&nbsp;on some platforms.</p>",
+                      "code": "🇰🇾"
+                    },
+                    {
+                      "id": "1109",
+                      "title": "Flag: St. Lucia",
+                      "currentCldrName": "Flag: St. Lucia",
+                      "slug": "flag-st-lucia",
+                      "description": "<p>The flag for St. Lucia, which may show as the letters L and C on some platforms.</p>",
+                      "code": "🇱🇨"
+                    },
+                    {
+                      "id": "1110",
+                      "title": "Flag: St. Martin",
+                      "currentCldrName": "Flag: St. Martin",
+                      "slug": "flag-st-martin",
+                      "description": "<p>The flag for St. Martin, which may show as the letters&nbsp;<em>MF</em>&nbsp;on some platforms.&nbsp;This is the <a href=\"/flag-france/\" title=\"🇫🇷 Flag for France\">French</a> half of the of the Caribbean island of Saint Martin. Not to be confused with&nbsp;<a href=\"/flag-sint-maarten/\" title=\"🇸🇽 Flag for Sint Maarten\">Sint Maarten</a>, the Dutch half of the same island.</p>",
+                      "code": "🇲🇫"
+                    },
+                    {
+                      "id": "1040",
+                      "title": "Flag: Martinique",
+                      "currentCldrName": "Flag: Martinique",
+                      "slug": "flag-martinique",
+                      "description": "<p>The flag for&nbsp;Martinique, which may show as the letters&nbsp;<em>MQ</em>&nbsp;on some platforms.</p>\r\n\r\n<p>Most platforms display the&nbsp;historical&nbsp;<a href=\"https://en.wikipedia.org/wiki/Flag_of_Martinique\">snake flag of Martinique</a>&nbsp;instead of&nbsp;the&nbsp;<a href=\"/flag-france/\" title=\"🇫🇷 Flag For France\">Flag For France</a>,&nbsp;which is the official flag of&nbsp;Martinique.&nbsp;As of 2021, the newer&nbsp;<a href=\"https://en.wikipedia.org/wiki/Flag_of_Martinique#Ipséité\">Ips&eacute;it&eacute; flag</a> is yet to be in use by major vendors.</p>",
+                      "code": "🇲🇶"
+                    },
+                    {
+                      "id": "1050",
+                      "title": "Flag: Montserrat",
+                      "currentCldrName": "Flag: Montserrat",
+                      "slug": "flag-montserrat",
+                      "description": "<p>The flag for&nbsp;<a href=\"https://en.wikipedia.org/wiki/Montserrat\">Montserrat</a>, which may show as the letters&nbsp;<em>MS</em>&nbsp;on some platforms.</p>",
+                      "code": "🇲🇸"
+                    },
+                    {
+                      "id": "1044",
+                      "title": "Flag: Mexico",
+                      "currentCldrName": "Flag: Mexico",
+                      "slug": "flag-mexico",
+                      "description": "<p>The flag for&nbsp;<a href=\"/flag-mexico/\" title=\"🇲🇽 Flag For Mexico\">Mexico</a>, which may show as the letters&nbsp;<em>MX</em>&nbsp;on some platforms.</p>\r\n",
+                      "code": "🇲🇽"
+                    },
+                    {
+                      "id": "1060",
+                      "title": "Flag: Nicaragua",
+                      "currentCldrName": "Flag: Nicaragua",
+                      "slug": "flag-nicaragua",
+                      "description": "<p>The flag for&nbsp;<a href=\"https://en.wikipedia.org/wiki/Nicaragua\">Nicaragua</a>, which may show as the letters&nbsp;<em>NI</em>&nbsp;on some platforms.</p>",
+                      "code": "🇳🇮"
+                    },
+                    {
+                      "id": "1072",
+                      "title": "Flag: Panama",
+                      "currentCldrName": "Flag: Panama",
+                      "slug": "flag-panama",
+                      "description": "<p>The flag for <a href=\"https://en.wikipedia.org/wiki/Panama\">Panama</a>, which may show as the letters&nbsp;<em>PA</em>&nbsp;on some platforms.</p>",
+                      "code": "🇵🇦"
+                    },
+                    {
+                      "id": "1075",
+                      "title": "Flag: Peru",
+                      "currentCldrName": "Flag: Peru",
+                      "slug": "flag-peru",
+                      "description": "<p>The flag for <a href=\"https://en.wikipedia.org/wiki/Peru\">Peru</a>, which may show as the letters&nbsp;<em>PE</em>&nbsp;on some platforms.</p>",
+                      "code": "🇵🇪"
+                    },
+                    {
+                      "id": "1111",
+                      "title": "Flag: St. Pierre & Miquelon",
+                      "currentCldrName": "Flag: St. Pierre & Miquelon",
+                      "slug": "flag-st-pierre-miquelon",
+                      "description": "<p>The flag for St. Pierre &amp; Miquelon, which may show as the letters P and M on some platforms.</p>",
+                      "code": "🇵🇲"
+                    },
+                    {
+                      "id": "1080",
+                      "title": "Flag: Puerto Rico",
+                      "currentCldrName": "Flag: Puerto Rico",
+                      "slug": "flag-puerto-rico",
+                      "description": "<p>The flag for <a href=\"https://en.wikipedia.org/wiki/Puerto_Rico\">Puerto Rico</a>, which may show as the letters&nbsp;<em>PR</em>&nbsp;on some platforms.</p>",
+                      "code": "🇵🇷"
+                    },
+                    {
+                      "id": "1074",
+                      "title": "Flag: Paraguay",
+                      "currentCldrName": "Flag: Paraguay",
+                      "slug": "flag-paraguay",
+                      "description": "<p>The flag for <a href=\"https://en.wikipedia.org/wiki/Paraguay\">Paraguay</a>, which may show as the letters&nbsp;<em>PY</em>&nbsp;on some platforms.</p>",
+                      "code": "🇵🇾"
+                    },
+                    {
+                      "id": "1114",
+                      "title": "Flag: Suriname",
+                      "currentCldrName": "Flag: Suriname",
+                      "slug": "flag-suriname",
+                      "description": "<p>The flag for <a href=\"https://en.wikipedia.org/wiki/Suriname\">Suriname</a>, which may show as the letters <em>SR</em> on some platforms.</p>\n",
+                      "code": "🇸🇷"
+                    },
+                    {
+                      "id": "968",
+                      "title": "Flag: El Salvador",
+                      "currentCldrName": "Flag: El Salvador",
+                      "slug": "flag-el-salvador",
+                      "description": "<p>The flag for El Salvador, which may show as the letters&nbsp;<em>SV</em>&nbsp;on some platforms.</p>",
+                      "code": "🇸🇻"
+                    },
+                    {
+                      "id": "1095",
+                      "title": "Flag: Sint Maarten",
+                      "currentCldrName": "Flag: Sint Maarten",
+                      "slug": "flag-sint-maarten",
+                      "description": "<p>The flag for Sint Maarten, which may show as the letters&nbsp;<em>SX</em>&nbsp;on some platforms. This is the <a href=\"/flag-netherlands/\" title=\"🇳🇱 Flag for Netherlands\">Dutch</a> half of the of the Caribbean island of <em>Saint Martin</em>.&nbsp;Not to be confused with <a href=\"/flag-st-martin/\" title=\"🇲🇫 Flag for St. Martin\">St. Martin</a>, the French half of the same island.</p>",
+                      "code": "🇸🇽"
+                    },
+                    {
+                      "id": "1133",
+                      "title": "Flag: Turks & Caicos Islands",
+                      "currentCldrName": "Flag: Turks & Caicos Islands",
+                      "slug": "flag-turks-caicos-islands",
+                      "description": "<p>The flag for Turks &amp; Caicos Islands, which may show as the letters T and C on some platforms.</p>",
+                      "code": "🇹🇨"
+                    },
+                    {
+                      "id": "1128",
+                      "title": "Flag: Trinidad & Tobago",
+                      "currentCldrName": "Flag: Trinidad & Tobago",
+                      "slug": "flag-trinidad-tobago",
+                      "description": "<p>The flag for Trinidad &amp; Tobago, which may show as the letters T and T on some platforms.</p>",
+                      "code": "🇹🇹"
+                    },
+                    {
+                      "id": "1139",
+                      "title": "Flag: United States",
+                      "currentCldrName": "Flag: United States",
+                      "slug": "flag-united-states",
+                      "description": "<p>The flag for the&nbsp;<a href=\"https://en.wikipedia.org/wiki/United_States\">United States</a>&nbsp;of America (USA), which may show as the letters&nbsp;<em>US</em>&nbsp;on some platforms.</p>",
+                      "code": "🇺🇸"
+                    },
+                    {
+                      "id": "1140",
+                      "title": "Flag: Uruguay",
+                      "currentCldrName": "Flag: Uruguay",
+                      "slug": "flag-uruguay",
+                      "description": "<p>The flag for&nbsp;<a href=\"https://en.wikipedia.org/wiki/Uruguay\">Uruguay</a>, which may show as the letters&nbsp;<em>UY</em>&nbsp;on some platforms.</p>",
+                      "code": "🇺🇾"
+                    },
+                    {
+                      "id": "1146",
+                      "title": "Flag: Venezuela",
+                      "currentCldrName": "Flag: Venezuela",
+                      "slug": "flag-venezuela",
+                      "description": "<p>The flag for&nbsp;<a href=\"https://en.wikipedia.org/wiki/Venezuela\">Venezuela</a>, which may show as the letters&nbsp;<em>VE</em>&nbsp;on some platforms.</p>",
+                      "code": "🇻🇪"
+                    },
+                    {
+                      "id": "929",
+                      "title": "Flag: British Virgin Islands",
+                      "currentCldrName": "Flag: British Virgin Islands",
+                      "slug": "flag-british-virgin-islands",
+                      "description": "<p>The flag for British Virgin Islands, which may show as the letters&nbsp;<em>VG</em>&nbsp;on some platforms.</p>",
+                      "code": "🇻🇬"
+                    },
+                    {
+                      "id": "1142",
+                      "title": "Flag: U.S. Virgin Islands",
+                      "currentCldrName": "Flag: U.S. Virgin Islands",
+                      "slug": "flag-us-virgin-islands",
+                      "description": "<p>The flag for US Virgin Islands, which may show as the letters&nbsp;<em>VI</em>&nbsp;on some platforms.</p>",
+                      "code": "🇻🇮"
+                    }
+                  ]
+                },
+                {
+                  "slug": "asia-middle-east",
+                  "title": "Asia & The Middle East",
+                  "representingEmoji": {
+                    "code": "🌏"
+                  },
+                  "emoji": [
+                    {
+                      "id": "1137",
+                      "title": "Flag: United Arab Emirates",
+                      "currentCldrName": "Flag: United Arab Emirates",
+                      "slug": "flag-united-arab-emirates",
+                      "description": "<p>The flag for&nbsp;<a href=\"https://en.wikipedia.org/wiki/United_Arab_Emirates\">United Arab Emirates</a>, which may show as the letters&nbsp;<em>AE</em>&nbsp;on some platforms.</p>",
+                      "code": "🇦🇪"
+                    },
+                    {
+                      "id": "896",
+                      "title": "Flag: Afghanistan",
+                      "currentCldrName": "Flag: Afghanistan",
+                      "slug": "flag-afghanistan",
+                      "description": "<p>The flag for&nbsp;Afghanistan, which may show as the letters <em>AF</em> on some platforms.</p>\r\n\r\n<p>As of August 2021 this displays as the Black, Red and Green flag of the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Flag_of_Afghanistan#/media/File:Flag_of_Afghanistan.svg\">Islamic Republic of Afghanistan</a>. This may&nbsp;in future show the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Islamic_Emirate_of_Afghanistan#/media/File:Flag_of_Taliban.svg\">flag of the Taliban</a>&nbsp;to represent the&nbsp;<em>Islamic Emirate of Afghanistan</em>.</p>\r\n\r\n<p class=\"boxout\">&nbsp;🚩 Note: design may change <a href=\"https://blog.emojipedia.org/what-about-the-afghanistan-flag-emoji/\">in future</a>. Use with caution.</p>",
+                      "code": "🇦🇫"
+                    },
+                    {
+                      "id": "912",
+                      "title": "Flag: Azerbaijan",
+                      "currentCldrName": "Flag: Azerbaijan",
+                      "slug": "flag-azerbaijan",
+                      "description": "<p>The flag for Azerbaijan, which may show as the letters&nbsp;<em>AZ</em>&nbsp;on some platforms.</p>",
+                      "code": "🇦🇿"
+                    },
+                    {
+                      "id": "915",
+                      "title": "Flag: Bangladesh",
+                      "currentCldrName": "Flag: Bangladesh",
+                      "slug": "flag-bangladesh",
+                      "description": "<p>The flag for Bangladesh, which may show as the letters&nbsp;<em>BD</em>&nbsp;on some platforms.</p>",
+                      "code": "🇧🇩"
+                    },
+                    {
+                      "id": "914",
+                      "title": "Flag: Bahrain",
+                      "currentCldrName": "Flag: Bahrain",
+                      "slug": "flag-bahrain",
+                      "description": "<p>The flag for Bahrain, which may show as the letters&nbsp;<em>BH</em>&nbsp;on some platforms.</p>",
+                      "code": "🇧🇭"
+                    },
+                    {
+                      "id": "930",
+                      "title": "Flag: Brunei",
+                      "currentCldrName": "Flag: Brunei",
+                      "slug": "flag-brunei",
+                      "description": "<p>The flag for Brunei Darussalam, which may show as the letters&nbsp;<em>BN</em>&nbsp;on some platforms.</p>",
+                      "code": "🇧🇳"
+                    },
+                    {
+                      "id": "922",
+                      "title": "Flag: Bhutan",
+                      "currentCldrName": "Flag: Bhutan",
+                      "slug": "flag-bhutan",
+                      "description": "<p>The flag for Bhutan, which may show as the letters&nbsp;<em>BT</em>&nbsp;on some platforms.</p>",
+                      "code": "🇧🇹"
+                    },
+                    {
+                      "id": "945",
+                      "title": "Flag: China",
+                      "currentCldrName": "Flag: China",
+                      "slug": "flag-china",
+                      "description": "<p>The flag for <a href=\"https://en.wikipedia.org/wiki/China\">China</a>, which may show as the letters&nbsp;<em>CN</em>&nbsp;on some platforms.</p>",
+                      "code": "🇨🇳"
+                    },
+                    {
+                      "id": "1001",
+                      "title": "Flag: Hong Kong SAR China",
+                      "currentCldrName": "Flag: Hong Kong SAR China",
+                      "slug": "flag-hong-kong-sar-china",
+                      "description": "<p>The flag for <a href=\"https://en.wikipedia.org/wiki/Hong_Kong\">Hong Kong</a>, which may show as the letters&nbsp;<em>HK</em>&nbsp;on some platforms.</p>",
+                      "code": "🇭🇰"
+                    },
+                    {
+                      "id": "1005",
+                      "title": "Flag: Indonesia",
+                      "currentCldrName": "Flag: Indonesia",
+                      "slug": "flag-indonesia",
+                      "description": "<p>The flag for <a href=\"https://en.wikipedia.org/wiki/Indonesia\">Indonesia</a>, which may show as the letters&nbsp;<em>ID</em>&nbsp;on some platforms.</p>",
+                      "code": "🇮🇩"
+                    },
+                    {
+                      "id": "1010",
+                      "title": "Flag: Israel",
+                      "currentCldrName": "Flag: Israel",
+                      "slug": "flag-israel",
+                      "description": "<p>The flag for&nbsp;<a href=\"https://en.wikipedia.org/wiki/Israel\">Israel</a>, which may show as the letters&nbsp;<em>IL</em>&nbsp;on some platforms.</p>",
+                      "code": "🇮🇱"
+                    },
+                    {
+                      "id": "1004",
+                      "title": "Flag: India",
+                      "currentCldrName": "Flag: India",
+                      "slug": "flag-india",
+                      "description": "<p>The flag for <a href=\"https://en.wikipedia.org/wiki/India\">India</a>, which may show as the letters&nbsp;<em>IN</em>&nbsp;on some platforms.</p>",
+                      "code": "🇮🇳"
+                    },
+                    {
+                      "id": "1007",
+                      "title": "Flag: Iraq",
+                      "currentCldrName": "Flag: Iraq",
+                      "slug": "flag-iraq",
+                      "description": "<p>The flag for&nbsp;<a href=\"https://en.wikipedia.org/wiki/Iraq\">Iraq</a>, which may show as the letters&nbsp;<em>IQ</em>&nbsp;on some platforms.</p>",
+                      "code": "🇮🇶"
+                    },
+                    {
+                      "id": "1006",
+                      "title": "Flag: Iran",
+                      "currentCldrName": "Flag: Iran",
+                      "slug": "flag-iran",
+                      "description": "<p>The flag for&nbsp;<a href=\"https://en.wikipedia.org/wiki/Iran\">Iran</a>, which may show as the letters&nbsp;<em>IR</em>&nbsp;on some platforms.</p>",
+                      "code": "🇮🇷"
+                    },
+                    {
+                      "id": "1015",
+                      "title": "Flag: Jordan",
+                      "currentCldrName": "Flag: Jordan",
+                      "slug": "flag-jordan",
+                      "description": "<p>The flag for&nbsp;<a href=\"https://en.wikipedia.org/wiki/Jordan\">Jordan</a>, which may show as the letters&nbsp;<em>JO</em>&nbsp;on some platforms.</p>",
+                      "code": "🇯🇴"
+                    },
+                    {
+                      "id": "1013",
+                      "title": "Flag: Japan",
+                      "currentCldrName": "Flag: Japan",
+                      "slug": "flag-japan",
+                      "description": "<p>The flag for <a href=\"https://en.wikipedia.org/wiki/Japan\">Japan</a>, which may show as the letters&nbsp;<em>JP</em>&nbsp;on some platforms.</p>",
+                      "code": "🇯🇵"
+                    },
+                    {
+                      "id": "1021",
+                      "title": "Flag: Kyrgyzstan",
+                      "currentCldrName": "Flag: Kyrgyzstan",
+                      "slug": "flag-kyrgyzstan",
+                      "description": "<p>The flag for&nbsp;<a href=\"https://en.wikipedia.org/wiki/Kyrgyzstan\">Kyrgyzstan</a>, which may show as the letters&nbsp;<em>KG</em>&nbsp;on some platforms.</p>",
+                      "code": "🇰🇬"
+                    },
+                    {
+                      "id": "934",
+                      "title": "Flag: Cambodia",
+                      "currentCldrName": "Flag: Cambodia",
+                      "slug": "flag-cambodia",
+                      "description": "<p>The flag for Cambodia, which may show as the letters&nbsp;<em>KH</em>&nbsp;on some platforms.</p>",
+                      "code": "🇰🇭"
+                    },
+                    {
+                      "id": "1066",
+                      "title": "Flag: North Korea",
+                      "currentCldrName": "Flag: North Korea",
+                      "slug": "flag-north-korea",
+                      "description": "<p>The flag for&nbsp;<a href=\"https://en.wikipedia.org/wiki/North_Korea\">North Korea</a>, which may show as the letters&nbsp;<em>KP</em>&nbsp;on some platforms.</p>",
+                      "code": "🇰🇵"
+                    },
+                    {
+                      "id": "1102",
+                      "title": "Flag: South Korea",
+                      "currentCldrName": "Flag: South Korea",
+                      "slug": "flag-south-korea",
+                      "description": "<p>The flag for <a href=\"https://en.wikipedia.org/wiki/South_Korea\">South Korea</a>, which may show as the letters&nbsp;<em>KR</em>&nbsp;on some platforms.</p>",
+                      "code": "🇰🇷"
+                    },
+                    {
+                      "id": "1020",
+                      "title": "Flag: Kuwait",
+                      "currentCldrName": "Flag: Kuwait",
+                      "slug": "flag-kuwait",
+                      "description": "<p>The flag for&nbsp;<a href=\"https://en.wikipedia.org/wiki/Kuwait\">Kuwait</a>, which may show as the letters&nbsp;<em>KW</em>&nbsp;on some platforms.</p>",
+                      "code": "🇰🇼"
+                    },
+                    {
+                      "id": "1016",
+                      "title": "Flag: Kazakhstan",
+                      "currentCldrName": "Flag: Kazakhstan",
+                      "slug": "flag-kazakhstan",
+                      "description": "<p>The flag for&nbsp;<a href=\"https://en.wikipedia.org/wiki/Kazakhstan\">Kazakhstan</a>, which may show as the letters&nbsp;<em>KZ</em>&nbsp;on some platforms.</p>",
+                      "code": "🇰🇿"
+                    },
+                    {
+                      "id": "1022",
+                      "title": "Flag: Laos",
+                      "currentCldrName": "Flag: Laos",
+                      "slug": "flag-laos",
+                      "description": "<p>The flag for&nbsp;<a href=\"https://en.wikipedia.org/wiki/Laos\">Laos</a>, which may show as the letters&nbsp;<em>LA</em>&nbsp;on some platforms.</p>",
+                      "code": "🇱🇦"
+                    },
+                    {
+                      "id": "1024",
+                      "title": "Flag: Lebanon",
+                      "currentCldrName": "Flag: Lebanon",
+                      "slug": "flag-lebanon",
+                      "description": "<p>The flag for&nbsp;<a href=\"https://en.wikipedia.org/wiki/Lebanon\">Lebanon</a>, which may show as the letters&nbsp;<em>LB</em>&nbsp;on some platforms.</p>",
+                      "code": "🇱🇧"
+                    },
+                    {
+                      "id": "1105",
+                      "title": "Flag: Sri Lanka",
+                      "currentCldrName": "Flag: Sri Lanka",
+                      "slug": "flag-sri-lanka",
+                      "description": "<p>The flag for&nbsp;<a href=\"https://en.wikipedia.org/wiki/Sri_Lanka\">Sri Lanka</a>, which may show as the letters&nbsp;<em>LK</em>&nbsp;on some platforms.</p>",
+                      "code": "🇱🇰"
+                    },
+                    {
+                      "id": "1053",
+                      "title": "Flag: Myanmar (Burma)",
+                      "currentCldrName": "Flag: Myanmar (Burma)",
+                      "slug": "flag-myanmar-burma",
+                      "description": "<p>The flag for&nbsp;<a href=\"https://en.wikipedia.org/wiki/Burma\">Myanmar</a>, which may show as the letters&nbsp;<em>MM</em>&nbsp;on some platforms.</p>",
+                      "code": "🇲🇲"
+                    },
+                    {
+                      "id": "1048",
+                      "title": "Flag: Mongolia",
+                      "currentCldrName": "Flag: Mongolia",
+                      "slug": "flag-mongolia",
+                      "description": "<p>The flag for&nbsp;<a href=\"https://en.wikipedia.org/wiki/Mongolia\">Mongolia</a>, which may show as the letters&nbsp;<em>MN</em>&nbsp;on some platforms.</p>",
+                      "code": "🇲🇳"
+                    },
+                    {
+                      "id": "1031",
+                      "title": "Flag: Macao Sar China",
+                      "currentCldrName": "Flag: Macao Sar China",
+                      "slug": "flag-macao-sar-china",
+                      "description": "<p>The flag for&nbsp;<a href=\"https://en.wikipedia.org/wiki/Macau\">Macau</a>, which may show as the letters&nbsp;<em>MO</em>&nbsp;on some platforms.</p>",
+                      "code": "🇲🇴"
+                    },
+                    {
+                      "id": "1036",
+                      "title": "Flag: Maldives",
+                      "currentCldrName": "Flag: Maldives",
+                      "slug": "flag-maldives",
+                      "description": "<p>The flag for&nbsp;<a href=\"https://en.wikipedia.org/wiki/Maldives\">Maldives</a>, which may show as the letters&nbsp;<em>MV</em>&nbsp;on some platforms.</p>",
+                      "code": "🇲🇻"
+                    },
+                    {
+                      "id": "1035",
+                      "title": "Flag: Malaysia",
+                      "currentCldrName": "Flag: Malaysia",
+                      "slug": "flag-malaysia",
+                      "description": "<p>The flag for&nbsp;<a href=\"https://en.wikipedia.org/wiki/Malaysia\">Malaysia</a>, which may show as the letters&nbsp;<em>MY</em>&nbsp;on some platforms.</p>",
+                      "code": "🇲🇾"
+                    },
+                    {
+                      "id": "1056",
+                      "title": "Flag: Nepal",
+                      "currentCldrName": "Flag: Nepal",
+                      "slug": "flag-nepal",
+                      "description": "<p>The flag for&nbsp;<a href=\"https://en.wikipedia.org/wiki/Nepal\">Nepal</a>, which may show as the letters&nbsp;<em>NP</em>&nbsp;on some platforms.</p>",
+                      "code": "🇳🇵"
+                    },
+                    {
+                      "id": "1068",
+                      "title": "Flag: Oman",
+                      "currentCldrName": "Flag: Oman",
+                      "slug": "flag-oman",
+                      "description": "<p>The flag for&nbsp;<a href=\"https://en.wikipedia.org/wiki/Oman\">Oman</a>, which may show as the letters&nbsp;<em>OM</em>&nbsp;on some platforms.</p>",
+                      "code": "🇴🇲"
+                    },
+                    {
+                      "id": "1076",
+                      "title": "Flag: Philippines",
+                      "currentCldrName": "Flag: Philippines",
+                      "slug": "flag-philippines",
+                      "description": "<p>The flag for <a href=\"https://en.wikipedia.org/wiki/Philippines\">Philippines</a>, which may show as the letters&nbsp;<em>PH</em>&nbsp;on some platforms.</p>",
+                      "code": "🇵🇭"
+                    },
+                    {
+                      "id": "1069",
+                      "title": "Flag: Pakistan",
+                      "currentCldrName": "Flag: Pakistan",
+                      "slug": "flag-pakistan",
+                      "description": "<p>The flag for&nbsp;<a href=\"https://en.wikipedia.org/wiki/Pakistan\">Pakistan</a>, which may show as the letters&nbsp;<em>PK</em>&nbsp;on some platforms.</p>",
+                      "code": "🇵🇰"
+                    },
+                    {
+                      "id": "1071",
+                      "title": "Flag: Palestinian Territories",
+                      "currentCldrName": "Flag: Palestinian Territories",
+                      "slug": "flag-palestinian-territories",
+                      "description": "<p>The Palestinian flag, which may show as the letters P and S on some platforms.</p>",
+                      "code": "🇵🇸"
+                    },
+                    {
+                      "id": "1081",
+                      "title": "Flag: Qatar",
+                      "currentCldrName": "Flag: Qatar",
+                      "slug": "flag-qatar",
+                      "description": "<p>The flag for <a href=\"https://en.wikipedia.org/wiki/Qatar\">Qatar</a>, which may show as the letters&nbsp;<em>QA</em>&nbsp;on some platforms.</p>",
+                      "code": "🇶🇦"
+                    },
+                    {
+                      "id": "1084",
+                      "title": "Flag: Russia",
+                      "currentCldrName": "Flag: Russia",
+                      "slug": "flag-russia",
+                      "description": "<p>The flag for <a href=\"https://en.wikipedia.org/wiki/Russia\">Russia</a>, which may show as the letters&nbsp;<em>RU</em>&nbsp;on some platforms.</p>\r\n",
+                      "code": "🇷🇺"
+                    },
+                    {
+                      "id": "1089",
+                      "title": "Flag: Saudi Arabia",
+                      "currentCldrName": "Flag: Saudi Arabia",
+                      "slug": "flag-saudi-arabia",
+                      "description": "<p>The flag for <a href=\"https://en.wikipedia.org/wiki/Saudi_Arabia\">Saudi Arabia</a>, which may show as the letters&nbsp;<em>SA</em>&nbsp;on some platforms.</p>",
+                      "code": "🇸🇦"
+                    },
+                    {
+                      "id": "1094",
+                      "title": "Flag: Singapore",
+                      "currentCldrName": "Flag: Singapore",
+                      "slug": "flag-singapore",
+                      "description": "<p>The flag for <a href=\"https://en.wikipedia.org/wiki/Singapore\">Singapore</a>, which may show as the letters&nbsp;<em>SG</em>&nbsp;on some platforms.</p>",
+                      "code": "🇸🇬"
+                    },
+                    {
+                      "id": "1119",
+                      "title": "Flag: Syria",
+                      "currentCldrName": "Flag: Syria",
+                      "slug": "flag-syria",
+                      "description": "<p>The flag for&nbsp;<a href=\"https://en.wikipedia.org/wiki/Syria\">Syria</a>, which may show as the letters&nbsp;<em>SY</em>&nbsp;on some platforms.</p>",
+                      "code": "🇸🇾"
+                    },
+                    {
+                      "id": "1123",
+                      "title": "Flag: Thailand",
+                      "currentCldrName": "Flag: Thailand",
+                      "slug": "flag-thailand",
+                      "description": "<p>The flag for&nbsp;<a href=\"https://en.wikipedia.org/wiki/Thailand\">Thailand</a>, which may show as the letters&nbsp;<em>TH</em>&nbsp;on some platforms.</p>",
+                      "code": "🇹🇭"
+                    },
+                    {
+                      "id": "1121",
+                      "title": "Flag: Tajikistan",
+                      "currentCldrName": "Flag: Tajikistan",
+                      "slug": "flag-tajikistan",
+                      "description": "<p>The flag for&nbsp;<a href=\"https://en.wikipedia.org/wiki/Tajikistan\">Tajikistan</a>, which may show as the letters&nbsp;<em>TJ</em>&nbsp;on some platforms.</p>",
+                      "code": "🇹🇯"
+                    },
+                    {
+                      "id": "1124",
+                      "title": "Flag: Timor-Leste",
+                      "currentCldrName": "Flag: Timor-Leste",
+                      "slug": "flag-timor-leste",
+                      "description": "<p>The flag for&nbsp;<a href=\"https://en.wikipedia.org/wiki/East_Timor\">East Timor</a>, which may show as the letters&nbsp;<em>TL</em>&nbsp;on some platforms.</p>",
+                      "code": "🇹🇱"
+                    },
+                    {
+                      "id": "1132",
+                      "title": "Flag: Turkmenistan",
+                      "currentCldrName": "Flag: Turkmenistan",
+                      "slug": "flag-turkmenistan",
+                      "description": "<p>The flag for&nbsp;<a href=\"https://en.wikipedia.org/wiki/Turkmenistan\">Turkmenistan</a>, which may show as the letters&nbsp;<em>TM</em>&nbsp;on some platforms.</p>",
+                      "code": "🇹🇲"
+                    },
+                    {
+                      "id": "1131",
+                      "title": "Flag: Turkey (Türkiye)",
+                      "currentCldrName": "Flag: Turkey",
+                      "slug": "flag-turkey",
+                      "description": "<p>The flag for&nbsp;<a href=\"https://en.wikipedia.org/wiki/Turkey\">Turkey</a>&nbsp;(T&uuml;rkiye), which may show as the letters&nbsp;<em>TR</em>&nbsp;on some platforms.</p>",
+                      "code": "🇹🇷"
+                    },
+                    {
+                      "id": "1120",
+                      "title": "Flag: Taiwan",
+                      "currentCldrName": "Flag: Taiwan",
+                      "slug": "flag-taiwan",
+                      "description": "<p>The flag for&nbsp;<a href=\"https://en.wikipedia.org/wiki/Taiwan\">Taiwan</a>&nbsp;(officially&nbsp;<em>Republic of China</em>), which may show as the letters&nbsp;<em>TW</em>&nbsp;on some platforms.</p>\r\n\r\n<p>This Taiwanese flag&nbsp;is hidden from the emoji keyboard on iOS devices <a href=\"https://blog.emojipedia.org/one-emoji-doesnt-show-on-ios-in-china/\">when&nbsp;the region is set to China mainland</a>&nbsp;or (as of iOS 13.1.2) Hong Kong or Macau.</p>\r\n\r\n<p>Chinese-model iPhones will&nbsp;not display this emoji&nbsp;and will instead show a missing character tofu (☒) in place of the flag, as will iOS devices with region set to <em>China mainland</em>. Hong Kong and Macua only <a href=\"https://blog.emojipedia.org/apple-hides-taiwan-flag-in-hong-kong/\">hide this emoji from the emoji keyboard</a>.</p>\r\n\r\n<p>This emoji is also not available within emoji set created by&nbsp;Chinese mobile manufacturer&nbsp;<a href=\"/huawei\">Huawei</a>&nbsp;- it will render as a blank space.</p>",
+                      "code": "🇹🇼"
+                    },
+                    {
+                      "id": "1143",
+                      "title": "Flag: Uzbekistan",
+                      "currentCldrName": "Flag: Uzbekistan",
+                      "slug": "flag-uzbekistan",
+                      "description": "<p>The flag for&nbsp;<a href=\"https://en.wikipedia.org/wiki/Uzbekistan\">Uzbekistan</a>, which may show as the letters&nbsp;<em>UZ</em>&nbsp;on some platforms.</p>",
+                      "code": "🇺🇿"
+                    },
+                    {
+                      "id": "1147",
+                      "title": "Flag: Vietnam",
+                      "currentCldrName": "Flag: Vietnam",
+                      "slug": "flag-vietnam",
+                      "description": "<p>The flag for&nbsp;<a href=\"https://en.wikipedia.org/wiki/Vietnam\">Vietnam</a>, which may show as the letters&nbsp;<em>VN</em>&nbsp;on some platforms.</p>",
+                      "code": "🇻🇳"
+                    },
+                    {
+                      "id": "1150",
+                      "title": "Flag: Yemen",
+                      "currentCldrName": "Flag: Yemen",
+                      "slug": "flag-yemen",
+                      "description": "<p>The flag for&nbsp;<a href=\"https://en.wikipedia.org/wiki/Yemen\">Yemen</a>, which may show as the letters&nbsp;<em>YE</em>&nbsp;on some platforms.</p>",
+                      "code": "🇾🇪"
+                    }
+                  ]
+                },
+                {
+                  "slug": "europe",
+                  "title": "Europe",
+                  "representingEmoji": {
+                    "code": "🌍"
+                  },
+                  "emoji": [
+                    {
+                      "id": "901",
+                      "title": "Flag: Andorra",
+                      "currentCldrName": "Flag: Andorra",
+                      "slug": "flag-andorra",
+                      "description": "<p>The flag for Andorra, which may show as the letters <em>AD</em> on some platforms.</p>",
+                      "code": "🇦🇩"
+                    },
+                    {
+                      "id": "898",
+                      "title": "Flag: Albania",
+                      "currentCldrName": "Flag: Albania",
+                      "slug": "flag-albania",
+                      "description": "<p>The flag for Albania, which may show as the letters <em>AL</em> on some platforms.</p>",
+                      "code": "🇦🇱"
+                    },
+                    {
+                      "id": "907",
+                      "title": "Flag: Armenia",
+                      "currentCldrName": "Flag: Armenia",
+                      "slug": "flag-armenia",
+                      "description": "<p>The flag for Armenia, which may show as the letters <em>AM</em> on some platforms.</p>",
+                      "code": "🇦🇲"
+                    },
+                    {
+                      "id": "911",
+                      "title": "Flag: Austria",
+                      "currentCldrName": "Flag: Austria",
+                      "slug": "flag-austria",
+                      "description": "<p>The flag for <a href=\"https://en.wikipedia.org/wiki/Austria\">Austria</a>, which may show as the letters&nbsp;<em>AT</em>&nbsp;on some platforms.</p>",
+                      "code": "🇦🇹"
+                    },
+                    {
+                      "id": "924",
+                      "title": "Flag: Bosnia & Herzegovina",
+                      "currentCldrName": "Flag: Bosnia & Herzegovina",
+                      "slug": "flag-bosnia-herzegovina",
+                      "description": "<p>The flag for the Bosnia &amp; Herzegovina, which may show as the letters B and A on some platforms.</p>",
+                      "code": "🇧🇦"
+                    },
+                    {
+                      "id": "918",
+                      "title": "Flag: Belgium",
+                      "currentCldrName": "Flag: Belgium",
+                      "slug": "flag-belgium",
+                      "description": "<p>The flag for <a href=\"https://en.wikipedia.org/wiki/Belgium\">Belgium</a>, which may show as the letters&nbsp;<em>BE</em>&nbsp;on some platforms.</p>",
+                      "code": "🇧🇪"
+                    },
+                    {
+                      "id": "931",
+                      "title": "Flag: Bulgaria",
+                      "currentCldrName": "Flag: Bulgaria",
+                      "slug": "flag-bulgaria",
+                      "description": "<p>The flag for Bulgaria, which may show as the letters&nbsp;<em>BG</em>&nbsp;on some platforms.</p>",
+                      "code": "🇧🇬"
+                    },
+                    {
+                      "id": "917",
+                      "title": "Flag: Belarus",
+                      "currentCldrName": "Flag: Belarus",
+                      "slug": "flag-belarus",
+                      "description": "<p>The flag for Belarus, which may show as the letters&nbsp;<em>BY</em>&nbsp;on some platforms.</p>",
+                      "code": "🇧🇾"
+                    },
+                    {
+                      "id": "1118",
+                      "title": "Flag: Switzerland",
+                      "currentCldrName": "Flag: Switzerland",
+                      "slug": "flag-switzerland",
+                      "description": "<p>The flag for&nbsp;<a href=\"https://en.wikipedia.org/wiki/Switzerland\">Switzerland</a>, which may show as the letters&nbsp;<em>CH</em>&nbsp;on some platforms.</p>\r\n\r\n<p>This flag is red, with a white cross in the center. Unlike most global flags, it is square instead of&nbsp;rectangular.</p>\r\n\r\n<p>Initially most vendors displayed this flag as a&nbsp;rectangle,&nbsp;consistent with other emoji flags, but today the majority of vendors display the flag with its accurate real-world shape.</p>",
+                      "code": "🇨🇭"
+                    },
+                    {
+                      "id": "959",
+                      "title": "Flag: Cyprus",
+                      "currentCldrName": "Flag: Cyprus",
+                      "slug": "flag-cyprus",
+                      "description": "<p>The flag for Cyprus, which may show as the letters&nbsp;<em>CY</em>&nbsp;on some platforms.</p>",
+                      "code": "🇨🇾"
+                    },
+                    {
+                      "id": "960",
+                      "title": "Flag: Czechia",
+                      "currentCldrName": "Flag: Czechia",
+                      "slug": "flag-czechia",
+                      "description": "<p>The flag for Czechia, which may show as the letters&nbsp;<em>CZ</em>&nbsp;on some platforms. Also&nbsp;known as&nbsp;<em>Czech Republic</em>.</p>",
+                      "code": "🇨🇿"
+                    },
+                    {
+                      "id": "985",
+                      "title": "Flag: Germany",
+                      "currentCldrName": "Flag: Germany",
+                      "slug": "flag-germany",
+                      "description": "<p>The flag for <a href=\"https://en.wikipedia.org/wiki/Germany\">Germany</a>, which may show as the letters&nbsp;<em>DE</em>&nbsp;on some platforms</p>",
+                      "code": "🇩🇪"
+                    },
+                    {
+                      "id": "961",
+                      "title": "Flag: Denmark",
+                      "currentCldrName": "Flag: Denmark",
+                      "slug": "flag-denmark",
+                      "description": "<p>The flag for <a href=\"https://en.wikipedia.org/wiki/Denmark\">Denmark</a>, which may show as the letters&nbsp;<em>DK</em>&nbsp;on some platforms.</p>",
+                      "code": "🇩🇰"
+                    },
+                    {
+                      "id": "942",
+                      "title": "Flag: Ceuta & Melilla",
+                      "currentCldrName": "Flag: Ceuta & Melilla",
+                      "slug": "flag-ceuta-melilla",
+                      "description": "<p>The flag for Ceuta, Melilla, which may show as the letters <em>EA</em> on some platforms. Uses the same flag as <a href=\"/flag-spain/\" title=\"🇪🇸 Flag for Spain\">Spain</a>.</p>",
+                      "code": "🇪🇦"
+                    },
+                    {
+                      "id": "971",
+                      "title": "Flag: Estonia",
+                      "currentCldrName": "Flag: Estonia",
+                      "slug": "flag-estonia",
+                      "description": "<p>The flag for Estonia, which may show as the letters&nbsp;<em>EE</em>&nbsp;on some platforms.</p>",
+                      "code": "🇪🇪"
+                    },
+                    {
+                      "id": "1104",
+                      "title": "Flag: Spain",
+                      "currentCldrName": "Flag: Spain",
+                      "slug": "flag-spain",
+                      "description": "<p>The flag for <a href=\"https://en.wikipedia.org/wiki/Spain\">Spain</a>, which may show as the letters&nbsp;<em>ES</em>&nbsp;on some platforms.</p>",
+                      "code": "🇪🇸"
+                    },
+                    {
+                      "id": "973",
+                      "title": "Flag: European Union",
+                      "currentCldrName": "Flag: European Union",
+                      "slug": "flag-european-union",
+                      "description": "<p>The flag for&nbsp;<a href=\"https://en.wikipedia.org/wiki/European_Union\">European Union</a>,&nbsp;which may show as the letters&nbsp;<em>EU</em>&nbsp;on some platforms.</p>",
+                      "code": "🇪🇺"
+                    },
+                    {
+                      "id": "977",
+                      "title": "Flag: Finland",
+                      "currentCldrName": "Flag: Finland",
+                      "slug": "flag-finland",
+                      "description": "<p>The flag for <a href=\"https://en.wikipedia.org/wiki/Finland\">Finland</a>, which may show as the letters&nbsp;<em>FI</em>&nbsp;on some platforms.</p>\r\n\r\n<ul>\r\n\t<li>🇫🇮 Finnish Flag Emoji</li>\r\n</ul>",
+                      "code": "🇫🇮"
+                    },
+                    {
+                      "id": "978",
+                      "title": "Flag: France",
+                      "currentCldrName": "Flag: France",
+                      "slug": "flag-france",
+                      "description": "<p>The flag for <a href=\"https://en.wikipedia.org/wiki/France\">France</a>, which may show as the letters&nbsp;<em>FR</em>&nbsp;on some platforms.</p>",
+                      "code": "🇫🇷"
+                    },
+                    {
+                      "id": "1138",
+                      "title": "Flag: United Kingdom",
+                      "currentCldrName": "Flag: United Kingdom",
+                      "slug": "flag-united-kingdom",
+                      "description": "<p>The flag for the&nbsp;<a href=\"https://en.wikipedia.org/wiki/United_Kingdom\">United Kingdom</a>, which may show as the letters <em>GB</em>&nbsp;on some platforms.&nbsp;<a href=\"/flag-england/\">England</a>, <a href=\"/flag-scotland/\">Scotland</a> and <a href=\"/flag-wales/\">Wales</a>&nbsp;also have individual emoji&nbsp;flags.</p>",
+                      "code": "🇬🇧"
+                    },
+                    {
+                      "id": "984",
+                      "title": "Flag: Georgia",
+                      "currentCldrName": "Flag: Georgia",
+                      "slug": "flag-georgia",
+                      "description": "<p>The flag for <a href=\"https://en.wikipedia.org/wiki/Georgia_(country)\">Georgia</a>, which may show as the letters&nbsp;<em>GE</em>&nbsp;on some platforms.</p>",
+                      "code": "🇬🇪"
+                    },
+                    {
+                      "id": "994",
+                      "title": "Flag: Guernsey",
+                      "currentCldrName": "Flag: Guernsey",
+                      "slug": "flag-guernsey",
+                      "description": "<p>The flag for <a href=\"https://en.wikipedia.org/wiki/Guernsey\">Guernsey</a>, which may show as the letters&nbsp;<em>GG</em>&nbsp;on some platforms.</p>",
+                      "code": "🇬🇬"
+                    },
+                    {
+                      "id": "987",
+                      "title": "Flag: Gibraltar",
+                      "currentCldrName": "Flag: Gibraltar",
+                      "slug": "flag-gibraltar",
+                      "description": "<p>The flag for Gibraltar, which may show as the letters&nbsp;<em>GI</em>&nbsp;on some platforms.</p>",
+                      "code": "🇬🇮"
+                    },
+                    {
+                      "id": "988",
+                      "title": "Flag: Greece",
+                      "currentCldrName": "Flag: Greece",
+                      "slug": "flag-greece",
+                      "description": "<p>The flag for <a href=\"https://en.wikipedia.org/wiki/Greece\">Greece</a>, which may show as the letters&nbsp;<em>GR</em>&nbsp;on some platforms.</p>",
+                      "code": "🇬🇷"
+                    },
+                    {
+                      "id": "956",
+                      "title": "Flag: Croatia",
+                      "currentCldrName": "Flag: Croatia",
+                      "slug": "flag-croatia",
+                      "description": "<p>The flag for Croatia, which may show as the letters&nbsp;<em>HR</em>&nbsp;on some platforms.</p>",
+                      "code": "🇭🇷"
+                    },
+                    {
+                      "id": "1002",
+                      "title": "Flag: Hungary",
+                      "currentCldrName": "Flag: Hungary",
+                      "slug": "flag-hungary",
+                      "description": "<p>The flag for <a href=\"https://en.wikipedia.org/wiki/Hungary\">Hungary</a>, which may show as the letters&nbsp;<em>HU</em>&nbsp;on some platforms.</p>",
+                      "code": "🇭🇺"
+                    },
+                    {
+                      "id": "1008",
+                      "title": "Flag: Ireland",
+                      "currentCldrName": "Flag: Ireland",
+                      "slug": "flag-ireland",
+                      "description": "<p>The flag for&nbsp;<a href=\"https://en.wikipedia.org/wiki/Republic_of_Ireland\">Ireland</a>, which may show as the letters&nbsp;<em>IE</em>&nbsp;on some platforms.</p>",
+                      "code": "🇮🇪"
+                    },
+                    {
+                      "id": "1009",
+                      "title": "Flag: Isle of Man",
+                      "currentCldrName": "Flag: Isle of Man",
+                      "slug": "flag-isle-of-man",
+                      "description": "<p>The flag for&nbsp;<a href=\"https://en.wikipedia.org/wiki/Isle_of_Man\">Isle of Man</a>,&nbsp;which may show as the letters&nbsp;<em>IM</em>&nbsp;on some platforms.</p>",
+                      "code": "🇮🇲"
+                    },
+                    {
+                      "id": "1003",
+                      "title": "Flag: Iceland",
+                      "currentCldrName": "Flag: Iceland",
+                      "slug": "flag-iceland",
+                      "description": "<p>The flag for <a href=\"https://en.wikipedia.org/wiki/Iceland\">Iceland</a>, which may show as the letters&nbsp;<em>IS</em>&nbsp;on some platforms.</p>",
+                      "code": "🇮🇸"
+                    },
+                    {
+                      "id": "1011",
+                      "title": "Flag: Italy",
+                      "currentCldrName": "Flag: Italy",
+                      "slug": "flag-italy",
+                      "description": "<p>The flag for <a href=\"https://en.wikipedia.org/wiki/Italy\">Italy</a>, which may show as the letters&nbsp;<em>IT</em>&nbsp;on some platforms.</p>",
+                      "code": "🇮🇹"
+                    },
+                    {
+                      "id": "1014",
+                      "title": "Flag: Jersey",
+                      "currentCldrName": "Flag: Jersey",
+                      "slug": "flag-jersey",
+                      "description": "<p>The flag for&nbsp;<a href=\"https://en.wikipedia.org/wiki/Jersey\">Jersey</a>, which may show as the letters&nbsp;<em>JE</em>&nbsp;on some platforms.</p>",
+                      "code": "🇯🇪"
+                    },
+                    {
+                      "id": "1028",
+                      "title": "Flag: Liechtenstein",
+                      "currentCldrName": "Flag: Liechtenstein",
+                      "slug": "flag-liechtenstein",
+                      "description": "<p>The flag for&nbsp;<a href=\"https://en.wikipedia.org/wiki/Liechtenstein\">Liechtenstein</a>, which may show as the letters&nbsp;<em>LI</em>&nbsp;on some platforms.</p>",
+                      "code": "🇱🇮"
+                    },
+                    {
+                      "id": "1029",
+                      "title": "Flag: Lithuania",
+                      "currentCldrName": "Flag: Lithuania",
+                      "slug": "flag-lithuania",
+                      "description": "<p>The flag for&nbsp;<a href=\"https://en.wikipedia.org/wiki/Lithuania\">Lithuania</a>, which may show as the letters&nbsp;<em>LT</em>&nbsp;on some platforms.</p>",
+                      "code": "🇱🇹"
+                    },
+                    {
+                      "id": "1030",
+                      "title": "Flag: Luxembourg",
+                      "currentCldrName": "Flag: Luxembourg",
+                      "slug": "flag-luxembourg",
+                      "description": "<p>The flag for&nbsp;<a href=\"https://en.wikipedia.org/wiki/Luxembourg\">Luxembourg</a>, which may show as the letters&nbsp;<em>LU</em>&nbsp;on some platforms</p>",
+                      "code": "🇱🇺"
+                    },
+                    {
+                      "id": "1023",
+                      "title": "Flag: Latvia",
+                      "currentCldrName": "Flag: Latvia",
+                      "slug": "flag-latvia",
+                      "description": "<p>The flag for&nbsp;Latvia, which may show as the letters&nbsp;<em>LV</em>&nbsp;on some platforms.</p>",
+                      "code": "🇱🇻"
+                    },
+                    {
+                      "id": "1047",
+                      "title": "Flag: Monaco",
+                      "currentCldrName": "Flag: Monaco",
+                      "slug": "flag-monaco",
+                      "description": "<p>The flag for&nbsp;<a href=\"https://en.wikipedia.org/wiki/Monaco\">Monaco</a>, which may show as the letters&nbsp;<em>MC</em>&nbsp;on some platforms.</p>",
+                      "code": "🇲🇨"
+                    },
+                    {
+                      "id": "1046",
+                      "title": "Flag: Moldova",
+                      "currentCldrName": "Flag: Moldova",
+                      "slug": "flag-moldova",
+                      "description": "<p>The flag for&nbsp;<a href=\"https://en.wikipedia.org/wiki/Moldova\">Moldova</a>, which may show as the letters&nbsp;<em>MD</em>&nbsp;on some platforms.</p>",
+                      "code": "🇲🇩"
+                    },
+                    {
+                      "id": "1049",
+                      "title": "Flag: Montenegro",
+                      "currentCldrName": "Flag: Montenegro",
+                      "slug": "flag-montenegro",
+                      "description": "<p>The flag for&nbsp;<a href=\"https://en.wikipedia.org/wiki/Montenegro\">Montenegro</a>, which may show as the letters&nbsp;<em>ME</em>&nbsp;on some platforms</p>",
+                      "code": "🇲🇪"
+                    },
+                    {
+                      "id": "1032",
+                      "title": "Flag: North Macedonia",
+                      "currentCldrName": "Flag: North Macedonia",
+                      "slug": "flag-north-macedonia",
+                      "description": "<p>The flag for&nbsp;<a href=\"https://en.wikipedia.org/wiki/North_Macedonia\">North&nbsp;Macedonia</a>&nbsp;(until 2019: <em>Macedonia</em>), which may show as the letters&nbsp;<em>MK</em>&nbsp;on some platforms.</p>\r\n\r\n<p>Displays&nbsp;a stylized yellow sun on a red background, with eight rays extending from the center to each edge.</p>",
+                      "code": "🇲🇰"
+                    },
+                    {
+                      "id": "1038",
+                      "title": "Flag: Malta",
+                      "currentCldrName": "Flag: Malta",
+                      "slug": "flag-malta",
+                      "description": "<p>The flag for&nbsp;<a href=\"https://en.wikipedia.org/wiki/Malta\">Malta</a>, which may show as the letters&nbsp;<em>MT</em>&nbsp;on some platforms.</p>",
+                      "code": "🇲🇹"
+                    },
+                    {
+                      "id": "1057",
+                      "title": "Flag: Netherlands",
+                      "currentCldrName": "Flag: Netherlands",
+                      "slug": "flag-netherlands",
+                      "description": "<p>The flag for&nbsp;<a href=\"https://en.wikipedia.org/wiki/Netherlands\">Netherlands</a>, which may show as the letters&nbsp;<em>NL</em>&nbsp;on some platforms.</p>",
+                      "code": "🇳🇱"
+                    },
+                    {
+                      "id": "1067",
+                      "title": "Flag: Norway",
+                      "currentCldrName": "Flag: Norway",
+                      "slug": "flag-norway",
+                      "description": "<p>The flag for&nbsp;<a href=\"https://en.wikipedia.org/wiki/Norway\">Norway</a>, which may show as the letters&nbsp;<em>NO</em>&nbsp;on some platforms.</p>",
+                      "code": "🇳🇴"
+                    },
+                    {
+                      "id": "1078",
+                      "title": "Flag: Poland",
+                      "currentCldrName": "Flag: Poland",
+                      "slug": "flag-poland",
+                      "description": "<p>The flag for <a href=\"https://en.wikipedia.org/wiki/Poland\">Poland</a>, which may show as the letters&nbsp;<em>PL</em>&nbsp;on some platforms.</p>",
+                      "code": "🇵🇱"
+                    },
+                    {
+                      "id": "1079",
+                      "title": "Flag: Portugal",
+                      "currentCldrName": "Flag: Portugal",
+                      "slug": "flag-portugal",
+                      "description": "<p>The flag for <a href=\"https://en.wikipedia.org/wiki/Portugal\">Portugal</a>, which may show as the letters&nbsp;<em>PT</em>&nbsp;on some platforms.</p>",
+                      "code": "🇵🇹"
+                    },
+                    {
+                      "id": "1083",
+                      "title": "Flag: Romania",
+                      "currentCldrName": "Flag: Romania",
+                      "slug": "flag-romania",
+                      "description": "<p>The flag for <a href=\"https://en.wikipedia.org/wiki/Romania\">Romania</a>, which may show as the letters&nbsp;<em>RO</em>&nbsp;on some platforms.</p>",
+                      "code": "🇷🇴"
+                    },
+                    {
+                      "id": "1091",
+                      "title": "Flag: Serbia",
+                      "currentCldrName": "Flag: Serbia",
+                      "slug": "flag-serbia",
+                      "description": "<p>The flag for <a href=\"https://en.wikipedia.org/wiki/Serbia\">Serbia</a>, which may show as the letters&nbsp;<em>RS</em>&nbsp;on some platforms.</p>",
+                      "code": "🇷🇸"
+                    },
+                    {
+                      "id": "1084",
+                      "title": "Flag: Russia",
+                      "currentCldrName": "Flag: Russia",
+                      "slug": "flag-russia",
+                      "description": "<p>The flag for <a href=\"https://en.wikipedia.org/wiki/Russia\">Russia</a>, which may show as the letters&nbsp;<em>RU</em>&nbsp;on some platforms.</p>\r\n",
+                      "code": "🇷🇺"
+                    },
+                    {
+                      "id": "1117",
+                      "title": "Flag: Sweden",
+                      "currentCldrName": "Flag: Sweden",
+                      "slug": "flag-sweden",
+                      "description": "<p>The flag for <a href=\"https://en.wikipedia.org/wiki/Sweden\">Sweden</a>, which may show as the letters <em>SE</em> on some platforms.</p>\n",
+                      "code": "🇸🇪"
+                    },
+                    {
+                      "id": "1097",
+                      "title": "Flag: Slovenia",
+                      "currentCldrName": "Flag: Slovenia",
+                      "slug": "flag-slovenia",
+                      "description": "<p>The flag for <a href=\"https://en.wikipedia.org/wiki/Slovenia\">Slovenia</a>, which may show as the letters&nbsp;<em>SI</em>&nbsp;on some platforms.</p>",
+                      "code": "🇸🇮"
+                    },
+                    {
+                      "id": "1096",
+                      "title": "Flag: Slovakia",
+                      "currentCldrName": "Flag: Slovakia",
+                      "slug": "flag-slovakia",
+                      "description": "<p>The flag for <a href=\"https://en.wikipedia.org/wiki/Slovakia\">Slovakia</a>, which may show as the letters&nbsp;<em>SK</em>&nbsp;on some platforms.</p>",
+                      "code": "🇸🇰"
+                    },
+                    {
+                      "id": "1087",
+                      "title": "Flag: San Marino",
+                      "currentCldrName": "Flag: San Marino",
+                      "slug": "flag-san-marino",
+                      "description": "<p>The flag for <a href=\"https://en.wikipedia.org/wiki/San_Marino\">San Marino</a>, which may show as the letters&nbsp;<em>SM</em>&nbsp;on some platforms.</p>",
+                      "code": "🇸🇲"
+                    },
+                    {
+                      "id": "1136",
+                      "title": "Flag: Ukraine",
+                      "currentCldrName": "Flag: Ukraine",
+                      "slug": "flag-ukraine",
+                      "description": "<p>The flag for&nbsp;Ukraine, which may show as the letters&nbsp;<em>UA</em>&nbsp;on some platforms.</p>",
+                      "code": "🇺🇦"
+                    },
+                    {
+                      "id": "1145",
+                      "title": "Flag: Vatican City",
+                      "currentCldrName": "Flag: Vatican City",
+                      "slug": "flag-vatican-city",
+                      "description": "<p>The flag for&nbsp;<a href=\"https://en.wikipedia.org/wiki/Vatican_City\">Vatican City</a>, which may show as the letters&nbsp;<em>VA</em>&nbsp;on some platforms.</p>",
+                      "code": "🇻🇦"
+                    },
+                    {
+                      "id": "1019",
+                      "title": "Flag: Kosovo",
+                      "currentCldrName": "Flag: Kosovo",
+                      "slug": "flag-kosovo",
+                      "description": "<p>The flag for Kosovo, which may show as the letters <em>XK</em> on some platforms.</p>",
+                      "code": "🇽🇰"
+                    },
+                    {
+                      "id": "1858",
+                      "title": "Flag: England",
+                      "currentCldrName": "Flag: England",
+                      "slug": "flag-england",
+                      "description": "<p>The flag for England, a country in the <a href=\"/flag-united-kingdom/\" title=\"🇬🇧 Flag for United Kingdom\">United Kingdom</a>. May&nbsp;show as the letters&nbsp;<em>gbeng.</em></p>",
+                      "code": "🏴󠁧󠁢󠁥󠁮󠁧󠁿"
+                    },
+                    {
+                      "id": "1859",
+                      "title": "Flag: Scotland",
+                      "currentCldrName": "Flag: Scotland",
+                      "slug": "flag-scotland",
+                      "description": "<p>The flag for Scotland, a country in the <a href=\"/flag-united-kingdom/\" title=\"🇬🇧 Flag for United Kingdom\">United Kingdom</a>.&nbsp;May&nbsp;show as the letters&nbsp;<em>gbsct.</em></p>",
+                      "code": "🏴󠁧󠁢󠁳󠁣󠁴󠁿"
+                    },
+                    {
+                      "id": "1860",
+                      "title": "Flag: Wales",
+                      "currentCldrName": "Flag: Wales",
+                      "slug": "flag-wales",
+                      "description": "<p>The flag for Wales, a country in the <a href=\"/flag-united-kingdom/\" title=\"🇬🇧 Flag for United Kingdom\">United Kingdom</a>. May&nbsp;show as the letters&nbsp;<em>gbwls.</em></p>",
+                      "code": "🏴󠁧󠁢󠁷󠁬󠁳󠁿"
+                    }
+                  ]
+                },
+                {
+                  "slug": "oceania-island-nations-territories",
+                  "title": "Oceania, Island Nations & Territories",
+                  "representingEmoji": {
+                    "code": "🌏"
+                  },
+                  "emoji": [
+                    {
+                      "id": "909",
+                      "title": "Flag: Ascension Island",
+                      "currentCldrName": "Flag: Ascension Island",
+                      "slug": "flag-ascension-island",
+                      "description": "<p>The flag for Ascension Island, which may show as the letters <em>AC</em> on some platforms. Apple devices show the&nbsp;<a href=\"/flag-st-helena/\" title=\"🇸🇭 Flag for St. Helena\">St. Helena</a>&nbsp;flag for both Ascension Island and&nbsp;<a href=\"/flag-tristan-da-cunha/\" title=\"🇹🇦 Flag for Tristan Da Cunha\">Tristan Da Cunha</a>.</p>",
+                      "code": "🇦🇨"
+                    },
+                    {
+                      "id": "904",
+                      "title": "Flag: Antarctica",
+                      "currentCldrName": "Flag: Antarctica",
+                      "slug": "flag-antarctica",
+                      "description": "<p>The flag for Antarctica, which may show as the letters <em>AQ</em> on some platforms.</p>",
+                      "code": "🇦🇶"
+                    },
+                    {
+                      "id": "900",
+                      "title": "Flag: American Samoa",
+                      "currentCldrName": "Flag: American Samoa",
+                      "slug": "flag-american-samoa",
+                      "description": "<p>The flag for American Samoa, which may show as the letters <em>AS</em> on some platforms.</p>",
+                      "code": "🇦🇸"
+                    },
+                    {
+                      "id": "910",
+                      "title": "Flag: Australia",
+                      "currentCldrName": "Flag: Australia",
+                      "slug": "flag-australia",
+                      "description": "<p>The flag for <a href=\"https://en.wikipedia.org/wiki/Australia\">Australia</a>, which may show as the letters <em>AU</em> on some platforms.</p>",
+                      "code": "🇦🇺"
+                    },
+                    {
+                      "id": "897",
+                      "title": "Flag: Åland Islands",
+                      "currentCldrName": "Flag: Åland Islands",
+                      "slug": "flag-aland-islands",
+                      "description": "<p>The flag for&nbsp;<a href=\"https://en.wikipedia.org/wiki/%C3%85land_Islands\">&Aring;land Islands</a>,&nbsp;which may show as the letters&nbsp;<em>AX</em>&nbsp;on some platforms.</p>",
+                      "code": "🇦🇽"
+                    },
+                    {
+                      "id": "926",
+                      "title": "Flag: Bouvet Island",
+                      "currentCldrName": "Flag: Bouvet Island",
+                      "slug": "flag-bouvet-island",
+                      "description": "<p>The flag for Bouvet Island, which may show as the letters&nbsp;<em>BV</em>&nbsp;on some platforms.&nbsp;This is the same flag as <a href=\"/flag-norway/\" title=\"🇳🇴 Flag for Norway\">Norway</a>.</p>",
+                      "code": "🇧🇻"
+                    },
+                    {
+                      "id": "948",
+                      "title": "Flag: Cocos (Keeling) Islands",
+                      "currentCldrName": "Flag: Cocos (Keeling) Islands",
+                      "slug": "flag-cocos-keeling-islands",
+                      "description": "<p>The flag for the Cocos (Keeling) Islands, which may show as the letters CC on some platforms.</p>",
+                      "code": "🇨🇨"
+                    },
+                    {
+                      "id": "953",
+                      "title": "Flag: Cook Islands",
+                      "currentCldrName": "Flag: Cook Islands",
+                      "slug": "flag-cook-islands",
+                      "description": "<p>The flag for Cook Islands, which may show as the letters&nbsp;<em>CK</em>&nbsp;on some platforms.</p>",
+                      "code": "🇨🇰"
+                    },
+                    {
+                      "id": "947",
+                      "title": "Flag: Clipperton Island",
+                      "currentCldrName": "Flag: Clipperton Island",
+                      "slug": "flag-clipperton-island",
+                      "description": "<p>The flag for&nbsp;Clipperton Island, which may show as the letters <em>CP</em> on some platforms. Uses the same flag as <a href=\"/flag-france/\" title=\"🇫🇷 Flag for France\">France</a>.</p>",
+                      "code": "🇨🇵"
+                    },
+                    {
+                      "id": "946",
+                      "title": "Flag: Christmas Island",
+                      "currentCldrName": "Flag: Christmas Island",
+                      "slug": "flag-christmas-island",
+                      "description": "<p>The flag for Christmas Island, which may show as the letters&nbsp;<em>CX</em>&nbsp;on some platforms.</p>",
+                      "code": "🇨🇽"
+                    },
+                    {
+                      "id": "962",
+                      "title": "Flag: Diego Garcia",
+                      "currentCldrName": "Flag: Diego Garcia",
+                      "slug": "flag-diego-garcia",
+                      "description": "<p>The flag for&nbsp;Diego Garcia, which may show as the letters <em>DG</em> on some platforms. The same flag is used for&nbsp;<a href=\"/flag-british-indian-ocean-territory/\" title=\"🇮🇴 Flag for British Indian Ocean Territory\">British Indian Ocean Territory</a>.</p>",
+                      "code": "🇩🇬"
+                    },
+                    {
+                      "id": "976",
+                      "title": "Flag: Fiji",
+                      "currentCldrName": "Flag: Fiji",
+                      "slug": "flag-fiji",
+                      "description": "<p>The flag for <a href=\"https://en.wikipedia.org/wiki/Fiji\">Fiji</a>, which may show as the letters&nbsp;<em>FJ</em>&nbsp;on some platforms.</p>",
+                      "code": "🇫🇯"
+                    },
+                    {
+                      "id": "1045",
+                      "title": "Flag: Micronesia",
+                      "currentCldrName": "Flag: Micronesia",
+                      "slug": "flag-micronesia",
+                      "description": "<p>The flag for&nbsp;<a href=\"https://en.wikipedia.org/wiki/Micronesia\">Micronesia</a>, which may show as the letters&nbsp;<em>FM</em>&nbsp;on some platforms.</p>",
+                      "code": "🇫🇲"
+                    },
+                    {
+                      "id": "989",
+                      "title": "Flag: Greenland",
+                      "currentCldrName": "Flag: Greenland",
+                      "slug": "flag-greenland",
+                      "description": "<p>The flag for Greenland, which may show as the letters&nbsp;<em>GL</em>&nbsp;on some platforms.</p>",
+                      "code": "🇬🇱"
+                    },
+                    {
+                      "id": "1101",
+                      "title": "Flag: South Georgia & South Sandwich Islands",
+                      "currentCldrName": "Flag: South Georgia & South Sandwich Islands",
+                      "slug": "flag-south-georgia-south-sandwich-islands",
+                      "description": "<p>The flag for the South Georgia &amp; South Sandwich Islands, which may show as the letters G and S on some platforms.</p>",
+                      "code": "🇬🇸"
+                    },
+                    {
+                      "id": "992",
+                      "title": "Flag: Guam",
+                      "currentCldrName": "Flag: Guam",
+                      "slug": "flag-guam",
+                      "description": "<p>The flag for Guam, which may show as the letters&nbsp;<em>GU</em>&nbsp;on some platforms.</p>",
+                      "code": "🇬🇺"
+                    },
+                    {
+                      "id": "999",
+                      "title": "Flag: Heard & McDonald Islands",
+                      "currentCldrName": "Flag: Heard & McDonald Islands",
+                      "slug": "flag-heard-mcdonald-islands",
+                      "description": "<p>The flag for &nbsp;Heard &amp; McDonald Islands, which may show as the letters&nbsp;<em>HM</em>&nbsp;on some platforms.&nbsp;This is the same flag as <a href=\"/flag-australia/\" title=\"🇦🇺 Flag for Australia\">Australia</a>.</p>",
+                      "code": "🇭🇲"
+                    },
+                    {
+                      "id": "937",
+                      "title": "Flag: Canary Islands",
+                      "currentCldrName": "Flag: Canary Islands",
+                      "slug": "flag-canary-islands",
+                      "description": "<p>The flag for Canary Islands, which may show as the letters <em>IC</em> on some platforms.</p>",
+                      "code": "🇮🇨"
+                    },
+                    {
+                      "id": "928",
+                      "title": "Flag: British Indian Ocean Territory",
+                      "currentCldrName": "Flag: British Indian Ocean Territory",
+                      "slug": "flag-british-indian-ocean-territory",
+                      "description": "<p>The flag for&nbsp;<a href=\"https://en.wikipedia.org/wiki/British_Indian_Ocean_Territory\">British Indian Ocean Territory</a>,&nbsp;which may show as the letters&nbsp;<em>IO</em>&nbsp;on some platforms. The same flag is used for <a href=\"/flag-diego-garcia/\" title=\"🇩🇬 Flag for Diego Garcia\">Diego Garcia</a>.</p>",
+                      "code": "🇮🇴"
+                    },
+                    {
+                      "id": "1018",
+                      "title": "Flag: Kiribati",
+                      "currentCldrName": "Flag: Kiribati",
+                      "slug": "flag-kiribati",
+                      "description": "<p>The flag for&nbsp;<a href=\"https://en.wikipedia.org/wiki/Kiribati\">Kiribati</a>, which may show as the letters&nbsp;<em>KI</em>&nbsp;on some platforms.</p>",
+                      "code": "🇰🇮"
+                    },
+                    {
+                      "id": "1039",
+                      "title": "Flag: Marshall Islands",
+                      "currentCldrName": "Flag: Marshall Islands",
+                      "slug": "flag-marshall-islands",
+                      "description": "<p>The flag for&nbsp;Marshall Islands, which may show as the letters&nbsp;<em>MH</em>&nbsp;on some platforms.</p>",
+                      "code": "🇲🇭"
+                    },
+                    {
+                      "id": "1065",
+                      "title": "Flag: Northern Mariana Islands",
+                      "currentCldrName": "Flag: Northern Mariana Islands",
+                      "slug": "flag-northern-mariana-islands",
+                      "description": "<p>The flag for&nbsp;<a href=\"https://en.wikipedia.org/wiki/Northern_Mariana_Islands\">Northern Mariana Islands</a>, which may show as the letters&nbsp;<em>MP</em>&nbsp;on some platforms.</p>",
+                      "code": "🇲🇵"
+                    },
+                    {
+                      "id": "1058",
+                      "title": "Flag: New Caledonia",
+                      "currentCldrName": "Flag: New Caledonia",
+                      "slug": "flag-new-caledonia",
+                      "description": "<p>The flag for&nbsp;New Caledonia, which may show as the letters&nbsp;<em>NC</em>&nbsp;on some platforms.</p>",
+                      "code": "🇳🇨"
+                    },
+                    {
+                      "id": "1064",
+                      "title": "Flag: Norfolk Island",
+                      "currentCldrName": "Flag: Norfolk Island",
+                      "slug": "flag-norfolk-island",
+                      "description": "<p>The flag for&nbsp;<a href=\"https://en.wikipedia.org/wiki/Norfolk_Island\">Norfolk Island</a>, which may show as the letters&nbsp;<em>NF</em>&nbsp;on some platforms.</p>",
+                      "code": "🇳🇫"
+                    },
+                    {
+                      "id": "1055",
+                      "title": "Flag: Nauru",
+                      "currentCldrName": "Flag: Nauru",
+                      "slug": "flag-nauru",
+                      "description": "<p>The flag for&nbsp;<a href=\"https://en.wikipedia.org/wiki/Nauru\">Nauru</a>, which may show as the letters&nbsp;<em>NR</em>&nbsp;on some platforms.</p>",
+                      "code": "🇳🇷"
+                    },
+                    {
+                      "id": "1063",
+                      "title": "Flag: Niue",
+                      "currentCldrName": "Flag: Niue",
+                      "slug": "flag-niue",
+                      "description": "<p>The flag for&nbsp;<a href=\"https://en.wikipedia.org/wiki/Niue\">Niue</a>, which may show as the letters&nbsp;<em>NU</em>&nbsp;on some platforms.</p>",
+                      "code": "🇳🇺"
+                    },
+                    {
+                      "id": "1059",
+                      "title": "Flag: New Zealand",
+                      "currentCldrName": "Flag: New Zealand",
+                      "slug": "flag-new-zealand",
+                      "description": "<p>The flag for&nbsp;<a href=\"https://en.wikipedia.org/wiki/New_Zealand\">New Zealand</a>, which may show as the letters&nbsp;<em>NZ</em>&nbsp;on some platforms.</p>",
+                      "code": "🇳🇿"
+                    },
+                    {
+                      "id": "980",
+                      "title": "Flag: French Polynesia",
+                      "currentCldrName": "Flag: French Polynesia",
+                      "slug": "flag-french-polynesia",
+                      "description": "<p>The flag for French Polynesia, which may show as the letters&nbsp;<em>PF</em>&nbsp;on some platforms.</p>",
+                      "code": "🇵🇫"
+                    },
+                    {
+                      "id": "1073",
+                      "title": "Flag: Papua New Guinea",
+                      "currentCldrName": "Flag: Papua New Guinea",
+                      "slug": "flag-papua-new-guinea",
+                      "description": "<p>The flag for <a href=\"https://en.wikipedia.org/wiki/Papua_New_Guinea\">Papua New Guinea</a>, which may show as the letters&nbsp;<em>PG</em>&nbsp;on some platforms.</p>",
+                      "code": "🇵🇬"
+                    },
+                    {
+                      "id": "1077",
+                      "title": "Flag: Pitcairn Islands",
+                      "currentCldrName": "Flag: Pitcairn Islands",
+                      "slug": "flag-pitcairn-islands",
+                      "description": "<p>The flag for the Pitcairn Islands, which may show as the letters P and N on some platforms.</p>",
+                      "code": "🇵🇳"
+                    },
+                    {
+                      "id": "1070",
+                      "title": "Flag: Palau",
+                      "currentCldrName": "Flag: Palau",
+                      "slug": "flag-palau",
+                      "description": "<p>The flag for&nbsp;<a href=\"https://en.wikipedia.org/wiki/Palau\">Palau</a>, which may show as the letters&nbsp;<em>PW</em>&nbsp;on some platforms.</p>",
+                      "code": "🇵🇼"
+                    },
+                    {
+                      "id": "1082",
+                      "title": "Flag: Réunion",
+                      "currentCldrName": "Flag: Réunion",
+                      "slug": "flag-reunion",
+                      "description": "<p>The flag for <a href=\"https://en.wikipedia.org/wiki/R%C3%A9union\">R&eacute;union</a>, which may show as the letters&nbsp;<em>RE</em>&nbsp;on some platforms.</p>\r\n\r\n<p>Shown as either the <a href=\"https://en.wikipedia.org/wiki/Flag_of_Réunion#/media/File:Proposed_flag_of_Réunion_(VAR).svg\">Volcano + Sunbeams</a>&nbsp;flag proposal by the <em>Vexillological Association of R&eacute;union</em>, or the <a href=\"https://en.wikipedia.org/wiki/Flag_of_R%C3%A9union#/media/File:Proposed_flag_of_R%C3%A9union_(ARF).svg\">blue, white, red stripes + four colored quadrants</a>&nbsp;proposal by the <em>Association for the R&eacute;union Flag</em>.</p>\r\n\r\n<p>The&nbsp;<a href=\"/flag-france/\" title=\"🇫🇷 Flag For France\">Flag For France</a>&nbsp;is the official flag of R&eacute;union. All local flags used are unofficial.</p>",
+                      "code": "🇷🇪"
+                    },
+                    {
+                      "id": "1098",
+                      "title": "Flag: Solomon Islands",
+                      "currentCldrName": "Flag: Solomon Islands",
+                      "slug": "flag-solomon-islands",
+                      "description": "<p>The flag for <a href=\"https://en.wikipedia.org/wiki/Solomon_Islands\">Solomon Islands</a>, which may show as the letters&nbsp;<em>SB</em>&nbsp;on some platforms.</p>",
+                      "code": "🇸🇧"
+                    },
+                    {
+                      "id": "1107",
+                      "title": "Flag: St. Helena",
+                      "currentCldrName": "Flag: St. Helena",
+                      "slug": "flag-st-helena",
+                      "description": "<p>The flag for St. Helena, which may show as the letters <em>SH</em> on some platforms. Apple devices display the St. Helena flag for both&nbsp;<a href=\"/flag-ascension-island/\" title=\"🇦🇨 Flag for Ascension Island\">Ascension Island</a> and <a href=\"/flag-tristan-da-cunha/\" title=\"🇹🇦 Flag for Tristan Da Cunha\">Tristan Da Cunha</a>.</p>",
+                      "code": "🇸🇭"
+                    },
+                    {
+                      "id": "1115",
+                      "title": "Flag: Svalbard & Jan Mayen",
+                      "currentCldrName": "Flag: Svalbard & Jan Mayen",
+                      "slug": "flag-svalbard-jan-mayen",
+                      "description": "<p>The flag for Svalbard &amp; Jan Mayen, which may show as the letters&nbsp;<em>SJ</em>&nbsp;on some platforms.&nbsp;This is the same flag as&nbsp;<a href=\"/flag-norway/\" title=\"🇳🇴 Flag for Norway\">Norway</a>.</p>",
+                      "code": "🇸🇯"
+                    },
+                    {
+                      "id": "1088",
+                      "title": "Flag: São Tomé & Príncipe",
+                      "currentCldrName": "Flag: São Tomé & Príncipe",
+                      "slug": "flag-sao-tome-principe",
+                      "description": "<p>The flag for the S&atilde;o Tom&eacute; &amp; Pr&iacute;ncipe, which may show as the letters S and T on some platforms.</p>",
+                      "code": "🇸🇹"
+                    },
+                    {
+                      "id": "1129",
+                      "title": "Flag: Tristan Da Cunha",
+                      "currentCldrName": "Flag: Tristan Da Cunha",
+                      "slug": "flag-tristan-da-cunha",
+                      "description": "<p>The flag for Tristan da Cunha, which may show as the letters <em>TA</em> on some platforms.&nbsp;Apple devices show the <a href=\"/flag-st-helena/\">St. Helena</a> flag for both <a href=\"/flag-ascension-island/\">Ascension Island</a> and Tristan Da Cunha.</p>",
+                      "code": "🇹🇦"
+                    },
+                    {
+                      "id": "981",
+                      "title": "Flag: French Southern Territories",
+                      "currentCldrName": "Flag: French Southern Territories",
+                      "slug": "flag-french-southern-territories",
+                      "description": "<p>The flag for French Southern Territories, which may show as the letters&nbsp;<em>TF</em>&nbsp;on some platforms.</p>",
+                      "code": "🇹🇫"
+                    },
+                    {
+                      "id": "1126",
+                      "title": "Flag: Tokelau",
+                      "currentCldrName": "Flag: Tokelau",
+                      "slug": "flag-tokelau",
+                      "description": "<p>The flag for&nbsp;<a href=\"https://en.wikipedia.org/wiki/Tokelau\">Tokelau</a>, which may show as the letters&nbsp;<em>TK</em>&nbsp;on some platforms.</p>",
+                      "code": "🇹🇰"
+                    },
+                    {
+                      "id": "1127",
+                      "title": "Flag: Tonga",
+                      "currentCldrName": "Flag: Tonga",
+                      "slug": "flag-tonga",
+                      "description": "<p>The flag for&nbsp;<a href=\"https://en.wikipedia.org/wiki/Tonga\">Tonga</a>, which may show as the letters&nbsp;<em>TO</em>&nbsp;on some platforms.</p>",
+                      "code": "🇹🇴"
+                    },
+                    {
+                      "id": "1134",
+                      "title": "Flag: Tuvalu",
+                      "currentCldrName": "Flag: Tuvalu",
+                      "slug": "flag-tuvalu",
+                      "description": "<p>The flag for&nbsp;<a href=\"https://en.wikipedia.org/wiki/Tuvalu\">Tuvalu</a>, which may show as the letters&nbsp;<em>TV</em>&nbsp;on some platforms.</p>",
+                      "code": "🇹🇻"
+                    },
+                    {
+                      "id": "1141",
+                      "title": "Flag: U.S. Outlying Islands",
+                      "currentCldrName": "Flag: U.S. Outlying Islands",
+                      "slug": "flag-us-outlying-islands",
+                      "description": "<p>The flag for U.S. Outlying Islands, which may show as the letters&nbsp;<em>UM</em>&nbsp;on some platforms.&nbsp;This is the same flag as the&nbsp;<a href=\"/flag-united-states/\" title=\"🇺🇸 Flag for United States\">United States</a>.</p>",
+                      "code": "🇺🇲"
+                    },
+                    {
+                      "id": "1112",
+                      "title": "Flag: St. Vincent & Grenadines",
+                      "currentCldrName": "Flag: St. Vincent & Grenadines",
+                      "slug": "flag-st-vincent-grenadines",
+                      "description": "<p>The flag for the St. Vincent &amp; Grenadines, which may show as the letters V and C on some platforms.</p>",
+                      "code": "🇻🇨"
+                    },
+                    {
+                      "id": "1144",
+                      "title": "Flag: Vanuatu",
+                      "currentCldrName": "Flag: Vanuatu",
+                      "slug": "flag-vanuatu",
+                      "description": "<p>The flag for&nbsp;<a href=\"https://en.wikipedia.org/wiki/Vanuatu\">Vanuatu</a>, which may show as the letters&nbsp;<em>VU</em>&nbsp;on some platforms.</p>",
+                      "code": "🇻🇺"
+                    },
+                    {
+                      "id": "1148",
+                      "title": "Flag: Wallis & Futuna",
+                      "currentCldrName": "Flag: Wallis & Futuna",
+                      "slug": "flag-wallis-futuna",
+                      "description": "<p>The flag for the Wallis &amp; Futuna, which may show as the letters W and F on some platforms.</p>",
+                      "code": "🇼🇫"
+                    },
+                    {
+                      "id": "1086",
+                      "title": "Flag: Samoa",
+                      "currentCldrName": "Flag: Samoa",
+                      "slug": "flag-samoa",
+                      "description": "<p>The flag for <a href=\"https://en.wikipedia.org/wiki/Samoa\">Samoa</a>, which may show as the letters&nbsp;<em>WS</em>&nbsp;on some platforms.</p>",
+                      "code": "🇼🇸"
+                    },
+                    {
+                      "id": "1043",
+                      "title": "Flag: Mayotte",
+                      "currentCldrName": "Flag: Mayotte",
+                      "slug": "flag-mayotte",
+                      "description": "<p>The flag for&nbsp;<a href=\"https://en.wikipedia.org/wiki/Mayotte\">Mayotte</a>, which may show as the letters&nbsp;<em>YT</em>&nbsp;on some platforms.</p>",
+                      "code": "🇾🇹"
+                    }
+                  ]
+                }
+              ]
+            },
+            "dataUpdateCount": 1,
+            "dataUpdatedAt": 1729536944225,
+            "error": null,
+            "errorUpdateCount": 0,
+            "errorUpdatedAt": 0,
+            "fetchFailureCount": 0,
+            "fetchFailureReason": null,
+            "fetchMeta": null,
+            "isInvalidated": false,
+            "status": "success",
+            "fetchStatus": "idle"
+          },
+          "queryKey": [
+            "emoji-category",
+            "en",
+            "flags"
+          ],
+          "queryHash": "[\"emoji-category\",\"en\",\"flags\"]"
+        },
+        {
+          "state": {
+            "data": [
+              {
+                "title": "Google Debuts Emoji 16.0 Support",
+                "url": "https://blog.emojipedia.org/google-debuts-emoji-16-0-support/",
+                "featureImageUrl": "https://blog.emojipedia.org/content/images/2024/09/Emojipedia-Google-Emoji-16.0-Support-Noto-Color-Emoji-Header.jpg",
+                "excerpt": "Today Google has officially unveiled its full-color designs for Unicode's latest approved emojis, which include a smiley face with bags under its eyes, a paint splatter, and a human fingerprint."
+              },
+              {
+                "title": "What's New In Unicode 16.0",
+                "url": "https://blog.emojipedia.org/whats-new-in-unicode-16-0/",
+                "featureImageUrl": "https://blog.emojipedia.org/content/images/2024/09/Emojipedia-Unicode-16-Header-Image-3.jpg",
+                "excerpt": "Today the latest emoji list will be released by the Unicode Consortium, with additions including a harp, a shovel, a splatter symbol, and a face with bags under its eyes."
+              },
+              {
+                "title": "X Redesigns Water Pistol Emoji Back To A Firearm",
+                "url": "https://blog.emojipedia.org/x-redesigns-water-pistol-emoji-back-to-a-firearm/",
+                "featureImageUrl": "https://blog.emojipedia.org/content/images/2024/07/X-Twitter-Water-Pistol-Emoji-Header-2.jpg",
+                "excerpt": "X (fka Twitter) has quietly redesigned its   🔫  Water Pistol emoji to display as a firearm. This diverges from the cross-platform conversion of this emoji from firearm to water pistol from 2016 to 2018. "
+              }
+            ],
+            "dataUpdateCount": 1,
+            "dataUpdatedAt": 1729536944225,
+            "error": null,
+            "errorUpdateCount": 0,
+            "errorUpdatedAt": 0,
+            "fetchFailureCount": 0,
+            "fetchFailureReason": null,
+            "fetchMeta": null,
+            "isInvalidated": false,
+            "status": "success",
+            "fetchStatus": "idle"
+          },
+          "queryKey": [
+            "latest-news"
+          ],
+          "queryHash": "[\"latest-news\"]"
+        }
+      ]
+    },
+    "experiments": [],
+    "errorCode": null,
+    "_nextI18Next": {
+      "initialI18nStore": {
+        "en": {
+          "common": {
+            "title": "📙 Emojipedia — 😃 Home of Emoji Meanings 💁👌🎍😍",
+            "Languages": "Languages",
+            "Most popular": "Most popular",
+            "Customizable Emoji Products": "Customizable Emoji Products",
+            "Latest news": "Latest news",
+            "Show more": "Show more",
+            "Upcoming events": "Upcoming events",
+            "Currently in use": "Currently in use",
+            "description": "English description",
+            "Warning": "Warning",
+            "arrow": "Arrow",
+            "Cancel": "Cancel",
+            "Back to Homepage": "Back to Homepage",
+            "Copy": "Copy",
+            "Download": "Download",
+            "Reset": "Reset",
+            "Copied!": "Copied!",
+            "Swipe to see emojis from other periods": "Swipe to see emojis from other periods",
+            "subheading": "Subheading",
+            "All": "All",
+            "Changed": "Changed",
+            "Removed": "Removed",
+            "New": "New",
+            "Emoji Categories": "Emoji Categories",
+            "Vendors & Platforms": "Vendors & Platforms",
+            "Events & Topics": "Events & Topics",
+            "Updates & Releases": "Updates & Releases",
+            "Facts, Figures & Guides": "Facts, Figures & Guides",
+            "Others": "Others",
+            "Description": "Description",
+            "Vendor": "Vendor",
+            "Version": "Version",
+            "Emoji": "Emoji",
+            "On": "On",
+            "Emoji Version List": "Emoji Version List",
+            "Emoji Version": "Emoji Version {{version}}",
+            "New Emojis in Version": "New Emojis in Version {{version}}",
+            "No regular emojis in this release": "No regular emojis in this release",
+            "New Emoji Components in Version": "New Emoji Components in Version {{version}}",
+            "No components in this release": "No components in this release",
+            "Unicode Emoji List": "Unicode {{version}} Emoji List",
+            "Unicode Version": "Unicode Version {{version}}",
+            "Unicode": "Unicode {{version}}",
+            "About Emojis": "About {{vendor}} Emojis",
+            "These display as a single emoji on supported platforms": "These display as a single emoji on supported platforms",
+            "Also Known As": "Also Known As",
+            "Apple Name": "Apple Name",
+            "Unicode Name": "Unicode Name",
+            "Codepoints": "Codepoints",
+            "Shortcodes": "Shortcodes",
+            "Proposals": "Proposals",
+            "Emoji on vendor": "{{emojiName}} on {{vendor}}",
+            "Emoji is unsupported on vendor": "{{emojiName}} is unsupported on {{vendor}}.",
+            "Description:": "Description:",
+            "Changed:": "Changed:",
+            "This is how the emoji appears on": "This is how the <EmojiLink>{{emojiCode}} {{emojiName}}</EmojiLink> appears on <VersionLink>{{vendorTitle}} {{version}}</VersionLink>.",
+            "It may appear differently on other platforms.": "It may appear differently on other platforms.",
+            "The emoji is not supported on vendor": "The <EmojiLink>{{emojiCode}} {{emojiName}}</EmojiLink> is not supported on <VersionLink>{{vendorTitle}} {{version}}</VersionLink>.",
+            "Vendor was released on": "<VendorLink>{{version}}</VendorLink> was released on {{date}}.",
+            "Grid": "Grid",
+            "List View": "List View",
+            "Image link to page for": "Image link to page for {{emojiName}} on {{vendor}} {{versionTitle}}",
+            "Emoji List": "{{title}} Emoji List",
+            "Emoji Designs": "{{title}} Emoji Designs",
+            "Save": "Save",
+            "Featured Emoji Mashups": "Featured Emoji Mashups",
+            "Emoji Playground (Emoji Games & Creation Tools)": "Emoji Playground (Emoji Games & Creation Tools)",
+            "Emoji Playground": "Emoji Playground",
+            "Play this quiz brought to you by Emojipedia": "Play this quiz brought to you by Emojipedia",
+            "Merge emoji designs to make classic mashups": "Merge emoji designs to make classic mashups",
+            "Quiz": "Quiz",
+            "Tools": "Tools",
+            "Close popup": "Close popup",
+            "AI Gen Stickers": "AI Gen Stickers"
+          },
+          "footer": {
+            "Download Zedge on the Google Play Store": "Download Zedge on the Google Play Store",
+            "Download Zedge on the Apple App Store": "Download Zedge on the Apple App Store",
+            "Visit the Zedge Website in Your Browser": "Visit the Zedge Website in Your Browser"
+          },
+          "language": {
+            "en": "English",
+            "bn": "বাংলা",
+            "da": "Dansk",
+            "de": "Deutsch",
+            "es": "Español",
+            "fr": "Français",
+            "hi": "हिंदी",
+            "it": "Italiano",
+            "ja": "日本語",
+            "ko": "한국어",
+            "mr": "मराठी",
+            "ms": "Melayu",
+            "nl": "Nederlands",
+            "no": "Norsk",
+            "pt": "Português",
+            "sv": "Svenska",
+            "ta": "தமிழ்",
+            "te": "తెలుగు",
+            "zh": "中文"
+          },
+          "search": {
+            "Search results for": "Search results for",
+            "Search icon": "Search icon",
+            "Search Emojipedia": "Search Emojipedia",
+            "Search in another language": "Search in another language"
+          }
+        }
+      },
+      "initialLocale": "en",
+      "ns": [
+        "common",
+        "footer",
+        "language",
+        "search"
+      ],
+      "userConfig": null
+    }
+  },
+  "__N_SSG": true
+}
