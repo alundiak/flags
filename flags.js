@@ -40,7 +40,7 @@ function createFlagButtons(flags) {
 function copyToClipboard(codeObject) {
   navigator.clipboard.writeText(codeObject.flag).then(() => {
     // console.log(`Copied: ${flagEmoji}`);
-    showToast(`Copied: ${codeObject.flag} - ${codeObject.name}`);
+    showToast(`Copied: ${codeObject.flag} ${codeObject.name}`);
   }).catch(err => {
     console.error('Failed to copy: ', err);
   });
