@@ -51,9 +51,18 @@ function createFlagButtons(flagsData) {
 }
 
 function copyToClipboard(codeObject) {
-  navigator.clipboard.writeText(codeObject.flag).then(() => {
+  // vA
+  // const flagEmoji = codeObject.flag;
+  // const countryName = codeObject.name;
+
+  // vB
+  const keys = Object.keys(codeObject);
+  const flagEmoji = keys[0];
+  const countryName = codeObject[flagEmoji];
+
+  navigator.clipboard.writeText(flagEmoji).then(() => {
     // console.log(`Copied: ${flagEmoji}`);
-    showToast(`Copied: ${codeObject.flag} ${codeObject.name}`);
+    showToast(`Copied: ${flagEmoji} ${countryName}`);
   }).catch(err => {
     console.error('Failed to copy: ', err);
   });
@@ -74,6 +83,7 @@ function showToast(message) {
 }
 
 getCountryFlags().then(flagsFromApi => {
+  console.log(flagsFromApi);
   // console.log(JSON.stringify(flagsFromApi));
   createFlagButtons(flagsFromApi);
 });
