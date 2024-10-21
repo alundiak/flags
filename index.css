@@ -6,19 +6,59 @@ body {
   margin: 10px;
 }
 
-#flags-container {
-  span {
-    font-size: 50px;
+.flags-block-container {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 5px;
+}
 
-    &:hover {
-      cursor: pointer;
-    }
-  }
+.flags-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* padding: 10px; */
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  /* width: 100px; */
+}
 
-  .notUnMember {
-    border: 1px dashed red;
+.flag {
+  font-size: 60px;
+
+  /* margin-bottom: 10px; */
+  &:hover {
+    cursor: pointer;
   }
 }
+
+.country {
+  font-size: 5px;
+  text-align: center;
+}
+
+.flags-block.notUnMember {
+  border: 1px dashed red;
+}
+
+#old-flags-container {
+  div.flag-block {
+    display: inline-block;
+
+    span.flag {
+      font-size: 50px;
+
+      &:hover {
+        cursor: pointer;
+      }
+    }
+
+    span.country {
+      font-size: 5px;
+    }
+  }
+}
+
 
 
 .toast {

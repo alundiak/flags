@@ -20,6 +20,13 @@ function extractFilteringByUnMember(countriesApiData) {
   }, { unMembers: [], nonUnMembers: [] });
 }
 
+Array.prototype.sortByCountryCommonName = function () {
+  return this.sort((a, b) => {
+    // Ensure that each element has the name.common property before comparing
+    return a.name.common.localeCompare(b.name.common);
+  });
+};
+
 function composeCountryFlagsData(countriesData) {
   const simplifiedData = {};
   countriesData.forEach(country => {
@@ -42,46 +49,56 @@ function composeCountryFlagsData(countriesData) {
 }
 
 function createFlagButtons(flagsData, isUnMember, dataLength) {
-  const flagsContainer = document.getElementById('flags-container');
-  const divElement1 = document.createElement('div');
+  const mainContainer = document.getElementById('flags-container');
 
   const h3Element = document.createElement('h3');
   if (isUnMember) {
     h3Element.textContent = `${dataLength} UN members`;
   } else {
-    divElement1.classList.add('notUnMember');
     h3Element.textContent = `${dataLength} non-UN members`;
   }
-  divElement1.appendChild(h3Element);
+  mainContainer.appendChild(h3Element);
+
+  const flagsBlockContainer = document.createElement('div');
+  flagsBlockContainer.classList.add('flags-block-container');
 
 
   for (const [region, regionObject] of Object.entries(flagsData)) {
-    //  <p> or <span> or <tr>
     for (const [code, codeObject] of Object.entries(regionObject)) {
-      const spanElement = document.createElement('span');
+      const divBlock = document.createElement('div');
+      divBlock.className = 'flags-block';
+      if (!isUnMember) {
+        divBlock.classList.add('notUnMember');
+      }
+
+      const divFlag = document.createElement('div');
+      divFlag.className = 'flag';
+
+      const divCountry = document.createElement('div');
+      divCountry.className = 'country';
 
       // vA
-      spanElement.textContent = `${codeObject.flag}`;
-      spanElement.title = `${codeObject.name}`;
+      divFlag.textContent = `${codeObject.flag}`;
+      divFlag.title = `${codeObject.name}`;
+      divCountry.textContent = `${codeObject.name}`;
 
       // vB
       // const keys = Object.keys(codeObject);
       // const flagEmoji = keys[0];
       // const countryName = codeObject[flagEmoji];
-      // spanElement.textContent = `${flagEmoji}`;
-      // spanElement.title = `${countryName}`;
+      // divFlag.textContent = `${flagEmoji}`;
+      // divCountry.textContent = `${countryName}`;
 
-      spanElement.onclick = () => copyToClipboard(codeObject);
+      divFlag.onclick = () => copyToClipboard(codeObject);
 
-      divElement1.appendChild(spanElement);
+      divBlock.appendChild(divFlag);
+      divBlock.appendChild(divCountry);
+
+      flagsBlockContainer.appendChild(divBlock);
     }
   }
 
-  flagsContainer.appendChild(divElement1);
-
-  // experimental
-  const divElement2 = document.createElement('div');
-  flagsContainer.appendChild(divElement2);
+  mainContainer.appendChild(flagsBlockContainer);
 }
 
 function renderCountryFlagsTotal(countryFlagsCount) {
@@ -124,17 +141,17 @@ function showToast(message) {
 }
 
 getRestCountriesFromApi().then(apiData => {
-  console.log(apiData);
+  // console.log(apiData);
   // console.log(JSON.stringify(apiData));
 
   renderCountryFlagsTotal(apiData.length);
 
   const { unMembers, nonUnMembers } = extractFilteringByUnMember(apiData);
-  console.log(unMembers);
-  console.log(nonUnMembers);
+  // console.log(unMembers);
+  // console.log(nonUnMembers);
 
-  const dataToRender1 = composeCountryFlagsData(unMembers);
-  const dataToRender2 = composeCountryFlagsData(nonUnMembers);
+  const dataToRender1 = composeCountryFlagsData(unMembers.sortByCountryCommonName());
+  const dataToRender2 = composeCountryFlagsData(nonUnMembers.sortByCountryCommonName());
 
   createFlagButtons(dataToRender1, true, unMembers.length);
   createFlagButtons(dataToRender2, false, nonUnMembers.length);
