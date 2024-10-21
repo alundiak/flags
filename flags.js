@@ -29,7 +29,7 @@ function createFlagButtons(flags) {
       const button = document.createElement('span');
       button.textContent = `${codeObject.flag}`;
       button.title = `${codeObject.name}`;
-      button.onclick = () => copyToClipboard(codeObject.flag);
+      button.onclick = () => copyToClipboard(codeObject);
       // const span = document.createElement('span');
       // span.textContent = `${codeObject.name}`;
       container.appendChild(button);
@@ -37,10 +37,10 @@ function createFlagButtons(flags) {
   }
 }
 
-function copyToClipboard(flagEmoji) {
-  navigator.clipboard.writeText(flagEmoji).then(() => {
+function copyToClipboard(codeObject) {
+  navigator.clipboard.writeText(codeObject.flag).then(() => {
     // console.log(`Copied: ${flagEmoji}`);
-    showToast(`Copied: ${flagEmoji}`);
+    showToast(`Copied: ${codeObject.flag} - ${codeObject.name}`);
   }).catch(err => {
     console.error('Failed to copy: ', err);
   });
