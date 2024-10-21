@@ -26,7 +26,7 @@ function createFlagButtons(flags) {
   for (const [region, regionObject] of Object.entries(flags)) {
     //  <p> or <span> or <tr>
     for (const [code, codeObject] of Object.entries(regionObject)) {
-      const button = document.createElement('button');
+      const button = document.createElement('span');
       button.textContent = `${codeObject.flag}`;
       button.title = `${codeObject.name}`;
       button.onclick = () => copyToClipboard(codeObject.flag);
