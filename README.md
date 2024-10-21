@@ -15,6 +15,7 @@ But now, having this small app/page, I can always have a handy way on my Desktop
 ## TODO (for sure)
 - Introduce regions.
 - Fixup Mobile view, although not really needed.
+- Cleanup/Refactor code.
 
 
 
@@ -28,7 +29,22 @@ But now, having this small app/page, I can always have a handy way on my Desktop
 - Maybe section for flags of republics, like in russia. FamilyTreeDNA does it somehow, so I could :)
 
 
+## Technical maybe
+
+- Using API call is OK for now - https://restcountries.com/v3.1/all. But maybe I will cache results into JSON file.
+
+- Maybe I will use React/TypeScript or at least Bootstrap CSS, but not sure if worth it.
+
+
 ## Local run
+
+Once:
+
+```sh
+npm install http-server --global
+```
+
+When needed:
 
 ```sh
 http-server .
@@ -43,21 +59,3 @@ Inspired by:
 - https://en.wikipedia.org/wiki/Flags_of_Asia
 - https://emojipedia.org/flags#grid
 
-## Tech notes
-
-### API
-
-Using API call is OK for now - https://restcountries.com/v3.1/all
-
-But maybe I will cache results into JSON file.
-
-I will maybe use React/TypeScript, but not sure if worth it.
-
-
-### Other
-
-`.gitignore` sites:
-
-- https://www.toptal.com/developers/gitignore?templates=node,macos,react,typings,webstorm
-- https://github.com/github/gitignore
-- https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
