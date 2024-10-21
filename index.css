@@ -13,10 +13,10 @@ body {
     &:hover {
       cursor: pointer;
     }
+  }
 
-    &.notUnMember {
-      border: 1px dashed red;
-    }
+  .notUnMember {
+    border: 1px dashed red;
   }
 }
 

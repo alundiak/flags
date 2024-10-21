@@ -1,34 +1,60 @@
-async function getCountryFlags() {
+async function getRestCountriesFromApi() {
   try {
     const response = await fetch('https://restcountries.com/v3.1/all');
     const countries = await response.json();
-
-    const composedFlagsData = {};
-    countries.forEach(country => {
-      const region = country.region;
-      composedFlagsData[region] = composedFlagsData[region] || {};
-      const code = country.cca2.toLowerCase();
-
-      composedFlagsData[region][code] = {
-        // vA
-        name: country.name.common,
-        flag: country.flag,
-        unMember: country.unMember
-
-        // vB
-        // [country.flag]: country.name.common
-      };
-    });
-
-    return [countries.length, composedFlagsData];
+    return countries;
   } catch (error) {
-    console.error('Error fetching country flags:', error);
+    console.error('Error fetching restcountries.com:', error);
     return {};
   }
 }
 
-function createFlagButtons(flagsData) {
+function extractFilteringByUnMember(countriesApiData) {
+  return countriesApiData.reduce((result, country) => {
+    if (country.unMember) {
+      result.unMembers.push(country);
+    } else {
+      result.nonUnMembers.push(country);
+    }
+    return result;
+  }, { unMembers: [], nonUnMembers: [] });
+}
+
+function composeCountryFlagsData(countriesData) {
+  const simplifiedData = {};
+  countriesData.forEach(country => {
+    const region = country.region;
+    simplifiedData[region] = simplifiedData[region] || {};
+    const code = country.cca2.toLowerCase();
+
+    simplifiedData[region][code] = {
+      // vA
+      name: country.name.common,
+      flag: country.flag,
+      unMember: country.unMember // maybe not needed
+
+      // vB
+      // [country.flag]: country.name.common
+    };
+  });
+
+  return simplifiedData;
+}
+
+function createFlagButtons(flagsData, isUnMember, dataLength) {
   const flagsContainer = document.getElementById('flags-container');
+  const divElement1 = document.createElement('div');
+
+  const h3Element = document.createElement('h3');
+  if (isUnMember) {
+    h3Element.textContent = `${dataLength} UN members`;
+  } else {
+    divElement1.classList.add('notUnMember');
+    h3Element.textContent = `${dataLength} non-UN members`;
+  }
+  divElement1.appendChild(h3Element);
+
+
   for (const [region, regionObject] of Object.entries(flagsData)) {
     //  <p> or <span> or <tr>
     for (const [code, codeObject] of Object.entries(regionObject)) {
@@ -37,9 +63,6 @@ function createFlagButtons(flagsData) {
       // vA
       spanElement.textContent = `${codeObject.flag}`;
       spanElement.title = `${codeObject.name}`;
-      if (!codeObject.unMember) {
-        spanElement.classList.add('notUnMember');
-      }
 
       // vB
       // const keys = Object.keys(codeObject);
@@ -50,9 +73,15 @@ function createFlagButtons(flagsData) {
 
       spanElement.onclick = () => copyToClipboard(codeObject);
 
-      flagsContainer.appendChild(spanElement);
+      divElement1.appendChild(spanElement);
     }
   }
+
+  flagsContainer.appendChild(divElement1);
+
+  // experimental
+  const divElement2 = document.createElement('div');
+  flagsContainer.appendChild(divElement2);
 }
 
 function renderCountryFlagsTotal(countryFlagsCount) {
@@ -94,12 +123,19 @@ function showToast(message) {
   }, 2000);
 }
 
-getCountryFlags().then(response => {
-  const [countryFlagsCount, flagsFromApi] = response;
+getRestCountriesFromApi().then(apiData => {
+  console.log(apiData);
+  // console.log(JSON.stringify(apiData));
 
-  console.log(flagsFromApi);
-  // console.log(JSON.stringify(flagsFromApi));
-  createFlagButtons(flagsFromApi);
+  renderCountryFlagsTotal(apiData.length);
 
-  renderCountryFlagsTotal(countryFlagsCount);
+  const { unMembers, nonUnMembers } = extractFilteringByUnMember(apiData);
+  console.log(unMembers);
+  console.log(nonUnMembers);
+
+  const dataToRender1 = composeCountryFlagsData(unMembers);
+  const dataToRender2 = composeCountryFlagsData(nonUnMembers);
+
+  createFlagButtons(dataToRender1, true, unMembers.length);
+  createFlagButtons(dataToRender2, false, nonUnMembers.length);
 });
