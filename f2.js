@@ -26,7 +26,6 @@ function createFlagButtons(flags) {
   for (const [region, regionObject] of Object.entries(flags)) {
     //  <p> or <span> or <tr>
     for (const [code, codeObject] of Object.entries(regionObject)) {
-      console.log(codeObject);
       const button = document.createElement('button');
       button.textContent = `${codeObject.flag}`;
       button.title = `${codeObject.name}`;
@@ -40,10 +39,25 @@ function createFlagButtons(flags) {
 
 function copyToClipboard(flagEmoji) {
   navigator.clipboard.writeText(flagEmoji).then(() => {
-    console.log(`Copied: ${flagEmoji}`);
+    // console.log(`Copied: ${flagEmoji}`);
+    showToast(`Copied: ${flagEmoji}`);
   }).catch(err => {
     console.error('Failed to copy: ', err);
   });
+}
+
+function showToast(message) {
+  const toast = document.createElement('div');
+  toast.className = 'toast';
+  toast.textContent = message;
+  document.body.appendChild(toast);
+
+  setTimeout(() => {
+    toast.classList.add('fade-out');
+    toast.addEventListener('transitionend', () => {
+      toast.remove();
+    });
+  }, 2000);
 }
 
 getCountryFlags().then(flags => {

@@ -1,5 +1,16 @@
-# my-default-project-template
-My default project template, which can be used by GitHub for future repositories.
+# My Flags
+
+A place where I can simply COPY flag emoji.
+
+##
+
+Run
+
+```sh
+http-server .
+```
+
+## Tech notes
 
 `.gitignore` sites:
 
