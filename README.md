@@ -71,4 +71,12 @@ Inspired by:
 - https://en.wikipedia.org/wiki/Flags_of_Europe
 - https://en.wikipedia.org/wiki/Flags_of_Asia
 - https://emojipedia.org/flags#grid
+- https://apps.timwhitlock.info/emoji/tables/iso3166
 
+
+## New knowledge I got
+
+As I always do, while doing something simple I keep learning basics. 2024, and a few new things arrived in built-in JavaScript, CSS and HTML.
+
+- CSS nesting, since at least Dec-2023 is already known, and I keep using. In favor of CSS preprocessor.
+- [`String.prototype.localeCompare()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/localeCompare) can be now easily used in sort-like functions when objects field values are `string` values. No need to use `<=`, `>=`, `==`.
