@@ -14,6 +14,7 @@ function App() {
 
   return (
     <>
+      <h2>My Flags</h2>
       {/* <SearchField onInputHandler={(v) => setSearchValue(v)} /> */}
       <MainList />
     </>
