@@ -15,7 +15,6 @@ function App() {
   return (
     <>
       {/* <SearchField onInputHandler={(v) => setSearchValue(v)} /> */}
-
       <MainList />
     </>
   )
