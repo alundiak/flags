@@ -48,6 +48,8 @@ Public API https://restcountries.com/v3.1/all returns `250` records:
 
 - Maybe I will use React/TypeScript or at least Bootstrap CSS, but not sure if worth it.
 
+- Migrated to React/Typescript setup via `npm create vite@latest my-react-app -- --template react-swc-ts`
+
 
 ## Local run
 

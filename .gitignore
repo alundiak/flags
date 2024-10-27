@@ -4,7 +4,9 @@
 ### Angular ###
 ## Angular ##
 # compiled output
-dist/
+dist
+dist-ssr
+*.local
 tmp/
 app/**/*.js
 app/**/*.js.map
@@ -234,6 +236,8 @@ dist
 
 # Stores VSCode versions used for testing VSCode extensions
 .vscode-test
+.vscode/*
+!.vscode/extensions.json
 
 # yarn v2
 .yarn/cache
