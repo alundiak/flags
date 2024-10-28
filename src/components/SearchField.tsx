@@ -27,9 +27,6 @@ export function SearchField(props: SearchFieldProps) {
   return (
     <>
       <FormGroup className="col-3">
-        {/* <Label for="exampleSearch">
-          Search
-        </Label> */}
         <InputGroup>
           <InputGroupText>
             🔎
@@ -41,6 +38,7 @@ export function SearchField(props: SearchFieldProps) {
             type="search"
             innerRef={inputRef}
             onInput={onInput}
+            autoComplete="off"
           />
         </InputGroup>
       </FormGroup>

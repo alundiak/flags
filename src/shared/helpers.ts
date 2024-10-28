@@ -1,6 +1,6 @@
 import { CodeObject, MinimalFlagsData } from "./models";
 
-// @ts-ignore
+// @ts-expect-error
 Array.prototype.sortByCountryCommonName = function () {
   return this.sort((a: any, b: any) => {
     // Ensure that each element has the name.common property before comparing
@@ -29,7 +29,7 @@ export function composeCountryFlagsData(countriesData: any): MinimalFlagsData {
 
     simplifiedData[region][code] = {
       flag: country.flag,
-      code: country.code,
+      code,
       name: country.name.common,
       unMember: country.unMember
     };
@@ -49,13 +49,32 @@ export function extractFilteringByUnMember(countriesApiData: any) {
   }, { unMembers: [], nonUnMembers: [] });
 }
 
+// MAYBE
+export const searchByCountryCode = (allData: any, searchValue: string, callback: (d: any) => void) => {
+  if (!allData.length) return;
 
-export const searchByCountryCode = () => {
-  //
+  // IN API response ever country object has `cca2` field, which represents country 2-characters code, in UPPERCASE.
+  // Example:
+  // "cca2": "UA",
+  // "ccn3": "804",
+  // "cca3": "UKR",
+  // "cioc": "UKR",
+
+  const filteredData = allData.some((country: any) => {
+    // return country.cca2 === searchValue.toUpperCase();
+    return country.cca2.includes(searchValue.toUpperCase())
+  });
+
+  callback(filteredData);
 }
 
-export const searchByCountryName = () => {
-  //
+// MAYBE
+export const searchByCountryName = (allData: any, searchValue: string, callback: (d: any) => void) => {
+  const filteredData = allData.some((country: any) => {
+    return country.name.common.toLowerCase().includes(searchValue.toLowerCase());
+  });
+
+  callback(filteredData);
 }
 
 function showToast(message: string) {
@@ -72,7 +91,7 @@ function showToast(message: string) {
   }, 2000);
 }
 
-// @ts-ignore
+// @ts-expect-error
 function copyToClipboardBasic(str: string, callback: () => void) {
   navigator.clipboard.writeText(str).then(() => {
     callback();
@@ -86,7 +105,7 @@ async function copyToClipboardSimplified(str: string, callback: () => void) {
   callback();
 }
 
-// @ts-ignore
+// @ts-expect-error
 function copyToClipboardWithWorkaround(str: string, callback: () => void) {
   // When DevTools is opened, and JavaScript code is debugged, then copying causes and error in code:
   // "NotAllowedError: Failed to execute 'writeText' on 'Clipboard': Document is not focused."
