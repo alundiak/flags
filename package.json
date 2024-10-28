@@ -2,14 +2,10 @@
   "name": "@lundiak/flags",
   "version": "1.0.0",
   "description": "My Flags",
-  "main": "index.js",
-  "type": "module",
   "scripts": {
-    "test1": "node f1.js",
-    "test2": "node flags.js",
     "dev": "vite",
-    "build": "vite build",
     "lint": "eslint .",
+    "build": "vite build",
     "preview": "vite preview",
     "deploy": "vite build && gh-pages -d build"
   },
@@ -30,7 +26,7 @@
     "gh-pages": "^6.2.0",
     "globals": "^15.11.0",
     "typescript": "~5.6.2",
-    "typescript-eslint": "^8.10.0",
+    "typescript-eslint": "^8.12.0",
     "vite": "^5.4.9"
   },
   "keywords": [],

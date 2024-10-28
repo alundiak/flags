@@ -23,18 +23,18 @@ Public API https://restcountries.com/v3.1/all returns `250` records:
 - there are also `independent`: true/false.
 
 
+## Features
+- Search/Filtering by name of country.
+
 
 ## TODO (for sure)
 - Introduce regions.
-- Use `unMember`
 - Fixup Mobile view, although not really needed.
 - Cleanup/Refactor code.
 
 
-
 ## TODO (maybe)
 - Maybe something else, like map so that easier to locate visually.
-- Maybe search by code, eg. `en`, `ua` or by full name of country. Sometimes country code is sometimes useful to search by.
 - Maybe Small Countries dedicated section/region.
 - Maybe some sections of flags those which "misleading", eg. Poland and Monaco vs. Indonesia, Singapore and Poland, etc.
   - Maybe section of flags of different cities, like Polish Katowice flag is very similar to flag of Ukraine.
@@ -42,13 +42,11 @@ Public API https://restcountries.com/v3.1/all returns `250` records:
 - Maybe section for flags of republics, like in russia. FamilyTreeDNA does it somehow, so I could :)
 
 
-## Technical maybe
+## TechStack
 
 - Using API call is OK for now - https://restcountries.com/v3.1/all. But maybe I will cache results into JSON file.
-
-- Maybe I will use React/TypeScript or at least Bootstrap CSS, but not sure if worth it.
-
-- Migrated to React/Typescript setup via `npm create vite@latest my-react-app -- --template react-swc-ts`
+- React/Typescript setup via `npm create vite@latest my-react-app -- --template react-swc-ts`
+- Added Bootstrap CSS and Reactstrap.
 
 
 ## Local run
@@ -56,13 +54,17 @@ Public API https://restcountries.com/v3.1/all returns `250` records:
 Once:
 
 ```sh
-npm install http-server --global
+npm install
 ```
 
 When needed:
 
 ```sh
-http-server .
+npm run dev
+npm run lint
+npm run build
+npm run preview
+npm run deploy
 ```
 
 
@@ -82,3 +84,4 @@ As I always do, while doing something simple I keep learning basics. 2024, and a
 
 - CSS nesting, since at least Dec-2023 is already known, and I keep using. In favor of CSS preprocessor.
 - [`String.prototype.localeCompare()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/localeCompare) can be now easily used in sort-like functions when objects field values are `string` values. No need to use `<=`, `>=`, `==`.
+- Handling ESLINT v9 after migration.

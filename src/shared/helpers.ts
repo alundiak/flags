@@ -38,7 +38,7 @@ export function composeCountryFlagsData(countriesData: any): MinimalFlagsData {
   return simplifiedData;
 }
 
-export function extractFilteringByUnMember(countriesApiData: any) {
+export function extractFilteringByUnMember(countriesApiData: any[]) {
   return countriesApiData.reduce((result: any, country: any) => {
     if (country.unMember) {
       result.unMembers.push(country);

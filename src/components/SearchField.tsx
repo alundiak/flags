@@ -34,7 +34,7 @@ export function SearchField(props: SearchFieldProps) {
           <Input
             id="searchFlagInput"
             name="searchFlag"
-            placeholder="search by code or name"
+            placeholder="type country name"
             type="search"
             innerRef={inputRef}
             onInput={onInput}

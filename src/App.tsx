@@ -1,6 +1,5 @@
 import { useEffect, useMemo, useState } from 'react';
 import { composeCountryFlagsData, extractFilteringByUnMember, getRestCountriesFromApi } from './shared/helpers';
-import { MinimalFlagsData } from './shared/models';
 import { SearchField } from './components/SearchField'
 import { MainList } from './components/MainList'
 import { FlagsCount } from './components/FlagsCount';
@@ -12,7 +11,6 @@ function App() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   const [allData, setAllData] = useState([]);
-  const [cachedAllData, setCachedAllData] = useState([]);
   const [countriesCount, setCountriesCount] = useState(0);
   // MAYBE
   // const [unCountriesData, setUNcountriesData] = useState<MinimalFlagsData>({});
@@ -26,7 +24,6 @@ function App() {
       getRestCountriesFromApi().then((apiData) => {
         setLoading(true);
         setAllData(apiData);
-        setCachedAllData(apiData);
         setCountriesCount(apiData.length);
       }).catch((error) => {
         setError(error.message);
@@ -37,30 +34,27 @@ function App() {
     fetchData();
   }, []);
 
-
-  // Maybe useEffect() - TODO
-  const { unCountriesData, notUNcountriesData } = useMemo(() => {
+  // Filter countries based on search value
+  const filteredCountries = useMemo(() => {
     console.log('useMemo() 1');
-    const { unMembers, nonUnMembers } = extractFilteringByUnMember(allData);
-    const unCountries: MinimalFlagsData = composeCountryFlagsData(unMembers.sortByCountryCommonName());
-    const notUNCountries: MinimalFlagsData = composeCountryFlagsData(nonUnMembers.sortByCountryCommonName());
-    return { unCountriesData: unCountries, notUNcountriesData: notUNCountries };
-  }, [allData]);
+    if (!searchValue) return allData;
 
-  // Maybe useEffect() - TODO
-  useMemo(() => {
-    console.log('useMemo() 2, searchValue =>', searchValue);
+    const lowerSearchValue = searchValue.toLowerCase();
 
-    if (searchValue.length) {
-      const filteredAllData = cachedAllData.filter((country: any) => {
-        return country.name.common.toLowerCase().includes(searchValue.toLowerCase());
-      });
-      setAllData(filteredAllData);
-    } else {
-      setAllData(cachedAllData);
-    }
+    return allData.filter((country: any) =>
+      country.name.common.toLowerCase().includes(lowerSearchValue)
+    );
+  }, [allData, searchValue]);
 
-  }, [searchValue]);
+  // Split filtered countries by UN membership
+  const { unCountriesData, notUNcountriesData } = useMemo(() => {
+    console.log('useMemo() 2');
+    const { unMembers, nonUnMembers } = extractFilteringByUnMember(filteredCountries);
+    return {
+      unCountriesData: composeCountryFlagsData(unMembers.sortByCountryCommonName()),
+      notUNcountriesData: composeCountryFlagsData(nonUnMembers.sortByCountryCommonName())
+    };
+  }, [filteredCountries]);
 
   return (
     <>
