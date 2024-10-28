@@ -1,6 +1,6 @@
 import { useEffect, useRef } from 'react';
 import './searchField.css'
-import { Input } from 'reactstrap';
+import { FormGroup, Input, InputGroup, InputGroupText } from 'reactstrap';
 
 interface SearchFieldProps {
   onInputHandler: (value: string) => void
@@ -10,10 +10,11 @@ export function SearchField(props: SearchFieldProps) {
   const inputRef = useRef<HTMLInputElement>(null);
 
   useEffect(() => {
-    // inputRef.current?.focus();
-    setTimeout(() => {
-      inputRef.current?.focus();
-    }, 300);
+    inputRef.current?.focus();
+    // I thought I will need to fix focus/clipboard issue
+    // setTimeout(() => {
+    //   inputRef.current?.focus();
+    // }, 500);
   }, []);
 
   const onInput = (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -25,8 +26,24 @@ export function SearchField(props: SearchFieldProps) {
 
   return (
     <>
-      <Input innerRef={inputRef} placeholder="code or country name" onInput={onInput} />
-      {/* <div>value: {searchValue}</div> */}
+      <FormGroup className="col-3">
+        {/* <Label for="exampleSearch">
+          Search
+        </Label> */}
+        <InputGroup>
+          <InputGroupText>
+            🔎
+          </InputGroupText>
+          <Input
+            id="searchFlagInput"
+            name="searchFlag"
+            placeholder="search by code or name"
+            type="search"
+            innerRef={inputRef}
+            onInput={onInput}
+          />
+        </InputGroup>
+      </FormGroup>
     </>
   )
 }
