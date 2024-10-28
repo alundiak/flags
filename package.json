@@ -2,6 +2,7 @@
   "name": "@lundiak/flags",
   "version": "1.0.0",
   "description": "My Flags",
+  "type": "module",
   "scripts": {
     "dev": "vite",
     "lint": "eslint .",

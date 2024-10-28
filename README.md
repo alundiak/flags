@@ -85,3 +85,5 @@ As I always do, while doing something simple I keep learning basics. 2024, and a
 - CSS nesting, since at least Dec-2023 is already known, and I keep using. In favor of CSS preprocessor.
 - [`String.prototype.localeCompare()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/localeCompare) can be now easily used in sort-like functions when objects field values are `string` values. No need to use `<=`, `>=`, `==`.
 - Handling ESLINT v9 after migration.
+- The CJS build of Vite's Node API is deprecated. See https://vite.dev/guide/troubleshooting.html#vite-cjs-node-api-deprecated for more details.
+  - It happens when `"type": "module"` removed from `package.json`.
