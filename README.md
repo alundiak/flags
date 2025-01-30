@@ -75,6 +75,7 @@ Inspired by:
 - https://en.wikipedia.org/wiki/Flags_of_Europe
 - https://en.wikipedia.org/wiki/Flags_of_Asia
 - https://emojipedia.org/flags#grid
+- https://emojidb.org/up-down-green-red-arrow-emojis
 - https://apps.timwhitlock.info/emoji/tables/iso3166
 
 
