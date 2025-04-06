@@ -10,7 +10,8 @@ Array.prototype.sortByCountryCommonName = function () {
 
 export async function getRestCountriesFromApi() {
   try {
-    const response = await fetch('https://restcountries.com/v3.1/all');
+    const url = 'https://restcountries.com/v3.1/all?fields=name,flag,region,cca2,unMember';
+    const response = await fetch(url);
     const countries = await response.json();
     return countries;
   } catch (error) {
@@ -19,7 +20,7 @@ export async function getRestCountriesFromApi() {
   }
 }
 
-export function composeCountryFlagsData(countriesData: any): MinimalFlagsData {
+export function composeCountryFlagsData(countriesData: any[] = []): MinimalFlagsData {
   const simplifiedData: MinimalFlagsData = {};
 
   countriesData.forEach((country: any) => {
@@ -38,7 +39,9 @@ export function composeCountryFlagsData(countriesData: any): MinimalFlagsData {
   return simplifiedData;
 }
 
-export function extractFilteringByUnMember(countriesApiData: any[]) {
+export function extractFilteringByUnMember(countriesApiData: any[] = []) {
+  // console.log(countriesApiData);
+
   return countriesApiData.reduce((result: any, country: any) => {
     if (country.unMember) {
       result.unMembers.push(country);
