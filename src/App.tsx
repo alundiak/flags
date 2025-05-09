@@ -1,11 +1,15 @@
-import { useEffect, useMemo, useState } from 'react';
-import { composeCountryFlagsData, extractFilteringByUnMember, getRestCountriesFromApi } from './shared/helpers';
-import { SearchField } from './components/SearchField'
-import { MainList } from './components/MainList'
-import { FlagsCount } from './components/FlagsCount';
+import { useEffect, useMemo, useState } from "react";
+import {
+  composeCountryFlagsData,
+  extractFilteringByUnMember,
+  getRestCountriesFromApi,
+} from "./shared/helpers";
+import { SearchField } from "./components/SearchField";
+import { MainList } from "./components/MainList";
+import { FlagsCount } from "./components/FlagsCount";
 
-import 'bootstrap/dist/css/bootstrap.min.css';
-import './App.css'
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./App.css";
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -16,27 +20,30 @@ function App() {
   // const [unCountriesData, setUNcountriesData] = useState<MinimalFlagsData>({});
   // const [notUNcountriesData, setNotUNcountriesData] = useState<MinimalFlagsData>({});
 
-  const [searchValue, setSearchValue] = useState<string>('');
+  const [searchValue, setSearchValue] = useState<string>("");
 
   useEffect(() => {
-    console.log('useEffect() 1');
+    // console.log('useEffect() 1');
     const fetchData = async () => {
-      getRestCountriesFromApi().then((apiData) => {
-        setLoading(true);
-        setAllData(apiData);
-        setCountriesCount(apiData.length);
-      }).catch((error) => {
-        setError(error.message);
-      }).finally(() => {
-        setLoading(false);
-      });
-    }
+      getRestCountriesFromApi()
+        .then((apiData) => {
+          setLoading(true);
+          setAllData(apiData);
+          setCountriesCount(apiData.length);
+        })
+        .catch((error) => {
+          setError(error.message);
+        })
+        .finally(() => {
+          setLoading(false);
+        });
+    };
     fetchData();
   }, []);
 
   // Filter countries based on search value
   const filteredCountries = useMemo(() => {
-    console.log('useMemo() 1');
+    // console.log('useMemo() 1');
     if (!searchValue) return allData;
 
     const lowerSearchValue = searchValue.toLowerCase();
@@ -48,18 +55,26 @@ function App() {
 
   // Split filtered countries by UN membership
   const { unCountriesData, notUNcountriesData } = useMemo(() => {
-    console.log('useMemo() 2');
-    const { unMembers, nonUnMembers } = extractFilteringByUnMember(filteredCountries);
+    // console.log("useMemo() 2");
+    const { unMembers, nonUnMembers } =
+      extractFilteringByUnMember(filteredCountries);
     return {
-      unCountriesData: composeCountryFlagsData(unMembers.sortByCountryCommonName()),
-      notUNcountriesData: composeCountryFlagsData(nonUnMembers.sortByCountryCommonName())
+      unCountriesData: composeCountryFlagsData(
+        unMembers.sortByCountryCommonName()
+      ),
+      notUNcountriesData: composeCountryFlagsData(
+        nonUnMembers.sortByCountryCommonName()
+      ),
     };
   }, [filteredCountries]);
 
   return (
     <>
       <h2>My Flags</h2>
-      <p>A place where I can search emojis by country and copy to buffer upon click on flag</p>
+      <p>
+        A place where I can search emojis by country and copy to buffer upon
+        click on flag
+      </p>
 
       {loading && <p>Loading...</p>}
       {error && <p>Error: {error}</p>}
@@ -74,7 +89,7 @@ function App() {
         <MainList data={notUNcountriesData} />
       </div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
