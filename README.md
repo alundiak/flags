@@ -8,32 +8,31 @@ I used to use MacOS note, where I put most frequently used flags emojis from iOS
 
 But now, having this small app/page, I can always have a handy way on my Desktop to copy emoji and paste elsewhere.
 
-
 ![img](./eu.svg)
-
 
 ## Data
 
 As of Oct-2024 The [UN](https://en.wikipedia.org/wiki/United_Nations) recognizes `195` countries (`193` member states and `2` observer states).
 
 Public API https://restcountries.com/v3.1/all returns `250` records:
+
 - with different groups: Sovereign countries, Dependencies and Territories, Disputed or partially recognized region, Autonomous regions, Smaller entities.
 - designated by 5 regions.
 - with field are `unMember`: true/false.
 - there are also `independent`: true/false.
 
-
 ## Features
+
 - Search/Filtering by name of country.
 
-
 ## TODO (for sure)
+
 - Introduce regions.
 - Fixup Mobile view, although not really needed.
 - Cleanup/Refactor code.
 
-
 ## TODO (maybe)
+
 - Maybe something else, like map so that easier to locate visually.
 - Maybe Small Countries dedicated section/region.
 - Maybe some sections of flags those which "misleading", eg. Poland and Monaco vs. Indonesia, Singapore and Poland, etc.
@@ -41,13 +40,11 @@ Public API https://restcountries.com/v3.1/all returns `250` records:
 - Maybe dedicated section for flags of countries which are NOT yet officially accepted by all other countries. Like flag of Crimea...
 - Maybe section for flags of republics, like in russia. FamilyTreeDNA does it somehow, so I could :)
 
-
 ## TechStack
 
 - Using API call is OK for now - https://restcountries.com/v3.1/all. But maybe I will cache results into JSON file.
 - React/Typescript setup via `npm create vite@latest my-react-app -- --template react-swc-ts`
 - Added Bootstrap CSS and Reactstrap.
-
 
 ## Local run
 
@@ -67,10 +64,10 @@ npm run preview
 npm run deploy
 ```
 
-
 ## Credits
 
 Inspired by:
+
 - flags themselves :) since childhood.
 - https://en.wikipedia.org/wiki/Flags_of_Europe
 - https://en.wikipedia.org/wiki/Flags_of_Asia
@@ -78,6 +75,9 @@ Inspired by:
 - https://emojidb.org/up-down-green-red-arrow-emojis
 - https://apps.timwhitlock.info/emoji/tables/iso3166
 
+## Problems
+
+- No [Scotland](https://en.wikipedia.org/wiki/Scotland) but emoji 🏴󠁧󠁢󠁳󠁣󠁴󠁿 exists on https://emojipedia.org/flag-scotland
 
 ## New knowledge I got
 
