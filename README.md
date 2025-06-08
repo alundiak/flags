@@ -25,26 +25,26 @@ Public API https://restcountries.com/v3.1/all returns `250` records:
 
 - Search/Filtering by name of country.
 
-## TODO (for sure)
+## TechStack
 
-- Introduce regions.
-- Fixup Mobile view, although not really needed.
-- Cleanup/Refactor code.
+- Using API call is OK for now - https://restcountries.com/v3.1/all. But maybe I will cache results into JSON file.
+- React/Typescript setup via `npm create vite@latest my-react-app -- --template react-swc-ts`
+- Added Bootstrap CSS and Reactstrap.
+
+## TODO
+
+- API No emoji-flags for England 🏴󠁧󠁢󠁥󠁮󠁧󠁿 and [Scotland](https://en.wikipedia.org/wiki/Scotland) 🏴󠁧󠁢󠁳󠁣󠁴󠁿 but such emojis exists on https://emojipedia.org
 
 ## TODO (maybe)
 
+- Fixup Mobile view, although not really needed.
+- Introduce regions.
 - Maybe something else, like map so that easier to locate visually.
 - Maybe Small Countries dedicated section/region.
 - Maybe some sections of flags those which "misleading", eg. Poland and Monaco vs. Indonesia, Singapore and Poland, etc.
   - Maybe section of flags of different cities, like Polish Katowice flag is very similar to flag of Ukraine.
 - Maybe dedicated section for flags of countries which are NOT yet officially accepted by all other countries. Like flag of Crimea...
 - Maybe section for flags of republics, like in russia. FamilyTreeDNA does it somehow, so I could :)
-
-## TechStack
-
-- Using API call is OK for now - https://restcountries.com/v3.1/all. But maybe I will cache results into JSON file.
-- React/Typescript setup via `npm create vite@latest my-react-app -- --template react-swc-ts`
-- Added Bootstrap CSS and Reactstrap.
 
 ## Local run
 
@@ -74,10 +74,6 @@ Inspired by:
 - https://emojipedia.org/flags#grid
 - https://emojidb.org/up-down-green-red-arrow-emojis
 - https://apps.timwhitlock.info/emoji/tables/iso3166
-
-## Problems
-
-- No [Scotland](https://en.wikipedia.org/wiki/Scotland) but emoji 🏴󠁧󠁢󠁳󠁣󠁴󠁿 exists on https://emojipedia.org/flag-scotland
 
 ## New knowledge I got
 
