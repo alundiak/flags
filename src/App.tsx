@@ -87,6 +87,15 @@ function App() {
         <MainList data={unCountriesData} />
         <h3>non-UN members</h3>
         <MainList data={notUNcountriesData} />
+        <h3>not-approved states</h3>
+        <ul>
+          <li>
+            England: <span>🏴󠁧󠁢󠁥󠁮󠁧󠁿</span>
+          </li>
+          <li>
+            Scotland: <span>🏴󠁧󠁢󠁳󠁣󠁴󠁿</span>
+          </li>
+        </ul>
       </div>
     </>
   );
