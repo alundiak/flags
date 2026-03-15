@@ -10,6 +10,7 @@ import { FlagsCount } from "./components/FlagsCount";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
+import { MinimalFlagsData } from "./shared/models";
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -49,24 +50,34 @@ function App() {
     const lowerSearchValue = searchValue.toLowerCase();
 
     return allData.filter((country: any) =>
-      country.name.common.toLowerCase().includes(lowerSearchValue)
+      country.name.common.toLowerCase().includes(lowerSearchValue),
     );
   }, [allData, searchValue]);
 
   // Split filtered countries by UN membership
   const { unCountriesData, notUNcountriesData } = useMemo(() => {
-    // console.log("useMemo() 2");
     const { unMembers, nonUnMembers } =
       extractFilteringByUnMember(filteredCountries);
+
     return {
       unCountriesData: composeCountryFlagsData(
-        unMembers.sortByCountryCommonName()
+        unMembers.sortByCountryCommonName(),
       ),
       notUNcountriesData: composeCountryFlagsData(
-        nonUnMembers.sortByCountryCommonName()
+        nonUnMembers.sortByCountryCommonName(),
       ),
     };
   }, [filteredCountries]);
+
+  const frequentCountries: MinimalFlagsData = useMemo(() => {
+    const fav = ["UA", "PL", "LT", "FI", "RU", "BY", "SK"];
+
+    const filtered = allData.filter((country: any) =>
+      fav.includes(country.cca2),
+    );
+
+    return composeCountryFlagsData(filtered);
+  }, [allData]);
 
   return (
     <>
@@ -79,12 +90,25 @@ function App() {
       {loading && <p>Loading...</p>}
       {error && <p>Error: {error}</p>}
 
+      <h3>Frequent</h3>
+      <MainList data={frequentCountries} fav />
+      <span>
+        plus &nbsp;
+        <span>
+          England: <span>🏴󠁧󠁢󠁥󠁮󠁧󠁿</span> &nbsp;
+        </span>
+        <span>
+          Scotland: <span>🏴󠁧󠁢󠁳󠁣󠁴󠁿</span> &nbsp;
+        </span>
+      </span>
+
       <FlagsCount value={countriesCount} />
       <SearchField onInputHandler={(v) => setSearchValue(v)} />
 
       <div id="flags-container">
         <h3>UN members</h3>
         <MainList data={unCountriesData} />
+
         <h3>non-UN members</h3>
         <MainList data={notUNcountriesData} />
         <h3>not-approved states</h3>
