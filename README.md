@@ -28,6 +28,7 @@ Public API https://restcountries.com/v3.1/all returns `250` records:
 ## TechStack
 
 - Using API call to https://restcountries.com which since v5 requires `API_KEY` to be obtained from account and CORS can be configured within that key on dashboard.
+  - Note you can use `rc_live_demo` API_KEY for some short time.
 - React/Typescript setup via `npm create vite@latest my-react-app -- --template react-ts`
 - Added Bootstrap CSS and Reactstrap.
 

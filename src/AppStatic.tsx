@@ -3,7 +3,7 @@ import {
   composeCountryFlagsData,
   extractFilteringByUnMember,
 } from "./shared/helpers";
-import { favoritesCountries } from "./shared/constants";
+import { favoritesCountries, sortByCodeIndex } from "./shared/constants";
 import { MinimalFlagsData } from "./shared/models";
 import { SearchField } from "./components/SearchField";
 import { MainList } from "./components/MainList";
@@ -47,7 +47,7 @@ export function AppStatic() {
       (obj: any) => favoritesCountries.includes(obj.codes.alpha_2), // in UPPERCASE already
     );
 
-    return composeCountryFlagsData(filtered);
+    return composeCountryFlagsData(sortByCodeIndex(filtered));
   }, [allData]);
 
   return (

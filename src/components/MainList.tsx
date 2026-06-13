@@ -18,7 +18,7 @@ export function MainList({ data, fav }: Props) {
 
       const element = (
         <div
-          key={`${name}-flag-block-${code}-${fav}`}
+          key={`${name}-flag-block-${code}-fav-${fav}`}
           className={`flags-block ${!unMember ? "notUnMember" : ""}`}
         >
           <div className="flag" onClick={() => copyToClipboard(codeObject)}>
@@ -27,6 +27,7 @@ export function MainList({ data, fav }: Props) {
           <div className="country">{name}</div>
         </div>
       );
+
       countriesData.push(element);
     }
   }
