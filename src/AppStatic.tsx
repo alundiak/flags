@@ -1,60 +1,33 @@
-import { useEffect, useMemo, useState } from "react";
+import { useMemo, useState } from "react";
 import {
   composeCountryFlagsData,
   extractFilteringByUnMember,
-  getRestCountriesFromApi,
 } from "./shared/helpers";
+import { favoritesCountries } from "./shared/constants";
+import { MinimalFlagsData } from "./shared/models";
 import { SearchField } from "./components/SearchField";
 import { MainList } from "./components/MainList";
 import { FlagsCount } from "./components/FlagsCount";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
-import { MinimalFlagsData } from "./shared/models";
 
-function App() {
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState(null);
-  const [allData, setAllData] = useState([]);
-  const [countriesCount, setCountriesCount] = useState(0);
-  // MAYBE
-  // const [unCountriesData, setUNcountriesData] = useState<MinimalFlagsData>({});
-  // const [notUNcountriesData, setNotUNcountriesData] = useState<MinimalFlagsData>({});
+import tempData from "./data/data-2026.json";
+const allData = tempData.data.objects;
 
+export function AppStatic() {
   const [searchValue, setSearchValue] = useState<string>("");
 
-  useEffect(() => {
-    // console.log('useEffect() 1');
-    const fetchData = async () => {
-      getRestCountriesFromApi()
-        .then((apiData) => {
-          setLoading(true);
-          setAllData(apiData);
-          setCountriesCount(apiData.length);
-        })
-        .catch((error) => {
-          setError(error.message);
-        })
-        .finally(() => {
-          setLoading(false);
-        });
-    };
-    fetchData();
-  }, []);
-
-  // Filter countries based on search value
   const filteredCountries = useMemo(() => {
-    // console.log('useMemo() 1');
     if (!searchValue) return allData;
 
     const lowerSearchValue = searchValue.toLowerCase();
 
-    return allData.filter((country: any) =>
-      country.name.common.toLowerCase().includes(lowerSearchValue),
+    return allData.filter((obj: any) =>
+      obj.names.common.toLowerCase().includes(lowerSearchValue),
     );
-  }, [allData, searchValue]);
+  }, [searchValue]);
 
-  // Split filtered countries by UN membership
   const { unCountriesData, notUNcountriesData } = useMemo(() => {
     const { unMembers, nonUnMembers } =
       extractFilteringByUnMember(filteredCountries);
@@ -70,10 +43,8 @@ function App() {
   }, [filteredCountries]);
 
   const frequentCountries: MinimalFlagsData = useMemo(() => {
-    const fav = ["UA", "PL", "LT", "FI", "RU", "BY", "SK"];
-
-    const filtered = allData.filter((country: any) =>
-      fav.includes(country.cca2),
+    const filtered = allData.filter(
+      (obj: any) => favoritesCountries.includes(obj.codes.alpha_2), // in UPPERCASE already
     );
 
     return composeCountryFlagsData(filtered);
@@ -87,22 +58,10 @@ function App() {
         click on flag
       </p>
 
-      {loading && <p>Loading...</p>}
-      {error && <p>Error: {error}</p>}
-
       <h3>Frequent</h3>
       <MainList data={frequentCountries} fav />
-      <span>
-        plus &nbsp;
-        <span>
-          England: <span>🏴󠁧󠁢󠁥󠁮󠁧󠁿</span> &nbsp;
-        </span>
-        <span>
-          Scotland: <span>🏴󠁧󠁢󠁳󠁣󠁴󠁿</span> &nbsp;
-        </span>
-      </span>
 
-      <FlagsCount value={countriesCount} />
+      <FlagsCount value={allData.length} />
       <SearchField onInputHandler={(v) => setSearchValue(v)} />
 
       <div id="flags-container">
@@ -124,5 +83,3 @@ function App() {
     </>
   );
 }
-
-export default App;

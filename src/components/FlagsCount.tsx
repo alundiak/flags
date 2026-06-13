@@ -1,11 +1,4 @@
-import './flagsCount.css'
-
-// function renderCountryFlagsTotal(countryFlagsCount) {
-//   const flagsTotal = document.getElementById('flags-count');
-//   const spanElement = document.createElement('span');
-//   spanElement.textContent = `${countryFlagsCount} country flags here:`;
-//   flagsTotal.appendChild(spanElement);
-// }
+import "./flagsCount.css";
 
 export function FlagsCount({ value }: { value: number }) {
   return (
@@ -15,5 +8,5 @@ export function FlagsCount({ value }: { value: number }) {
       </h2>
       <p></p>
     </>
-  )
+  );
 }

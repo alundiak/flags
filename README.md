@@ -27,12 +27,13 @@ Public API https://restcountries.com/v3.1/all returns `250` records:
 
 ## TechStack
 
-- Using API call is OK for now - https://restcountries.com/v3.1/all. But maybe I will cache results into JSON file.
-- React/Typescript setup via `npm create vite@latest my-react-app -- --template react-swc-ts`
+- Using API call to https://restcountries.com which since v5 requires `API_KEY` to be obtained from account and CORS can be configured within that key on dashboard.
+- React/Typescript setup via `npm create vite@latest my-react-app -- --template react-ts`
 - Added Bootstrap CSS and Reactstrap.
 
 ## TODO
 
+- Cache results into JSON file because code may on GitHub due to CORS and already is limited to too much requests (more than 1300).
 - API No emoji-flags for England 🏴󠁧󠁢󠁥󠁮󠁧󠁿 and [Scotland](https://en.wikipedia.org/wiki/Scotland) 🏴󠁧󠁢󠁳󠁣󠁴󠁿 but such emojis exists on https://emojipedia.org
 
 ## TODO (maybe)

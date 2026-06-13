@@ -1,9 +1,9 @@
-import { useEffect, useRef } from 'react';
-import './searchField.css'
-import { FormGroup, Input, InputGroup, InputGroupText } from 'reactstrap';
+import { useEffect, useRef } from "react";
+import "./searchField.css";
+import { FormGroup, Input, InputGroup, InputGroupText } from "reactstrap";
 
 interface SearchFieldProps {
-  onInputHandler: (value: string) => void
+  onInputHandler: (value: string) => void;
 }
 
 export function SearchField(props: SearchFieldProps) {
@@ -19,7 +19,7 @@ export function SearchField(props: SearchFieldProps) {
 
   const onInput = (e: React.ChangeEvent<HTMLInputElement>) => {
     props.onInputHandler(e.target.value);
-  }
+  };
 
   // onInput available and is triggered immediately when the value changes, which can include typing, pasting, or other modifications.
   // onChange for handling changes in input values.
@@ -28,9 +28,7 @@ export function SearchField(props: SearchFieldProps) {
     <>
       <FormGroup className="col-3">
         <InputGroup>
-          <InputGroupText>
-            🔎
-          </InputGroupText>
+          <InputGroupText>🔎</InputGroupText>
           <Input
             id="searchFlagInput"
             name="searchFlag"
@@ -43,5 +41,5 @@ export function SearchField(props: SearchFieldProps) {
         </InputGroup>
       </FormGroup>
     </>
-  )
+  );
 }

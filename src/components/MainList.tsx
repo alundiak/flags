@@ -21,11 +21,7 @@ export function MainList({ data, fav }: Props) {
           key={`${name}-flag-block-${code}-${fav}`}
           className={`flags-block ${!unMember ? "notUnMember" : ""}`}
         >
-          <div
-            className="flag"
-            onClick={() => copyToClipboard(codeObject)}
-            title={name}
-          >
+          <div className="flag" onClick={() => copyToClipboard(codeObject)}>
             {flag}
           </div>
           <div className="country">{name}</div>
