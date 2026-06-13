@@ -12,7 +12,6 @@
     "deploy": "vite build && gh-pages -d build"
   },
   "dependencies": {
-    "@vitejs/plugin-react": "^6.0.2",
     "bootstrap": "^5.3.8",
     "react": "^19.2.7",
     "react-dom": "^19.2.7",
@@ -22,6 +21,7 @@
     "@eslint/js": "^10.0.1",
     "@types/react": "^19.2.17",
     "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.2",
     "eslint": "^10.5.0",
     "eslint-plugin-react-hooks": "^7.1.1",
     "eslint-plugin-react-refresh": "^0.5.2",
