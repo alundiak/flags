@@ -13,6 +13,9 @@ import { FlagsCount } from "./components/FlagsCount";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 
+let didInit = false;
+
+// NOT USED
 export function AppDynamic() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
@@ -23,29 +26,25 @@ export function AppDynamic() {
 
   const [searchValue, setSearchValue] = useState<string>("");
 
-  const fetchData = async () => {
-    setLoading(true);
-
-    getRestCountriesFromApi()
-      .then(({ data }) => {
-        setAllData(data.objects);
-      })
-      .catch((error) => {
-        setError(error.message);
-      })
-      .finally(() => {
-        setLoading(false);
-      });
-  };
-
   useEffect(() => {
     // TBD in July-2026
     console.log("useEffect() 1");
 
-    if (!allData.length) {
-      fetchData();
+    if (!didInit) {
+      didInit = true;
+
+      getRestCountriesFromApi()
+        .then(({ data }) => {
+          setAllData(data.objects);
+        })
+        .catch((error) => {
+          setError(error.message);
+        })
+        .finally(() => {
+          setLoading(false);
+        });
     }
-  }, [allData]);
+  }, []);
 
   // Filter countries based on search value
   const filteredCountries = useMemo(() => {
